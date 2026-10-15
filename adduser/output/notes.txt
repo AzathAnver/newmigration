@@ -1,0 +1,15 @@
+PS C:\Users\Azath.A\Downloads\itk> Select-String -Pattern "SUCCESS" -Path "output.txt" | Measure-Object | Select-Object -ExpandProperty Count
+39119
+PS C:\Users\Azath.A\Downloads\itk> Select-String -Pattern "not found" -Path "output.txt" | Measure-Object | Select-Object -ExpandProperty Count
+1108
+PS C:\Users\Azath.A\Downloads\itk> Select-String -Pattern "Unexpected internal error" -Path "output.txt" | Measure-Object | Select-Object -ExpandProperty Count
+91
+PS C:\Users\Azath.A\Downloads\itk> Select-String -Pattern "Processing row" -Path "output.txt" | Measure-Object | Select-Object -ExpandProperty Count
+40467
+PS C:\Users\Azath.A\Downloads\itk> Select-String -Pattern "Invalid email format" -Path "output.txt" | Measure-Object | Select-Object -ExpandProperty Count
+129
+
+
+ERROR: tejal.mistri@wppmedia.com -> 404e46d2-f0b7-4004-a128-a77e34d985ba Exception:('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+2026-02-26 16:43:40,998 - WARNING - Call fetch_users_page failed (attempt 1/3): HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=30). Retrying in 0.5s

@@ -1,0 +1,29 @@
+🚀 Processing 19 rows with 10 workers
+
+📄 Ordered Results
+{"row": {"Market": "Denmark", "Client": "Norse Atlantic Airways", "Brand": "Norse Atlantic Airways", "Category": "Travel"}, "status": 400, "retries": 0, "time_sec": 5.72, "response": {"detail": "Hierarchy node should be empty to apply/sync template"}}
+{"row": {"Market": "Denmark", "Client": "Capri-Sun", "Brand": "Capri Sun", "Category": "Drinks (non-alcoholic)"}, "status": 400, "retries": 0, "time_sec": 6.72, "response": {"detail": "Hierarchy node should be empty to apply/sync template"}}
+{"row": {"Market": "Sweden", "Client": "Culinar", "Brand": "Kockens", "Category": "Food"}, "status": 400, "retries": 0, "time_sec": 7.19, "response": {"detail": "Hierarchy node should be empty to apply/sync template"}}
+{"row": {"Market": "Denmark", "Client": "Danske Spil", "Brand": "Corporate", "Category": "Home Entertainment"}, "status": 400, "retries": 0, "time_sec": 5.73, "response": {"detail": "Hierarchy node should be empty to apply/sync template"}}
+{"row": {"Market": "Denmark", "Client": "Danske Spil", "Brand": "DLI", "Category": "Home Entertainment"}, "status": 400, "retries": 0, "time_sec": 5.32, "response": {"detail": "Hierarchy node should be empty to apply/sync template"}}
+{"row": {"Market": "Denmark", "Client": "Danske Spil", "Brand": "DLO", "Category": "Home Entertainment"}, "status": 400, "retries": 0, "time_sec": 7.03, "response": {"detail": "Hierarchy node should be empty to apply/sync template"}}
+{"row": {"Market": "Sweden", "Client": "Dreame", "Brand": "Dreams", "Category": "Home Appliances"}, "status": 400, "retries": 0, "time_sec": 5.21, "response": {"detail": "Hierarchy node should be empty to apply/sync template"}}
+{"row": {"Market": "Norway", "Client": "Fortum", "Brand": "Electricity B2C", "Category": "Utilities"}, "status": 400, "retries": 0, "time_sec": 5.6, "response": {"detail": "Hierarchy node should be empty to apply/sync template"}}
+{"row": {"Market": "Denmark", "Client": "Hans Just", "Brand": "Hendrick´s", "Category": "Drinks (alcoholic)"}, "status": 400, "retries": 0, "time_sec": 6.37, "response": {"detail": "Hierarchy node should be empty to apply/sync template"}}
+{"row": {"Market": "Denmark", "Client": "Hans Just", "Brand": "Jägermeister", "Category": "Drinks (alcoholic)"}, "status": 400, "retries": 0, "time_sec": 6.36, "response": {"detail": "Hierarchy node should be empty to apply/sync template"}}
+{"row": {"Market": "Denmark", "Client": "Hans Just", "Brand": "Tullamore", "Category": "Drinks (alcoholic)"}, "status": 400, "retries": 0, "time_sec": 4.72, "response": {"detail": "Hierarchy node should be empty to apply/sync template"}}
+{"row": {"Market": "Sweden", "Client": "Käserei Champignon", "Brand": "Käserei Champigon", "Category": "Food"}, "status": 400, "retries": 0, "time_sec": 4.71, "response": {"detail": "Hierarchy node should be empty to apply/sync template"}}
+{"row": {"Market": "Sweden", "Client": "Lannebo Kapitalförvaltning", "Brand": "Lannebo Kapitalförvaltning", "Category": "Finance"}, "status": 400, "retries": 0, "time_sec": 5.52, "response": {"detail": "Hierarchy node should be empty to apply/sync template"}}
+{"row": {"Market": "Denmark", "Client": "Maj Invest", "Brand": "Maj Invest", "Category": "Finance"}, "status": 400, "retries": 0, "time_sec": 6.11, "response": {"detail": "Hierarchy node should be empty to apply/sync template"}}
+{"row": {"Market": "Sweden", "Client": "Navamedic asa", "Brand": "Navamedic asa", "Category": "Healthcare"}, "status": 400, "retries": 0, "time_sec": 5.92, "response": {"detail": "Hierarchy node should be empty to apply/sync template"}}
+{"row": {"Market": "Denmark", "Client": "Skatteforvaltningen", "Brand": "Motorstyrelsel", "Category": "Governent"}, "status": 400, "retries": 0, "time_sec": 6.06, "response": {"detail": "Hierarchy node should be empty to apply/sync template"}}
+{"row": {"Market": "Denmark", "Client": "TCM Group", "Brand": "Svane Køkkenet", "Category": "Home Appliances"}, "status": 400, "retries": 0, "time_sec": 6.5, "response": {"detail": "Hierarchy node should be empty to apply/sync template"}}
+{"row": {"Market": "Denmark", "Client": "TCM Group", "Brand": "Tvis Køkkener", "Category": "Home Appliances"}, "status": 400, "retries": 0, "time_sec": 5.58, "response": {"detail": "Hierarchy node should be empty to apply/sync template"}}
+{"row": {"Market": "Denmark", "Client": "Tempur-Pedic International", "Brand": "Tempur-Pedic International", "Category": "Household Items"}, "status": 200, "retries": 0, "time_sec": 6.48, "response": null}
+
+📊 FINAL SUMMARY
+{
+  "total": 19,
+  "success": 1,
+  "failed": 18
+}

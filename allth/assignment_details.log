@@ -1,0 +1,56 @@
+{
+  "total_role_calls": 3,
+  "success": 3,
+  "skipped_422": 0,
+  "failed": 0,
+  "details": [
+    {
+      "brand": "Roche Diabetes Care",
+      "account_id": "b3c8cc36-480c-4c42-9516-8f1d4814ca4b",
+      "role_name": "CGOV_MANAGER",
+      "role_id": "50bd5102-4d09-4de6-9f0d-4f575c7e1bb1",
+      "status": "success",
+      "http_code": 201,
+      "info": [
+        {
+          "uid": "10f2ad97-b09a-4a26-8cc8-92d1798ac266",
+          "group_uid": "2b8c234e-2c1f-4dc3-a130-32ac9acb873a",
+          "role_uid": "50bd5102-4d09-4de6-9f0d-4f575c7e1bb1",
+          "account_uid": "b3c8cc36-480c-4c42-9516-8f1d4814ca4b"
+        }
+      ]
+    },
+    {
+      "brand": "Roche Diabetes Care",
+      "account_id": "b3c8cc36-480c-4c42-9516-8f1d4814ca4b",
+      "role_name": "Architect User",
+      "role_id": "6948d8e6-eca6-4c12-9241-a47db34db467",
+      "status": "success",
+      "http_code": 201,
+      "info": [
+        {
+          "uid": "f863cdd6-cb64-49f4-b95c-0fd39d03da3a",
+          "group_uid": "2b8c234e-2c1f-4dc3-a130-32ac9acb873a",
+          "role_uid": "6948d8e6-eca6-4c12-9241-a47db34db467",
+          "account_uid": "b3c8cc36-480c-4c42-9516-8f1d4814ca4b"
+        }
+      ]
+    },
+    {
+      "brand": "Roche Diabetes Care",
+      "account_id": "b3c8cc36-480c-4c42-9516-8f1d4814ca4b",
+      "role_name": "Hierarchy Access",
+      "role_id": "1544916c-0ce0-4042-a8e5-6e18042c73b7",
+      "status": "success",
+      "http_code": 201,
+      "info": [
+        {
+          "uid": "e61d4ca7-1578-4976-8d78-7eb37160b057",
+          "group_uid": "2b8c234e-2c1f-4dc3-a130-32ac9acb873a",
+          "role_uid": "1544916c-0ce0-4042-a8e5-6e18042c73b7",
+          "account_uid": "b3c8cc36-480c-4c42-9516-8f1d4814ca4b"
+        }
+      ]
+    }
+  ]
+}

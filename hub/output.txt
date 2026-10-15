@@ -1,0 +1,4116 @@
+PS C:\Users\Azath.A\os\hub> python hub.py
+Found 514 email(s)
+Workers: 10
+--------------------------------------------------------------------------------
+EMAIL: aayona.korgaonkar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aayona.korgaonkar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: aayushi.totla@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aayushi.totla@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: aayush.sisodia@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aayush.sisodia@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: aakanksha.rawat@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aakanksha.rawat@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: aagam.shah@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aagam.shah@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: aanchal.valecha@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aanchal.valecha@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: aakriti.sagar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aakriti.sagar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: aayush.mishra@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aayush.mishra@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: aastha.gaur@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aastha.gaur@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: aashish.pandey@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aashish.pandey@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: abha.kapoor@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"abha.kapoor@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: abhay.tiku@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"abhay.tiku@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: abhinav.tiwari@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"abhinav.tiwari@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: abhik.banerjee@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['abhik.banerjee@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: adeeb.shaikh@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['adeeb.shaikh@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: abhishek.agarwal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"abhishek.agarwal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: adarsh.krishnadas@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"adarsh.krishnadas@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: abhishek.yadav@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"abhishek.yadav@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: aditi.biswas@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aditi.biswas@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: aditya.bhardwaj@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aditya.bhardwaj@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: aditya.iyer@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aditya.iyer@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: aditya.chitriv@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aditya.chitriv@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: aditya.ugile@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aditya.ugile@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ajit.kumar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['ajit.kumar@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: afaqueali.qureshi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"afaqueali.qureshi@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: afrin.afzal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"afrin.afzal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: aishwarya.venkatramani@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aishwarya.venkatramani@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: akshay.dighe@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"akshay.dighe@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ajithalaguraja.n@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ajithalaguraja.n@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: akanksha.choudhary@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['akanksha.choudhary@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: akshay.s@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"akshay.s@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: akshay.shinde@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['akshay.shinde@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: akshay.vazirani@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"akshay.vazirani@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: amitoje.bakshi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"amitoje.bakshi@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: alefiya.arsiwala@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"alefiya.arsiwala@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ananya.baldwa@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ananya.baldwa@wppmedia.com","preferredHubPerTenant":{"4ac7c455-6726-4a75-adbb-c41a54e46f03":"d8165abe-af73-4073-9149-b99f9a7ffadb","4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ananya.singh@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ananya.singh@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: amin.baig@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"amin.baig@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ancy.albert@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ancy.albert@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: amish.morjariya@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"amish.morjariya@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ammar.chaudhari@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ammar.chaudhari@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: aniket.gupta@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aniket.gupta@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: anjali.nandkumar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"anjali.nandkumar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ankita.chawla@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ankita.chawla@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ankita.a@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ankita.a@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: animesh.paul@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"animesh.paul@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ankita.mohanty@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ankita.mohanty@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ankish.salian@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ankish.salian@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: aniket.chaskar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aniket.chaskar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ankush.mahajan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ankush.mahajan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: annanya.pathak@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"annanya.pathak@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: anokhi.rathi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"anokhi.rathi@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: anshika.chitranshi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"anshika.chitranshi@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: anshit.mishra@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"anshit.mishra@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: antim.soni@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"antim.soni@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: antony.mervin@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"antony.mervin@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: anuradha.kumari@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"anuradha.kumari@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: apoorv.dixit@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"apoorv.dixit@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: arafat.khan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"arafat.khan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: anushka.s@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"anushka.s@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: arbab.khan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"arbab.khan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: arijit.das@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['arijit.das@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: arun.kumar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"arun.kumar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: arun.murugan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"arun.murugan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: arvind.rs@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"arvind.rs@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: arshad.mohammed@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"arshad.mohammed@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ashay.bonde@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ashay.bonde@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: arushi.goswami@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"arushi.goswami@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: arpit.parihar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"arpit.parihar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: arundhati.tayal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"arundhati.tayal@wppmedia.com","preferredHubPerTenant":{"1d5c7c18-dbb2-4998-b3fe-b48a9947ed7d":"f9cb7796-484c-42dc-ad14-4e0d1be42c93","4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ashish.worlikar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ashish.worlikar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ashish.jain@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ashish.jain@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ashton.dalgado@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ashton.dalgado@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ashutosh.samal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ashutosh.samal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: atul.gupta@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"atul.gupta@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: aunkita.dey@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"aunkita.dey@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ayesha.naaz@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ayesha.naaz@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ayaan.khan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ayaan.khan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ayush.joshi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ayush.joshi@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: baisakhi.das@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"baisakhi.das@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: balaji.rd@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"balaji.rd@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: basabdatta.pradhan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['basabdatta.pradhan@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: bhavansai.mutta@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"bhavansai.mutta@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: beenee.c@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"beenee.c@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: bhawana.garg@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"bhawana.garg@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: bhupender.v@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"bhupender.v@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: bhushan.bagkar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"bhushan.bagkar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: bhuvan.sachdeva@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"bhuvan.sachdeva@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: bilal.shaikh@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"bilal.shaikh@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: bhuwaneshwari.lakudwan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"bhuwaneshwari.lakudwan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: bopanna.k@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"bopanna.k@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: biswapratim.kar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"biswapratim.kar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: budhaditya.roy@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"budhaditya.roy@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: chandan.kunwar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"chandan.kunwar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: charmi.panchal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"charmi.panchal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: chetna.rao@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"chetna.rao@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: dakshata.kesarkar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['dakshata.kesarkar@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: daksh.mudgil@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"daksh.mudgil@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: chinmay.chandratre@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"chinmay.chandratre@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: darshit.shah@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"darshit.shah@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: darshan.c@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"darshan.c@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: danita.valechha@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"danita.valechha@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: debashish.behera@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['debashish.behera@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: debashis.roy@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"debashis.roy@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: debarshi.bagchi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"debarshi.bagchi@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: deep.gala@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"deep.gala@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: deepak.kkumar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"deepak.kkumar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: deepali.vigh@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"deepali.vigh@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: devansh.dabas@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['devansh.dabas@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: devanshu.goyal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"devanshu.goyal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: devesh.lal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"devesh.lal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: dev.rana@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"dev.rana@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: devika.bundela@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"devika.bundela@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: dhruv.arora@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['dhruv.arora@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: dhaval.rabadiya@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"dhaval.rabadiya@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: dheeraj.nadar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"dheeraj.nadar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: dinesh.batra@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"dinesh.batra@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: dipal.patel@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['dipal.patel@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: dipesh.dodia@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"dipesh.dodia@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: disha.karamchandani@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"disha.karamchandani@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: diya.pal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"diya.pal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: divya.rana@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"divya.rana@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: durgpal.gangwar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"durgpal.gangwar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: dyanesh.poojari@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"dyanesh.poojari@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ekta.valecha@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ekta.valecha@wppmedia.com","preferredHubPerTenant":{"4ac7c455-6726-4a75-adbb-c41a54e46f03":"d8165abe-af73-4073-9149-b99f9a7ffadb","4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce","b7f9b193-c2fd-4efe-afb0-6a9485a2437a":{}}}]}
+--------------------------------------------------------------------------------
+EMAIL: divya.keswani@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"divya.keswani@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: emmanuel.m@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"emmanuel.m@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: faisal.shaikh@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"faisal.shaikh@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: farhan.zaidi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"farhan.zaidi@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: felicia.l@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['felicia.l@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: gaurav.k@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['gaurav.k@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: gaurang.kadyan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"gaurang.kadyan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ganapathy.subramanian@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ganapathy.subramanian@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: gaurav.hole@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"gaurav.hole@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: gauri.ladiwal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"gauri.ladiwal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: gautham.menon@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"gautham.menon@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: gaurav.sildhankar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"gaurav.sildhankar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: gayathri.sunil@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"gayathri.sunil@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ganesh.thamaraiselvam@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ganesh.thamaraiselvam@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: gayatri.devi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"gayatri.devi@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: gayatri.rewale@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"gayatri.rewale@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: geetanjali.bhave@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['geetanjali.bhave@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: girish.joshi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['girish.joshi@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: goranshi.jain@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"goranshi.jain@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: gitanjali.murthy@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"gitanjali.murthy@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: gohar.kazhi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"gohar.kazhi@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: gupta.simran@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"gupta.simran@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: gulam.baig@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"gulam.baig@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: hardik.kotak@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"hardik.kotak@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: harsh.dubey@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"harsh.dubey@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: harsh.parmar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"harsh.parmar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: harsh.vyas@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"harsh.vyas@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: harshal.satam@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['harshal.satam@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: harshala.mhatre@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"harshala.mhatre@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: harshala.parab@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"harshala.parab@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: hema.v@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['hema.v@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: harshit.shukla@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"harshit.shukla@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: harshita.parmar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"harshita.parmar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: hemalatha.m@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"hemalatha.m@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: harshwardhan.somani@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"harshwardhan.somani@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: heramb.vichare@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"heramb.vichare@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: himanshi.dalal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['himanshi.dalal@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: himanshu.anand@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"himanshu.anand@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: hindavi.ambavane@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['hindavi.ambavane@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: hirthick.shaw@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"hirthick.shaw@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: irfanahmed.shaikh@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"irfanahmed.shaikh@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ishika.porwal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['ishika.porwal@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: imran.mansuri@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"imran.mansuri@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: janani.m@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['janani.m@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: ishaan.kapur@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ishaan.kapur@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: hitesh.nanda@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"hitesh.nanda@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: jarvis.dsouza@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"jarvis.dsouza@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: jasmodin.ali@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"jasmodin.ali@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: javed.khan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"javed.khan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: jeet.bhadra@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"jeet.bhadra@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: jolly.shaikh@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['jolly.shaikh@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: jitesh.dodwani@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"jitesh.dodwani@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: jins.george@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"jins.george@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: jyoti.panigrahi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"jyoti.panigrahi@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: joshita.trivedi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"joshita.trivedi@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: jyoti.pawar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"jyoti.pawar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: kajal.chavan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"kajal.chavan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: kalpesh.more@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"kalpesh.more@wppmedia.com","preferredHubPerTenant":{"4ac7c455-6726-4a75-adbb-c41a54e46f03":{},"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: kalyani.yadav@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['kalyani.yadav@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: kapil.goyal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"kapil.goyal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: karan.das@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"karan.das@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: karan.kumar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"karan.kumar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: kartik.katigar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['kartik.katigar@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: kartik.sharma@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['kartik.sharma@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: karan.kaul@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"karan.kaul@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: kartik.lakshmanan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"kartik.lakshmanan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: katha.chheda@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['katha.chheda@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: kaushik.banerjee@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"kaushik.banerjee@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: karthik.shankaran@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"karthik.shankaran@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: khimavath.naik@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"khimavath.naik@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: khushi.agrawal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['khushi.agrawal@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: krishnakumar.r@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"krishnakumar.r@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: kopal.sharma@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"kopal.sharma@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: kshitij.bhakoo@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"kshitij.bhakoo@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: komalpreet.kaur@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"komalpreet.kaur@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: kuldeep.sharma@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"kuldeep.sharma@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: kumar.krishna@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"kumar.krishna@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: kumar.naveen@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['kumar.naveen@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: komal.sapkale@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"komal.sapkale@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: kumar.shubham@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"kumar.shubham@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: kumar.vijay@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"kumar.vijay@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: kumari.anjali@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"kumari.anjali@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: kushal.kapuria@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['kushal.kapuria@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: kunal.j@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"kunal.j@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: lasmi.r@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['lasmi.r@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: madhav.maheshwari@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"madhav.maheshwari@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: luckysingh.rawat@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"luckysingh.rawat@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: madhavi.bodduru@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"madhavi.bodduru@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: mahimaa.sn@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['mahimaa.sn@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: lakshay.sharma@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"lakshay.sharma@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: kushal.sethia@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"kushal.sethia@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: manaaz.fathima@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['manaaz.fathima@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: manali.maloo@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"manali.maloo@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: manasi.pazare@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"manasi.pazare@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: manav.parmar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"manav.parmar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: maneesh.p@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"maneesh.p@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: manish.srivastava@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"manish.srivastava@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: manish.dewan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"manish.dewan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: manishk.kumar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['manishk.kumar@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: manisha.khurana@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"manisha.khurana@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: manish.jadhav@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"manish.jadhav@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: meenakshi.balayan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['meenakshi.balayan@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: mayank.a@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"mayank.a@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: mannat.kundra@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"mannat.kundra@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: meghana.desai@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"meghana.desai@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: meher.khanija@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"meher.khanija@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: meghna.sengupta@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"meghna.sengupta@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: mehul.vadodaria@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"mehul.vadodaria@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: mihir.gosalia@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"mihir.gosalia@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: milan.bhattacharya@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"milan.bhattacharya@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: mohammadsaad.ali@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"mohammadsaad.ali@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: mohammed.khan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"mohammed.khan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: mohan.kumar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"mohan.kumar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: mohd.adil@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"mohd.adil@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: mohit.bohara@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"mohit.bohara@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: molly.monga@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"molly.monga@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: murtaza.m@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"murtaza.m@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: nadeem.sheikh@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"nadeem.sheikh@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: nair.varun@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"nair.varun@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: mohit.kapoor@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"mohit.kapoor@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: narayanan.ramachandran@choreograph.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"narayanan.ramachandran@choreograph.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: namrata.mishal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"namrata.mishal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: naresh.pant@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"naresh.pant@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: nachiket.chalak@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"nachiket.chalak@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: namrata.chauhan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"namrata.chauhan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: natanya.singh@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['natanya.singh@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: navaneet.mishra@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"navaneet.mishra@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: navtej.lulla@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"navtej.lulla@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: navya.jain@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"navya.jain@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: nazneen.kashikar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"nazneen.kashikar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: neel.visaria@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"neel.visaria@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: neeraj.c@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"neeraj.c@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: neeraj.s@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"neeraj.s@wppmedia.com","preferredHubPerTenant":{"4ac7c455-6726-4a75-adbb-c41a54e46f03":"d8165abe-af73-4073-9149-b99f9a7ffadb","4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: neha.agrawal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"neha.agrawal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: neha.bobal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"neha.bobal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: neha.kumari@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"neha.kumari@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: neha.thakur@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"neha.thakur@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: neha.shinde@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"neha.shinde@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: nidhi.murarka@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"nidhi.murarka@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: nikhil.bondre@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"nikhil.bondre@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: nikhil.s@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"nikhil.s@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: nikshit.shetty@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"nikshit.shetty@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: nischay.malhotra@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"nischay.malhotra@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: nishant.raj@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"nishant.raj@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: nikhil.vadhia@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"nikhil.vadhia@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: nishant.shukla@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"nishant.shukla@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: nivedita.kudyadi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"nivedita.kudyadi@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: nitin.murali@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"nitin.murali@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: om.kawale@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['om.kawale@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: nithish.ajjapally@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"nithish.ajjapally@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce","b7f9b193-c2fd-4efe-afb0-6a9485a2437a":{}}}]}
+--------------------------------------------------------------------------------
+EMAIL: omkar.hiremath@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['omkar.hiremath@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: omkar.kanade@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['omkar.kanade@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: omkar.ghule@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"omkar.ghule@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: nitish.r@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"nitish.r@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: omkar.vechalekar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"omkar.vechalekar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: padmaraj.krishnankutty@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"padmaraj.krishnankutty@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: palak.bhatia@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"palak.bhatia@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: pankaj.ramteke@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"pankaj.ramteke@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: paras.vaghasiya@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"paras.vaghasiya@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: parul.kinger@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"parul.kinger@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: parth.bhasin@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"parth.bhasin@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: parth.deshpande@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"parth.deshpande@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: parul.verma@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"parul.verma@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: parul.yadav@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['parul.yadav@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: pintu.prasad@choreograph.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"pintu.prasad@choreograph.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: pankaj.tiwaskar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"pankaj.tiwaskar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: piyush.mewara@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"piyush.mewara@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: pooja.nandha@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"pooja.nandha@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: pooja.padmanabhan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"pooja.padmanabhan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: poulomi.roybera@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"poulomi.roybera@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: prachi.kapadne@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"prachi.kapadne@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: pragya.agrawal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"pragya.agrawal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: prasad.mulik@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"prasad.mulik@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: pragya.sinha@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"pragya.sinha@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: prasoona.ddv@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"prasoona.ddv@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: pranay.patel@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"pranay.patel@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: pratham.sawant@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"pratham.sawant@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: pragya.singh@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"pragya.singh@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: prathamesh.haldankar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"prathamesh.haldankar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: prathik.shetty@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"prathik.shetty@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: pratik.gulati@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['pratik.gulati@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: pravin.katke@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"pravin.katke@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: prem.misra@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"prem.misra@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: preena.agarwal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"preena.agarwal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: prince.jha@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"prince.jha@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce","b7f9b193-c2fd-4efe-afb0-6a9485a2437a":{}}}]}
+--------------------------------------------------------------------------------
+EMAIL: pravin.masal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"pravin.masal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: prerna.dongre@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"prerna.dongre@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: prerna.karkera@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"prerna.karkera@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: priyanka.kuruba@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"priyanka.kuruba@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: priyanka.raorane@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"priyanka.raorane@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce","b7f9b193-c2fd-4efe-afb0-6a9485a2437a":{}}}]}
+--------------------------------------------------------------------------------
+EMAIL: priyanka.sharma@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"priyanka.sharma@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: pushkar.sanyal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"pushkar.sanyal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: r.sarath@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"r.sarath@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rachit.baser@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rachit.baser@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: radhika.goyal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"radhika.goyal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rahul.bharadwaj@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rahul.bharadwaj@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rachit.solanki@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rachit.solanki@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: raghav.agarwal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"raghav.agarwal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rahul.gawde@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rahul.gawde@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rahul.haryan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rahul.haryan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rahul.pawar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rahul.pawar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rajagopalan.ganesan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rajagopalan.ganesan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rajat.gautam@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rajat.gautam@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rajiv.rawat@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rajiv.rawat@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rakesh.konkal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rakesh.konkal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: redish.fernandes@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"redish.fernandes@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rewti.sahu@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rewti.sahu@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: raman.kg@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"raman.kg@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: raunaak.raje@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"raunaak.raje@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: riddhi.dahanukar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"riddhi.dahanukar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: richa.sharma@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"richa.sharma@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rishabh.singh@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rishabh.singh@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ritesh.ahluwalia@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ritesh.ahluwalia@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ritheeshkumar.r@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ritheeshkumar.r@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ritika.khurana@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ritika.khurana@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: riya.ghag@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"riya.ghag@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rohan.srikoti@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rohan.srikoti@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rohan.k@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rohan.k@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rohit.ahuja@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rohit.ahuja@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rohit.bali@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rohit.bali@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rohit.powar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rohit.powar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rohit.rawat@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rohit.rawat@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: rohit.d@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"rohit.d@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ronak.goyal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ronak.goyal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce","9e8be8d1-6006-4510-a4cc-2a55f9e84bc5":"b1f1c05f-f34a-44f2-a394-6a1b546b24bd"}}]}
+--------------------------------------------------------------------------------
+EMAIL: roshnai.basu@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"roshnai.basu@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: s.aditi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['s.aditi@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: rounak.p@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['rounak.p@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: ruban.m@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ruban.m@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: runjhun.agarwal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"runjhun.agarwal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sachin.kumarr@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['sachin.kumarr@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: s.akansha@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"s.akansha@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: s.vishal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"s.vishal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sachin.kaushik@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sachin.kaushik@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: s.kaushik@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"s.kaushik@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sachin.verma@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sachin.verma@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: safar.singh@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"safar.singh@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sagar.thakkar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sagar.thakkar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sagar.wagh@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sagar.wagh@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sahil.shah@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sahil.shah@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: saitejaswi.bellapukonda@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['saitejaswi.bellapukonda@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: sahil.gawade@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sahil.gawade@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sainath.nallagonda@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sainath.nallagonda@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sakshi.sharma@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sakshi.sharma@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: saloni.ingle@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"saloni.ingle@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sameer.chauhan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sameer.chauhan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sameer.davda@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sameer.davda@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sameer.p@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sameer.p@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sanaya.sanghavi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['sanaya.sanghavi@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: sandeep.bagauria@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['sandeep.bagauria@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: sanchit.sabharwal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sanchit.sabharwal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sanket.mehta@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sanket.mehta@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sandeep.jagadale@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sandeep.jagadale@wppmedia.com","preferredHubPerTenant":{"4ac7c455-6726-4a75-adbb-c41a54e46f03":"d8165abe-af73-4073-9149-b99f9a7ffadb","4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sandip.vazirani@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sandip.vazirani@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sanwaya.d@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sanwaya.d@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sanil.jadhav@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sanil.jadhav@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: satish.patkar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"satish.patkar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: saransh.vishwakarma@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"saransh.vishwakarma@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: satyapriyo.das@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"satyapriyo.das@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: saumya.agarwal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"saumya.agarwal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: saumya.mishra@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"saumya.mishra@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: saurabh.kirti@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"saurabh.kirti@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: saurabh.solanki@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"saurabh.solanki@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: saurabh.mishra@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"saurabh.mishra@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shardul.panwar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shardul.panwar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shabeeb.zafar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shabeeb.zafar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sharma.abhinav@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sharma.abhinav@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sharma.himanshu@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sharma.himanshu@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shefali.sahdev@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shefali.sahdev@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shetty.sharan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shetty.sharan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shikha.saini@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shikha.saini@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shikha.singh@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shikha.singh@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shivam.a@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shivam.a@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shivam.agarwal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shivam.agarwal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shivshankar.v@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shivshankar.v@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shivang.bansal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shivang.bansal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shivya.bhandow@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shivya.bhandow@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shraddheya.raghuvanshi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shraddheya.raghuvanshi@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shrey.obhan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shrey.obhan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shravani.palve@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['shravani.palve@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: shrey.s@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shrey.s@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shreyanshi.shah@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shreyanshi.shah@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shubham.shewale@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shubham.shewale@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shruti.bhanushali@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shruti.bhanushali@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shubham.khetle@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shubham.khetle@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shristhi.agarwal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shristhi.agarwal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: siddesh.shetty@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['siddesh.shetty@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: shukla.abhishek@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shukla.abhishek@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shubham.thakur@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shubham.thakur@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: shweta.lamba@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"shweta.lamba@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: siddhant.gupta@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"siddhant.gupta@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: siddharth.ponnanparambil@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"siddharth.ponnanparambil@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: siddhi.palekar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['siddhi.palekar@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: siddhesh.k@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['siddhesh.k@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: simran.acharya@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"simran.acharya@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: simran.kaira@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"simran.kaira@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: singh.gaurav@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['singh.gaurav@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: singh.manish@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"singh.manish@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sitakshi.thakur@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sitakshi.thakur@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: som.trivedi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"som.trivedi@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: siya.lulla@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"siya.lulla@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sonal.garje@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sonal.garje@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sonu.pardeshi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sonu.pardeshi@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sooraj.haridas@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sooraj.haridas@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: soumyatapo.dutta@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"soumyatapo.dutta@wppmedia.com","preferredHubPerTenant":{"4ac7c455-6726-4a75-adbb-c41a54e46f03":"d8165abe-af73-4073-9149-b99f9a7ffadb","4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sravanti.manugula@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sravanti.manugula@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sourabh.dubey@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sourabh.dubey@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sreejith.v@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sreejith.v@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: subhasree.bose@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"subhasree.bose@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: subhash.haldavanekar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"subhash.haldavanekar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sreevalsan.mg@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sreevalsan.mg@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: subhalaxmi.pattnaik@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"subhalaxmi.pattnaik@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: subin.alexander@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"subin.alexander@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sudeep.roy@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sudeep.roy@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sudarshan.nair@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sudarshan.nair@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sumangalaa.deka@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['sumangalaa.deka@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: sumit.patil@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sumit.patil@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sushant.mishra@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sushant.mishra@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: swadheen.siwach@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"swadheen.siwach@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: sumedh.gotmukle@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"sumedh.gotmukle@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: swapnil.mewada@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"swapnil.mewada@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: swapnil.sogam@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"swapnil.sogam@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: swapnil.name@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"swapnil.name@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: swaroopa.dhirwani@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['swaroopa.dhirwani@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: tanmesh.rastogi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"tanmesh.rastogi@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce","b7f9b193-c2fd-4efe-afb0-6a9485a2437a":"75038639-0bdd-4f64-afb1-c4bbfda4277c"}}]}
+--------------------------------------------------------------------------------
+EMAIL: tanneru.kumar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['tanneru.kumar@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: tanvi.garg@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"tanvi.garg@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: tanvi.khandalkar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"tanvi.khandalkar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: tanya.c@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"tanya.c@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: tariq.chandnani@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"tariq.chandnani@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: tarun.das@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"tarun.das@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: tayal.gyanesh@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"tayal.gyanesh@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: thakur.rahul@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"thakur.rahul@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: tinaz.daruwalla@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"tinaz.daruwalla@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: umang.maheshwari@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"umang.maheshwari@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: urvashi.lal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"urvashi.lal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: urvesh.bhatt@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"urvesh.bhatt@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: utkarsh.chauhan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"utkarsh.chauhan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: vaibhav.singh@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['vaibhav.singh@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: v-abhijeet.deepakshelar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"v-abhijeet.deepakshelar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: vaishak.p@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['vaishak.p@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: valentine.bugree@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['valentine.bugree@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: vaibhav.tomer@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"vaibhav.tomer@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: v-alex.martin@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"v-alex.martin@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: vamsi.pullela@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['vamsi.pullela@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: v-anoushka.banerjee@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"v-anoushka.banerjee@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: vansh.bhanushali@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"vansh.bhanushali@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: vanshaj.goel@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"vanshaj.goel@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: varun.goyal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"varun.goyal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: varun.papneja@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"varun.papneja@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: v-bablu.chauhan@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"v-bablu.chauhan@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: varun.tiwari@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"varun.tiwari@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: v-devyane.roy@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"v-devyane.roy@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: v-deepak.patel@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"v-deepak.patel@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: v-chotumiya.qureshi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"v-chotumiya.qureshi@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: ved.prakash@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"ved.prakash@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: veeru.gupta@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"veeru.gupta@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: vijayalakshmi.r@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"vijayalakshmi.r@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: vikash.lakhera@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"vikash.lakhera@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: vikrant.bhatheja@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"vikrant.bhatheja@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: vikrant.s@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"vikrant.s@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: vipin.s@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"vipin.s@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: vishal.malviya@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"vishal.malviya@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: viraaj.verma@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"viraaj.verma@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: vishal.s@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"vishal.s@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: vivek.sagar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"vivek.sagar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: v-janhavi.bandarkar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"v-janhavi.bandarkar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: v-karthik.poojary@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['v-karthik.poojary@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: v-kunal.patil@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"v-kunal.patil@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: v-kunjal.waje@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"v-kunjal.waje@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: v-mahima.sn@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"v-mahima.sn@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: v-murtaza.mubashir@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"v-murtaza.mubashir@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: v-padmavathy.s@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['v-padmavathy.s@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: v-puja.sureka@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['v-puja.sureka@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: v-priyanka.pal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"v-priyanka.pal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: v-rohan.bhilare@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['v-rohan.bhilare@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: v-savio.menezes@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"v-savio.menezes@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: v-shrey.sharma@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"v-shrey.sharma@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: v-sudhanshu.yadav@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 400
+RESPONSE: {"detail":{"status":"Users not found","title":"User emails provided in payload not found","detail":"Users with emails ['v-sudhanshu.yadav@wppmedia.com'] not found"}}
+--------------------------------------------------------------------------------
+EMAIL: v-sujal.sethi@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"v-sujal.sethi@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: yash.hindisota@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"yash.hindisota@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: yash.nagpal@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"yash.nagpal@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: yash.p@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"yash.p@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: yasha.gohil@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"yasha.gohil@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: yogeshkumar.gond@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"yogeshkumar.gond@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: yash.karanjia@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"yash.karanjia@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: yokesh.g@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"yokesh.g@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: zafar.alam@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"zafar.alam@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: zeeshan.bakkar@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"zeeshan.bakkar@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+--------------------------------------------------------------------------------
+EMAIL: zeba.lakhani@wppmedia.com
+GROUP API
+STATUS: 201
+RESPONSE:
+HUB API
+STATUS: 200
+RESPONSE: {"data":[{"userEmail":"zeba.lakhani@wppmedia.com","preferredHubPerTenant":{"4c039217-7d17-4207-8314-98348983718a":"933a5e69-207c-446e-9c25-01ce754233ce"}}]}
+PS C:\Users\Azath.A\os\hub>

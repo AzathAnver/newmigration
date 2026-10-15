@@ -1,0 +1,7 @@
+brand,group_uid,final_status,detail,line_no
+oekostrom AG,a2dec4b0-382d-4914-a8b6-0d01a9852fdc,Success (Created),"✅ Created group → uid: a2dec4b0-382d-4914-a8b6-0d01a9852fdc, name: oekostrom AG",78
+karriere.at GmbH,7bc0f73b-9ece-48ff-aad2-1ff358487528,Success (Created),"✅ Created group → uid: 7bc0f73b-9ece-48ff-aad2-1ff358487528, name: karriere.at GmbH",199
+dm drogerie markt GmbH,,Failed,"❌ Failed to fetch azId for 'dm drogerie markt GmbH': HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)",216
+Thalia Buch & Medien GmbH,0b589484-624e-483a-8685-e0403bfc6f4a,Success (Created),"✅ Created group → uid: 0b589484-624e-483a-8685-e0403bfc6f4a, name: Thalia Buch & Medien GmbH",288
+Technisches Museum,9a3e6cdb-bd4a-42e3-b5a7-5daf91d673df,Success (Created),"✅ Created group → uid: 9a3e6cdb-bd4a-42e3-b5a7-5daf91d673df, name: Technisches Museum",490
+(unknown),,Failed,Failed: 1,524

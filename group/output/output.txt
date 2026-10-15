@@ -1,0 +1,524 @@
+🚀 Starting processing of 114 brands using up to 10 workers...
+
+🔎 Processing brand: Lufthansa Group
+
+🔎 Processing brand: Ferrero Oesterreich Handelsges.m.b.H.
+
+🔎 Processing brand: FORD MOTOR COMPANY
+
+🔎 Processing brand: H&M Hennes & Mauritz GesmbH
+
+🔎 Processing brand: Haribo Austria GmbH & CO KG
+
+🔎 Processing brand: oekostrom AG
+
+🔎 Processing brand: T-Mobile Austria GmbH
+
+🔎 Processing brand: Henkel Central Eastern Europe GmbH
+
+🔎 Processing brand: Honor Technologies Austria
+
+🔎 Processing brand: Lagerhaus Franchise GmbH
+⚠️ No azId found for 'Lagerhaus Franchise GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Ecosyslab GmbH
+📊 Progress: 1/114 completed.
+⚠️ No azId found for 'Ferrero Oesterreich Handelsges.m.b.H.' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Skechers International II Limited
+📊 Progress: 2/114 completed.
+⚠️ No azId found for 'H&M Hennes & Mauritz GesmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Mavie Next
+📊 Progress: 3/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'Henkel Central Eastern Europe GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Der Pragmaticus
+📊 Progress: 4/114 completed.
+⚠️ No azId found for 'Lufthansa Group' in hierarchy tree. Skipping.
+
+🔎 Processing brand: DEBRA Austria
+⚠️ Request failed (Hierarchy API failed: 404 - {"detail":"Workspaces to build the tree not found or you don't have permissions to see them"}) — attempt 1/3 — retrying in 1.0s
+📊 Progress: 5/114 completed.
+⚠️ No azId found for 'FORD MOTOR COMPANY' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Smyths Toys EU HQ UC
+📊 Progress: 6/114 completed.
+⚠️ No azId found for 'Mavie Next' in hierarchy tree. Skipping.
+
+🔎 Processing brand: SP United Vertriebs GmbH
+📊 Progress: 7/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 2/3 — retrying in 2.0s
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 2/3 — retrying in 2.0s
+⚠️ No azId found for 'Der Pragmaticus' in hierarchy tree. Skipping.
+
+🔎 Processing brand: BP Europe SE
+📊 Progress: 8/114 completed.
+⚠️ No azId found for 'Ecosyslab GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Deutsche Finanzgruppe
+📊 Progress: 9/114 completed.
+⚠️ No azId found for 'Haribo Austria GmbH & CO KG' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Breitling AG
+📊 Progress: 10/114 completed.
+⚠️ No azId found for 'Honor Technologies Austria' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Willhaben Internet Service GmbH & Co. KG
+📊 Progress: 11/114 completed.
+⚠️ No azId found for 'Smyths Toys EU HQ UC' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Amazon Europe Core DE
+📊 Progress: 12/114 completed.
+✅ Created group → uid: a2dec4b0-382d-4914-a8b6-0d01a9852fdc, name: oekostrom AG
+👤 Patched users (noop).
+🔑 Patched roles successfully → [{'uid': '0ca229f4-b0ad-4c1e-a097-6c66e18bd941', 'group_uid': 'a2dec4b0-382d-4914-a8b6-0d01a9852fdc', 'role_uid': '1544916c-0ce0-4042-a8e5-6e18042c73b7', 'account_uid': '4f4d0c02-7543-4372-b866-1e95a6b091f3'}, {'uid': 'b80d568c-53e5-43e4-90db-ab457d34dbf3', 'group_uid': 'a2dec4b0-382d-4914-a8b6-0d01a9852fdc', 'role_uid': '9e7c812c-c063-4613-9776-31f635bd1c03', 'account_uid': '4f4d0c02-7543-4372-b866-1e95a6b091f3'}, {'uid': 'd0d6d09a-0fc3-4f53-ae78-f2c4878a4036', 'group_uid': 'a2dec4b0-382d-4914-a8b6-0d01a9852fdc', 'role_uid': '6948d8e6-eca6-4c12-9241-a47db34db467', 'account_uid': '4f4d0c02-7543-4372-b866-1e95a6b091f3'}]
+
+🔎 Processing brand: Amazon Digital Germany GmbH
+📊 Progress: 13/114 completed.
+⚠️ No azId found for 'SP United Vertriebs GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: adidas Austria GmbH
+📊 Progress: 14/114 completed.
+⚠️ No azId found for 'BP Europe SE' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Afro Coffee GmbH
+📊 Progress: 15/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'DEBRA Austria' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Air-up
+📊 Progress: 16/114 completed.
+⚠️ No azId found for 'T-Mobile Austria GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Akzo Nobel Coatings GmbH
+📊 Progress: 17/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'Skechers International II Limited' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Alois Dallmayr Kaffee OHG
+📊 Progress: 18/114 completed.
+⚠️ No azId found for 'Amazon Europe Core DE' in hierarchy tree. Skipping.
+
+🔎 Processing brand: BSH Hausgeraete Gesellschaft mbH
+📊 Progress: 19/114 completed.
+⚠️ No azId found for 'Amazon Digital Germany GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: CP GABA GmbH
+📊 Progress: 20/114 completed.
+⚠️ No azId found for 'adidas Austria GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Danone  sterreich GmbH
+📊 Progress: 21/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'Willhaben Internet Service GmbH & Co. KG' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Discovery Communications Benelux B.V.
+📊 Progress: 22/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'Deutsche Finanzgruppe' in hierarchy tree. Skipping.
+
+🔎 Processing brand: dm drogerie markt GmbH
+📊 Progress: 23/114 completed.
+⚠️ No azId found for 'Breitling AG' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Emmi Oesterreich Gmbh
+📊 Progress: 24/114 completed.
+⚠️ No azId found for 'Afro Coffee GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Erste Group Bank AG
+📊 Progress: 25/114 completed.
+⚠️ No azId found for 'Air-up' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Energie Steiermark Kunden GmbH
+📊 Progress: 26/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'CP GABA GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Filmladen GmbH
+📊 Progress: 27/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'Akzo Nobel Coatings GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Geberit Vertriebs Gmbh
+📊 Progress: 28/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'Emmi Oesterreich Gmbh' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Gebro Pharma GmbH
+📊 Progress: 29/114 completed.
+⚠️ No azId found for 'Alois Dallmayr Kaffee OHG' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Hachette Collections SNC
+📊 Progress: 30/114 completed.
+⚠️ No azId found for 'Erste Group Bank AG' in hierarchy tree. Skipping.
+
+🔎 Processing brand: IKEA AUSTRIA GmbH
+📊 Progress: 31/114 completed.
+⚠️ No azId found for 'BSH Hausgeraete Gesellschaft mbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Jaguar Land Rover Austria GmbH
+📊 Progress: 32/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'Danone  sterreich GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: karriere.at GmbH
+📊 Progress: 33/114 completed.
+⚠️ No azId found for 'Discovery Communications Benelux B.V.' in hierarchy tree. Skipping.
+
+🔎 Processing brand: LOreal
+📊 Progress: 34/114 completed.
+⚠️ No azId found for 'Geberit Vertriebs Gmbh' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Mautner Markhof Feinkost GmbH
+📊 Progress: 35/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 2/3 — retrying in 2.0s
+⚠️ No azId found for 'IKEA AUSTRIA GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: McArthur Glen
+📊 Progress: 36/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 2/3 — retrying in 2.0s
+⚠️ No azId found for 'Jaguar Land Rover Austria GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: MSC Cruises S.A.
+📊 Progress: 37/114 completed.
+⚠️ No azId found for 'Filmladen GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Nespresso  sterreich GmbH & Co OHG
+📊 Progress: 38/114 completed.
+✅ Created group → uid: 7bc0f73b-9ece-48ff-aad2-1ff358487528, name: karriere.at GmbH
+👤 Patched users (noop).
+🔑 Patched roles successfully → [{'uid': '9cc16c7f-0d86-4576-95e0-b1bc10ba74cb', 'group_uid': '7bc0f73b-9ece-48ff-aad2-1ff358487528', 'role_uid': '1544916c-0ce0-4042-a8e5-6e18042c73b7', 'account_uid': '87449857-8189-4795-8682-86b2a50e773c'}, {'uid': 'c65bfb57-63ad-432f-b242-4af8707d8f38', 'group_uid': '7bc0f73b-9ece-48ff-aad2-1ff358487528', 'role_uid': '9e7c812c-c063-4613-9776-31f635bd1c03', 'account_uid': '87449857-8189-4795-8682-86b2a50e773c'}, {'uid': '199c9caf-d303-4191-900e-0533e7f18cce', 'group_uid': '7bc0f73b-9ece-48ff-aad2-1ff358487528', 'role_uid': '6948d8e6-eca6-4c12-9241-a47db34db467', 'account_uid': '87449857-8189-4795-8682-86b2a50e773c'}]
+
+🔎 Processing brand: Nestl   sterreich GmbH
+📊 Progress: 39/114 completed.
+⚠️ No azId found for 'LOreal' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Novo Nordisk Pharma GmbH
+📊 Progress: 40/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'McArthur Glen' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Pappas Holding GmbH
+📊 Progress: 41/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 3/3 — giving up
+⚠️ No azId found for 'Gebro Pharma GmbH' in hierarchy tree. Skipping.
+❌ Failed to fetch azId for 'dm drogerie markt GmbH': HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)
+
+🔎 Processing brand: Perfetti Van Melle Benelux B.V.
+
+🔎 Processing brand: Pfizer Corporation Austria GmbH
+📊 Progress: 42/114 completed.
+📊 Progress: 43/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 2/3 — retrying in 2.0s
+⚠️ No azId found for 'Energie Steiermark Kunden GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Princes Foods B.V.
+📊 Progress: 44/114 completed.
+⚠️ No azId found for 'MSC Cruises S.A.' in hierarchy tree. Skipping.
+
+🔎 Processing brand: pro medico Handels GmbH
+📊 Progress: 45/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'Nestl   sterreich GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: ProSiebenSat.1 PULS 4 GmbH
+📊 Progress: 46/114 completed.
+⚠️ No azId found for 'Mautner Markhof Feinkost GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Roche Diagnostics International AG
+📊 Progress: 47/114 completed.
+⚠️ No azId found for 'Pappas Holding GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: ROLEX S.A. Communication
+📊 Progress: 48/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'Perfetti Van Melle Benelux B.V.' in hierarchy tree. Skipping.
+
+🔎 Processing brand: RECKITT BENCKISER AUSTRIA GmbH - CORE
+📊 Progress: 49/114 completed.
+⚠️ No azId found for 'Pfizer Corporation Austria GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Silhouette International Schmied AG
+📊 Progress: 50/114 completed.
+⚠️ No azId found for 'Princes Foods B.V.' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Thalia Buch & Medien GmbH
+📊 Progress: 51/114 completed.
+⚠️ No azId found for 'Hachette Collections SNC' in hierarchy tree. Skipping.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+
+🔎 Processing brand: TUI Cruises GmbH
+📊 Progress: 52/114 completed.
+⚠️ No azId found for 'Nespresso  sterreich GmbH & Co OHG' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Universal Pictures International Austria GmbH
+📊 Progress: 53/114 completed.
+⚠️ No azId found for 'ProSiebenSat.1 PULS 4 GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Warner Bros. Pictures Ges.m.b.H.
+📊 Progress: 54/114 completed.
+⚠️ No azId found for 'RECKITT BENCKISER AUSTRIA GmbH - CORE' in hierarchy tree. Skipping.
+
+🔎 Processing brand: WIENER STAEDTISCHE Versicherung AG
+📊 Progress: 55/114 completed.
+⚠️ No azId found for 'ROLEX S.A. Communication' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Wiener Tierschutzverein
+📊 Progress: 56/114 completed.
+⚠️ No azId found for 'Silhouette International Schmied AG' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Yakult Oesterreich GmbH
+📊 Progress: 57/114 completed.
+⚠️ No azId found for 'Roche Diagnostics International AG' in hierarchy tree. Skipping.
+
+🔎 Processing brand: yfood Labs GmbH
+📊 Progress: 58/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 2/3 — retrying in 2.0s
+✅ Created group → uid: 0b589484-624e-483a-8685-e0403bfc6f4a, name: Thalia Buch & Medien GmbH
+👤 Patched users (noop).
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+🔑 Patched roles successfully → [{'uid': '841d0a3c-3023-41f5-80ee-e0551efc5ac3', 'group_uid': '0b589484-624e-483a-8685-e0403bfc6f4a', 'role_uid': '1544916c-0ce0-4042-a8e5-6e18042c73b7', 'account_uid': 'ac2c9a9a-7312-4317-8357-634b4a659c3c'}, {'uid': '2a574bfa-26a6-410b-a587-de6fa7783e68', 'group_uid': '0b589484-624e-483a-8685-e0403bfc6f4a', 'role_uid': '9e7c812c-c063-4613-9776-31f635bd1c03', 'account_uid': 'ac2c9a9a-7312-4317-8357-634b4a659c3c'}, {'uid': 'cb4a8bd5-744c-42ae-bc30-eae9ad779f71', 'group_uid': '0b589484-624e-483a-8685-e0403bfc6f4a', 'role_uid': '6948d8e6-eca6-4c12-9241-a47db34db467', 'account_uid': 'ac2c9a9a-7312-4317-8357-634b4a659c3c'}]
+
+🔎 Processing brand: SANOVA Pharma GesmbH
+📊 Progress: 59/114 completed.
+⚠️ No azId found for 'Universal Pictures International Austria GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Asset Management by froots GmbH
+📊 Progress: 60/114 completed.
+⚠️ No azId found for 'pro medico Handels GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Pelpharma Handels GmbH
+📊 Progress: 61/114 completed.
+⚠️ No azId found for 'Warner Bros. Pictures Ges.m.b.H.' in hierarchy tree. Skipping.
+
+🔎 Processing brand: YAY Creative GmbH
+📊 Progress: 62/114 completed.
+⚠️ No azId found for 'WIENER STAEDTISCHE Versicherung AG' in hierarchy tree. Skipping.
+
+🔎 Processing brand: ACTUAL Fenster Tueren Sonnenschutz GmbH
+📊 Progress: 63/114 completed.
+⚠️ No azId found for 'yfood Labs GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Salinen Austria AG
+📊 Progress: 64/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'Wiener Tierschutzverein' in hierarchy tree. Skipping.
+
+🔎 Processing brand: ALLIANZ KONZERN
+📊 Progress: 65/114 completed.
+⚠️ No azId found for 'Novo Nordisk Pharma GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Yuu n Mee fine foods Vertriebs-GmbH
+📊 Progress: 66/114 completed.
+⚠️ No azId found for 'Pelpharma Handels GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Beijing Xiaomi Mobile Software Co.
+📊 Progress: 67/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'TUI Cruises GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Direct Parcel Distribution Austria GmbH
+📊 Progress: 68/114 completed.
+⚠️ No azId found for 'YAY Creative GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: BOLTON KONZERN
+📊 Progress: 69/114 completed.
+⚠️ No azId found for 'Salinen Austria AG' in hierarchy tree. Skipping.
+
+🔎 Processing brand: CONTINENTAL KONZERN
+📊 Progress: 70/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'Yakult Oesterreich GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: E. Breuninger GmbH & Co.
+📊 Progress: 71/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'SANOVA Pharma GesmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: DR AUGUST OETKER KONZERN
+📊 Progress: 72/114 completed.
+⚠️ No azId found for 'Asset Management by froots GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: HAAI GmbH
+📊 Progress: 73/114 completed.
+⚠️ No azId found for 'Beijing Xiaomi Mobile Software Co.' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Fressnapf Handels-GmbH
+📊 Progress: 74/114 completed.
+⚠️ No azId found for 'BOLTON KONZERN' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Handl Tyrol GmbH
+📊 Progress: 75/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'CONTINENTAL KONZERN' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Epamedia - Europaeische Plakat- und Aussenmedien GmbH
+📊 Progress: 76/114 completed.
+⚠️ No azId found for 'E. Breuninger GmbH & Co.' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Immobilien Scout Oesterreich GmbH
+📊 Progress: 77/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 2/3 — retrying in 2.0s
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 2/3 — retrying in 2.0s
+⚠️ No azId found for 'HAAI GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Joh. Alex. Niernsee KG
+📊 Progress: 78/114 completed.
+⚠️ No azId found for 'Yuu n Mee fine foods Vertriebs-GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Kwizda Pharma GmbH
+📊 Progress: 79/114 completed.
+⚠️ No azId found for 'Fressnapf Handels-GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: mfi Immobilien Marketing GmbH
+📊 Progress: 80/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'Direct Parcel Distribution Austria GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Katjes Fassin GmbH + Co. KG
+📊 Progress: 81/114 completed.
+⚠️ No azId found for 'Epamedia - Europaeische Plakat- und Aussenmedien GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: M&D Restaurant Development GmbH
+📊 Progress: 82/114 completed.
+⚠️ No azId found for 'Immobilien Scout Oesterreich GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: OMV KONZERN
+📊 Progress: 83/114 completed.
+⚠️ No azId found for 'ACTUAL Fenster Tueren Sonnenschutz GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Peek & Cloppenburg KG
+📊 Progress: 84/114 completed.
+⚠️ No azId found for 'ALLIANZ KONZERN' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Otto Austria Group GmbH
+📊 Progress: 85/114 completed.
+⚠️ No azId found for 'DR AUGUST OETKER KONZERN' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Procter & Gamble Austria
+📊 Progress: 86/114 completed.
+⚠️ No azId found for 'mfi Immobilien Marketing GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Smile Insurance & IT Solutions GmbH
+📊 Progress: 87/114 completed.
+⚠️ No azId found for 'Joh. Alex. Niernsee KG' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Richemont Northern Europe GmbH
+📊 Progress: 88/114 completed.
+⚠️ No azId found for 'Handl Tyrol GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: TCCC KONZERN
+📊 Progress: 89/114 completed.
+⚠️ No azId found for 'Katjes Fassin GmbH + Co. KG' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Sutterluety Handels GmbH
+📊 Progress: 90/114 completed.
+⚠️ No azId found for 'Kwizda Pharma GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: SelfStorage Dein Lager Lagervermietungs GmbH
+📊 Progress: 91/114 completed.
+⚠️ No azId found for 'OMV KONZERN' in hierarchy tree. Skipping.
+
+🔎 Processing brand: TEEKANNE GesmbH
+📊 Progress: 92/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'Peek & Cloppenburg KG' in hierarchy tree. Skipping.
+
+🔎 Processing brand: voestalpine AG
+📊 Progress: 93/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'Procter & Gamble Austria' in hierarchy tree. Skipping.
+
+🔎 Processing brand: UNIBAIL RODAMCO KONZERN
+📊 Progress: 94/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'TCCC KONZERN' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Technisches Museum
+📊 Progress: 95/114 completed.
+⚠️ No azId found for 'Smile Insurance & IT Solutions GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: ZEV Nah & Frisch Marketingservice GmbH
+📊 Progress: 96/114 completed.
+⚠️ No azId found for 'Sutterluety Handels GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Bionorica Austria GmbH
+📊 Progress: 97/114 completed.
+⚠️ No azId found for 'SelfStorage Dein Lager Lagervermietungs GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: WOJNAR Beteiligungs GmbH
+📊 Progress: 98/114 completed.
+⚠️ No azId found for 'TEEKANNE GesmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Woerwag Pharma GmbH & Co. KG
+📊 Progress: 99/114 completed.
+⚠️ No azId found for 'M&D Restaurant Development GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Toyota Austria
+📊 Progress: 100/114 completed.
+⚠️ No azId found for 'voestalpine AG' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Mona Naturprodukte GmbH
+📊 Progress: 101/114 completed.
+⚠️ No azId found for 'UNIBAIL RODAMCO KONZERN' in hierarchy tree. Skipping.
+
+🔎 Processing brand: SONY Konzern
+📊 Progress: 102/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 2/3 — retrying in 2.0s
+⚠️ No azId found for 'ZEV Nah & Frisch Marketingservice GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: Lexus Austria
+📊 Progress: 103/114 completed.
+⚠️ No azId found for 'Richemont Northern Europe GmbH' in hierarchy tree. Skipping.
+
+🔎 Processing brand: CC Real GmbH
+📊 Progress: 104/114 completed.
+✅ Created group → uid: 9a3e6cdb-bd4a-42e3-b5a7-5daf91d673df, name: Technisches Museum
+👤 Patched users (noop).
+⚠️ No azId found for 'WOJNAR Beteiligungs GmbH' in hierarchy tree. Skipping.
+📊 Progress: 105/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ No azId found for 'Woerwag Pharma GmbH & Co. KG' in hierarchy tree. Skipping.
+📊 Progress: 106/114 completed.
+🔑 Patched roles successfully → [{'uid': '3af1fe24-1187-45f8-8d09-cfbc15ba915e', 'group_uid': '9a3e6cdb-bd4a-42e3-b5a7-5daf91d673df', 'role_uid': '1544916c-0ce0-4042-a8e5-6e18042c73b7', 'account_uid': '87499e4c-0e64-4841-8c6a-ff6709e84069'}, {'uid': 'da3cbcc0-7d65-4a14-89a6-aa86a8f25b5d', 'group_uid': '9a3e6cdb-bd4a-42e3-b5a7-5daf91d673df', 'role_uid': '9e7c812c-c063-4613-9776-31f635bd1c03', 'account_uid': '87499e4c-0e64-4841-8c6a-ff6709e84069'}, {'uid': 'a9a3626d-10df-403e-8e96-98323721e9e1', 'group_uid': '9a3e6cdb-bd4a-42e3-b5a7-5daf91d673df', 'role_uid': '6948d8e6-eca6-4c12-9241-a47db34db467', 'account_uid': '87499e4c-0e64-4841-8c6a-ff6709e84069'}]
+📊 Progress: 107/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 1/3 — retrying in 1.0s
+⚠️ Request failed (Hierarchy API failed: 500 - {"detail":"Unexpected internal error"}) — attempt 1/3 — retrying in 1.0s
+⚠️ Request failed (Hierarchy API failed: 500 - {"detail":"Unexpected internal error"}) — attempt 1/3 — retrying in 1.0s
+⚠️ Request failed (Hierarchy API failed: 500 - {"detail":"Unexpected internal error"}) — attempt 2/3 — retrying in 2.0s
+⚠️ No azId found for 'SONY Konzern' in hierarchy tree. Skipping.
+📊 Progress: 108/114 completed.
+⚠️ No azId found for 'Otto Austria Group GmbH' in hierarchy tree. Skipping.
+📊 Progress: 109/114 completed.
+⚠️ No azId found for 'CC Real GmbH' in hierarchy tree. Skipping.
+📊 Progress: 110/114 completed.
+⚠️ No azId found for 'Lexus Austria' in hierarchy tree. Skipping.
+📊 Progress: 111/114 completed.
+⚠️ No azId found for 'Mona Naturprodukte GmbH' in hierarchy tree. Skipping.
+📊 Progress: 112/114 completed.
+⚠️ No azId found for 'Bionorica Austria GmbH' in hierarchy tree. Skipping.
+📊 Progress: 113/114 completed.
+⚠️ Request failed (HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=20)) — attempt 2/3 — retrying in 2.0s
+⚠️ No azId found for 'Toyota Austria' in hierarchy tree. Skipping.
+📊 Progress: 114/114 completed.
+
+✅ All done.
+Total brands: 114
+Created & roles assigned: 4
+Existing groups updated (roles assigned): 0
+Skipped (no azId): 109
+Failed: 1

@@ -1,0 +1,29 @@
+Row,Value,Status
+GROUP FOUND, OS Default Users,
+USER FOUND WITH FRAGMENT, valentina.ponce@wpp.com -> valentina.ponce@wppmedia.com,
+USER FOUND WITH FRAGMENT, melody.stringi@wpp.com -> melody.stringi@wppmedia.com,melody.stringi@essencemediacom.com
+USER FOUND WITH FRAGMENT, eduardo.hernandezb@wpp.com -> eduardo.hernandezb@wppmedia.com,
+USER FOUND WITH FRAGMENT, romina.sampedro@wpp.com -> romina.sampedro@wppmedia.com,
+USER FOUND WITH FRAGMENT, salome.rodriguezdiaz@wpp.com -> salome.rodriguezdiaz@wppmedia.com,
+USER FOUND WITH FRAGMENT, nathalia.lopeza@wpp.com -> nathalia.lopeza@wppmedia.com,
+USER FOUND, miguel.vargas@wpp.com -> miguel.vargas@wpp.com,
+USER FOUND WITH FRAGMENT, michelle.gacitua@wpp.com -> michelle.gacitua@wppmedia.com,
+USER FOUND WITH FRAGMENT, krishna.pizarro@wpp.com -> krishna.pizarro@wppmedia.com,
+USER NOT FOUND, camila.charry@wpp.com,
+USER NOT FOUND, nicolasf.medina@wpp.com,
+USER NOT FOUND, lucia.russo@wpp.com,
+USER FOUND WITH FRAGMENT, paola.monsalve@wpp.com -> paola.monsalve@vml.com,
+USER FOUND WITH FRAGMENT, claudio.bravo@wpp.com -> claudio.bravo@wppmedia.com,
+USER FOUND WITH FRAGMENT, karina.contreras@wpp.com -> karina.contreras@wppmedia.com,karina.contreras@groupm.com
+USER FOUND WITH FRAGMENT, denisse.arellano@wpp.com -> denisse.arellano@wppmedia.com,
+USER FOUND WITH FRAGMENT, lucia.montalvo@wpp.com -> lucia.montalvo@wppmedia.com,
+USER FOUND WITH FRAGMENT, marcos.guerriero@wpp.com -> marcos.guerriero@wppmedia.com,
+USER FOUND WITH FRAGMENT, sebastian.bidone@wpp.com -> sebastian.bidone@insidemedia.onmicrosoft.com,
+USER FOUND WITH FRAGMENT, sergio.rubianosuarez@wpp.com -> sergio.rubianosuarez@wppmedia.com,
+USER FOUND, octavio.salinas@wpp.com -> octavio.salinas@wpp.com,
+USER FOUND WITH FRAGMENT, natalia.osorio@wpp.com -> natalia.osorio@vml.com,
+USER FOUND WITH FRAGMENT, priscila.sajoux@wpp.com -> priscila.sajoux@wundermanthompson.com,priscila.sajoux@wppunite.com
+USER FOUND WITH FRAGMENT, nayeli.cruz@wpp.com -> nayeli.cruz@wppmedia.com,
+USER FOUND WITH FRAGMENT, humberto.morales@wpp.com -> humberto.morales@wppmedia.com,
+PATCH SUCCESS,OS Default Users -> 25 users,(status 201)
+DONE,,

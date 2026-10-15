@@ -1,0 +1,3529 @@
+================================================================================
+WPP OS USER GROUP ACCESS CLEANUP
+================================================================================
+
+MODE: LIVE DELETE
+DELETE REQUESTS WILL BE SENT.
+
+Unique emails: 12
+Unique email/group combinations: 25
+
+================================================================================
+DEDUPLICATED INPUT
+================================================================================
+
+dora.sertic@wppmedia.com
+  - Deichmann
+
+elizabeta.petras@wppmedia.com
+  - Erste Bank
+
+irena.matic@wppmedia.com
+  - Berlin-Chemie
+
+ivana.hanzlic@wppmedia.com
+  - Deichmann
+
+katarina.batur@wppmedia.com
+  - Bolt
+  - Bolton Group
+  - Erste Bank
+  - Huawei
+  - JD Sports
+  - MAG Noventa di Piave
+  - Stock Spirits
+  - Total
+
+lana.dolic@wppmedia.com
+  - Elanco
+
+mihael.devunic@wppmedia.com
+  - Luckia Gaming Group
+  - MAG Noventa di Piave
+
+mihaela.bencetic@wppmedia.com
+  - Einhell
+  - Erste Bank
+  - MSC Cruises
+
+tea.stipan@wppmedia.com
+  - Xiaomi
+
+vanda.grcic@wppmedia.com
+  - Honor
+
+viktorija.pavisic@wppmedia.com
+  - Erste Bank
+
+vilim.kalle@wppmedia.com
+  - Bolton Group
+  - Mastercard
+  - Mutti
+  - Vileda
+
+--------------------------------------------------------------------------------
+GET USER: dora.sertic@wppmedia.com
+URL: https://media.os.wpp.com/api/az/users/email/dora.sertic@wppmedia.com
+HTTP STATUS: 200
+
+USER ID: 5d1b68d3-86d9-4318-821c-a89601e314d4
+ALLOWED GROUP NAMES:
+  KEEP: deichmann
+  KEEP: os default users
+
+TOTAL API MEMBERSHIPS: 6
+
+MEMBERSHIP:
+  name         : Paws & Tails Demo Users
+  uid          : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  account_name : Paws & Tails Co
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  account_name : Wpp-Open Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  account_name : WPP Pitch.OS Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  account_name : WPP Growth Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Deichmann
+  uid          : 34eab148-bd5f-4847-b95b-fc38669bc787
+  account_name : DEICHMANN
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 8195758b-49b6-405a-934a-75fb0bc805b8
+  account_name : Media Organisations
+  ACTION       : KEEP
+
+================================================================================
+USER: dora.sertic@wppmedia.com
+================================================================================
+
+GROUPS TO KEEP:
+  KEEP  | OS Default Users | 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  KEEP  | OS Default Users | 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  KEEP  | OS Default Users | 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  KEEP  | Deichmann | 34eab148-bd5f-4847-b95b-fc38669bc787
+  KEEP  | OS Default Users | 8195758b-49b6-405a-934a-75fb0bc805b8
+
+GROUPS TO DELETE:
+  DELETE | Paws & Tails Demo Users | 6cd0c60b-2893-4b14-904a-2188b35b98e5
+
+PROCESSING DELETE:
+  User  : dora.sertic@wppmedia.com
+  Group : Paws & Tails Demo Users
+  UID   : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+DELETE URL: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/5d1b68d3-86d9-4318-821c-a89601e314d4
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/5d1b68d3-86d9-4318-821c-a89601e314d4
+
+--------------------------------------------------------------------------------
+GET USER: elizabeta.petras@wppmedia.com
+URL: https://media.os.wpp.com/api/az/users/email/elizabeta.petras@wppmedia.com
+HTTP STATUS: 200
+
+USER ID: a4b9851f-a015-4af2-9c65-287954954eaa
+ALLOWED GROUP NAMES:
+  KEEP: erste bank
+  KEEP: os default users
+
+TOTAL API MEMBERSHIPS: 17
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 0273e632-852e-42d8-b204-762407354e57
+  account_name : Allianz Global Budget Tracker Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 8b21c204-5cca-458e-b5ad-7626c00be4bc
+  account_name : Choreograph Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  account_name : Wpp-Open Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Paws & Tails Demo Users
+  uid          : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  account_name : Paws & Tails Co
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 8195758b-49b6-405a-934a-75fb0bc805b8
+  account_name : Media Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 24b470fd-5b61-4e58-99d7-e2f99b811752
+  account_name : Allianz Open Overview: Croatia/Slovenia Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 7553984a-108f-44c2-9c19-773e40a36605
+  account_name : Demo Croatia Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  account_name : WPP Growth Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 324f9f3a-5959-49f1-a66d-0c44064c669e
+  account_name : Allianz Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Viewers
+  uid          : 474788b4-c317-4db7-8858-dec5b8dd332b
+  account_name : Croatia training Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 5ea5d910-41fe-4eba-8298-2c0ca6206a70
+  account_name : HR | 26 | Fanta | Wanta Fanta | Core | Wanta | Calendar Moment 1 | GL2625116002 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  account_name : WPP Pitch.OS Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Primary Users
+  uid          : 215a92c1-bf34-4cff-ab5e-7691176ca897
+  account_name : WPP Pitch.OS Organisations
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 37a8a23f-bdb9-4b24-b74f-fb1ccb3e843b
+  account_name : The Coca Cola Company Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Viewers
+  uid          : 0a54901e-99b9-412f-9bf6-68e58844e2cf
+  account_name : HR | 26 | Sprite | It's that fresh | Global Moment | Summer | Calendar Moment 2 | GL2630007010 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 9a63f253-474d-4f1f-802e-71021c898649
+  account_name : Fanta Wanta Gaming Q2 CRO Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Erste Bank
+  uid          : c9ae2790-ee73-4f89-a225-f16ebc2a40af
+  account_name : Media Organisations
+  ACTION       : KEEP
+
+================================================================================
+USER: elizabeta.petras@wppmedia.com
+================================================================================
+
+GROUPS TO KEEP:
+  KEEP  | OS Default Users | 8b21c204-5cca-458e-b5ad-7626c00be4bc
+  KEEP  | OS Default Users | 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  KEEP  | OS Default Users | 8195758b-49b6-405a-934a-75fb0bc805b8
+  KEEP  | OS Default Users | 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  KEEP  | OS Default Users | 324f9f3a-5959-49f1-a66d-0c44064c669e
+  KEEP  | OS Default Users | 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  KEEP  | OS Default Users | 37a8a23f-bdb9-4b24-b74f-fb1ccb3e843b
+  KEEP  | Erste Bank | c9ae2790-ee73-4f89-a225-f16ebc2a40af
+
+GROUPS TO DELETE:
+  DELETE | Contributors | 0273e632-852e-42d8-b204-762407354e57
+  DELETE | Paws & Tails Demo Users | 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  DELETE | Owners | 24b470fd-5b61-4e58-99d7-e2f99b811752
+  DELETE | Owners | 7553984a-108f-44c2-9c19-773e40a36605
+  DELETE | Viewers | 474788b4-c317-4db7-8858-dec5b8dd332b
+  DELETE | Owners | 5ea5d910-41fe-4eba-8298-2c0ca6206a70
+  DELETE | OS Primary Users | 215a92c1-bf34-4cff-ab5e-7691176ca897
+  DELETE | Viewers | 0a54901e-99b9-412f-9bf6-68e58844e2cf
+  DELETE | Owners | 9a63f253-474d-4f1f-802e-71021c898649
+
+PROCESSING DELETE:
+  User  : elizabeta.petras@wppmedia.com
+  Group : Contributors
+  UID   : 0273e632-852e-42d8-b204-762407354e57
+DELETE URL: https://media.os.wpp.com/api/az/groups/0273e632-852e-42d8-b204-762407354e57/users/a4b9851f-a015-4af2-9c65-287954954eaa
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/0273e632-852e-42d8-b204-762407354e57/users/a4b9851f-a015-4af2-9c65-287954954eaa
+
+PROCESSING DELETE:
+  User  : elizabeta.petras@wppmedia.com
+  Group : Paws & Tails Demo Users
+  UID   : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+DELETE URL: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/a4b9851f-a015-4af2-9c65-287954954eaa
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/a4b9851f-a015-4af2-9c65-287954954eaa
+
+PROCESSING DELETE:
+  User  : elizabeta.petras@wppmedia.com
+  Group : Owners
+  UID   : 24b470fd-5b61-4e58-99d7-e2f99b811752
+DELETE URL: https://media.os.wpp.com/api/az/groups/24b470fd-5b61-4e58-99d7-e2f99b811752/users/a4b9851f-a015-4af2-9c65-287954954eaa
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/24b470fd-5b61-4e58-99d7-e2f99b811752/users/a4b9851f-a015-4af2-9c65-287954954eaa
+
+PROCESSING DELETE:
+  User  : elizabeta.petras@wppmedia.com
+  Group : Owners
+  UID   : 7553984a-108f-44c2-9c19-773e40a36605
+DELETE URL: https://media.os.wpp.com/api/az/groups/7553984a-108f-44c2-9c19-773e40a36605/users/a4b9851f-a015-4af2-9c65-287954954eaa
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/7553984a-108f-44c2-9c19-773e40a36605/users/a4b9851f-a015-4af2-9c65-287954954eaa
+
+PROCESSING DELETE:
+  User  : elizabeta.petras@wppmedia.com
+  Group : Viewers
+  UID   : 474788b4-c317-4db7-8858-dec5b8dd332b
+DELETE URL: https://media.os.wpp.com/api/az/groups/474788b4-c317-4db7-8858-dec5b8dd332b/users/a4b9851f-a015-4af2-9c65-287954954eaa
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/474788b4-c317-4db7-8858-dec5b8dd332b/users/a4b9851f-a015-4af2-9c65-287954954eaa
+
+PROCESSING DELETE:
+  User  : elizabeta.petras@wppmedia.com
+  Group : Owners
+  UID   : 5ea5d910-41fe-4eba-8298-2c0ca6206a70
+DELETE URL: https://media.os.wpp.com/api/az/groups/5ea5d910-41fe-4eba-8298-2c0ca6206a70/users/a4b9851f-a015-4af2-9c65-287954954eaa
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/5ea5d910-41fe-4eba-8298-2c0ca6206a70/users/a4b9851f-a015-4af2-9c65-287954954eaa
+
+PROCESSING DELETE:
+  User  : elizabeta.petras@wppmedia.com
+  Group : OS Primary Users
+  UID   : 215a92c1-bf34-4cff-ab5e-7691176ca897
+DELETE URL: https://media.os.wpp.com/api/az/groups/215a92c1-bf34-4cff-ab5e-7691176ca897/users/a4b9851f-a015-4af2-9c65-287954954eaa
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/215a92c1-bf34-4cff-ab5e-7691176ca897/users/a4b9851f-a015-4af2-9c65-287954954eaa
+
+PROCESSING DELETE:
+  User  : elizabeta.petras@wppmedia.com
+  Group : Viewers
+  UID   : 0a54901e-99b9-412f-9bf6-68e58844e2cf
+DELETE URL: https://media.os.wpp.com/api/az/groups/0a54901e-99b9-412f-9bf6-68e58844e2cf/users/a4b9851f-a015-4af2-9c65-287954954eaa
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/0a54901e-99b9-412f-9bf6-68e58844e2cf/users/a4b9851f-a015-4af2-9c65-287954954eaa
+
+PROCESSING DELETE:
+  User  : elizabeta.petras@wppmedia.com
+  Group : Owners
+  UID   : 9a63f253-474d-4f1f-802e-71021c898649
+DELETE URL: https://media.os.wpp.com/api/az/groups/9a63f253-474d-4f1f-802e-71021c898649/users/a4b9851f-a015-4af2-9c65-287954954eaa
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/9a63f253-474d-4f1f-802e-71021c898649/users/a4b9851f-a015-4af2-9c65-287954954eaa
+
+--------------------------------------------------------------------------------
+GET USER: irena.matic@wppmedia.com
+URL: https://media.os.wpp.com/api/az/users/email/irena.matic@wppmedia.com
+HTTP STATUS: 200
+
+USER ID: 0d0c7fe2-3d01-43c2-98da-57f0e0b6dcba
+ALLOWED GROUP NAMES:
+  KEEP: berlin-chemie
+  KEEP: os default users
+
+TOTAL API MEMBERSHIPS: 7
+
+MEMBERSHIP:
+  name         : Paws & Tails Demo Users
+  uid          : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  account_name : Paws & Tails Co
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  account_name : Wpp-Open Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  account_name : WPP Pitch.OS Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  account_name : WPP Growth Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : c0345b17-a701-40ca-b9f0-d369eb74a63f
+  account_name : VML Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : BERLIN-CHEMIE
+  uid          : 2a28ae76-fcf8-420a-ab8a-7f6894611d8e
+  account_name : BERLIN-CHEMIE
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 8195758b-49b6-405a-934a-75fb0bc805b8
+  account_name : Media Organisations
+  ACTION       : KEEP
+
+================================================================================
+USER: irena.matic@wppmedia.com
+================================================================================
+
+GROUPS TO KEEP:
+  KEEP  | OS Default Users | 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  KEEP  | OS Default Users | 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  KEEP  | OS Default Users | 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  KEEP  | OS Default Users | c0345b17-a701-40ca-b9f0-d369eb74a63f
+  KEEP  | BERLIN-CHEMIE | 2a28ae76-fcf8-420a-ab8a-7f6894611d8e
+  KEEP  | OS Default Users | 8195758b-49b6-405a-934a-75fb0bc805b8
+
+GROUPS TO DELETE:
+  DELETE | Paws & Tails Demo Users | 6cd0c60b-2893-4b14-904a-2188b35b98e5
+
+PROCESSING DELETE:
+  User  : irena.matic@wppmedia.com
+  Group : Paws & Tails Demo Users
+  UID   : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+DELETE URL: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/0d0c7fe2-3d01-43c2-98da-57f0e0b6dcba
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/0d0c7fe2-3d01-43c2-98da-57f0e0b6dcba
+
+--------------------------------------------------------------------------------
+GET USER: ivana.hanzlic@wppmedia.com
+URL: https://media.os.wpp.com/api/az/users/email/ivana.hanzlic@wppmedia.com
+HTTP STATUS: 200
+
+USER ID: 6822c599-6dcc-4998-8937-5533feeae5e2
+ALLOWED GROUP NAMES:
+  KEEP: deichmann
+  KEEP: os default users
+
+TOTAL API MEMBERSHIPS: 7
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : c0345b17-a701-40ca-b9f0-d369eb74a63f
+  account_name : VML Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Paws & Tails Demo Users
+  uid          : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  account_name : Paws & Tails Co
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  account_name : Wpp-Open Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  account_name : WPP Pitch.OS Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  account_name : WPP Growth Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 8195758b-49b6-405a-934a-75fb0bc805b8
+  account_name : Media Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Deichmann
+  uid          : 34eab148-bd5f-4847-b95b-fc38669bc787
+  account_name : DEICHMANN
+  ACTION       : KEEP
+
+================================================================================
+USER: ivana.hanzlic@wppmedia.com
+================================================================================
+
+GROUPS TO KEEP:
+  KEEP  | OS Default Users | c0345b17-a701-40ca-b9f0-d369eb74a63f
+  KEEP  | OS Default Users | 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  KEEP  | OS Default Users | 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  KEEP  | OS Default Users | 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  KEEP  | OS Default Users | 8195758b-49b6-405a-934a-75fb0bc805b8
+  KEEP  | Deichmann | 34eab148-bd5f-4847-b95b-fc38669bc787
+
+GROUPS TO DELETE:
+  DELETE | Paws & Tails Demo Users | 6cd0c60b-2893-4b14-904a-2188b35b98e5
+
+PROCESSING DELETE:
+  User  : ivana.hanzlic@wppmedia.com
+  Group : Paws & Tails Demo Users
+  UID   : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+DELETE URL: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/6822c599-6dcc-4998-8937-5533feeae5e2
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/6822c599-6dcc-4998-8937-5533feeae5e2
+
+--------------------------------------------------------------------------------
+GET USER: katarina.batur@wppmedia.com
+URL: https://media.os.wpp.com/api/az/users/email/katarina.batur@wppmedia.com
+HTTP STATUS: 200
+
+USER ID: 5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+ALLOWED GROUP NAMES:
+  KEEP: bolt
+  KEEP: bolton group
+  KEEP: erste bank
+  KEEP: huawei
+  KEEP: jd sports
+  KEEP: mag noventa di piave
+  KEEP: os default users
+  KEEP: stock spirits
+  KEEP: total
+
+TOTAL API MEMBERSHIPS: 97
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  account_name : Wpp-Open Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Hub Viewers
+  uid          : e30a57b3-caa1-4e48-b687-0f665b652166
+  account_name : EMEA-Agency Hub
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : b70a2208-71a4-40f7-acdd-441e166fbbd6
+  account_name : Wavemaker Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Paws & Tails Demo Users
+  uid          : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  account_name : Paws & Tails Co
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 7d8fc89b-7da1-469d-ba08-e7553feff950
+  account_name : 2025|Slovenia|Silan|October-Dec|Vernel_FFI Gloria CX 25|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : WPPMedia-Slovenia Local
+  uid          : fa5fe899-1dc6-49af-bec1-5dd223eaa733
+  account_name : Slovenia
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 593160e3-816b-4f5b-b0a8-2e88357dfed7
+  account_name : 2025|Slovenia|Silan|October-Dec|Vernel Gloria 25|[10024069] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : e0173dc9-1527-48a2-9bda-1da5e7128055
+  account_name : 2025|Slovenia|Syoss_Color|August_October|Syoss_MBR Keratin RL 25|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : a986b224-f7da-437a-a3bb-045a3c65fe83
+  account_name : 2025|Slovenia|Somat|April-June|Switch & Save RL 23|[10022632] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 6dde51f6-3226-4203-bcbe-6497c8e5eb92
+  account_name : Henkel Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 6f7e136d-cdf3-4c6f-9606-2b1f9819e38d
+  account_name : 2025|Slovenia|Persil|May_August|Persil_FCN YAGYB ANZ & EU B 25|[10022945] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : f6d88cae-4bd4-4b86-a53a-53e4913c3fae
+  account_name : 2025|Slovenia|Perwoll|May_September|Perwoll_FCA Touch of New B 25|[10022507] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 2d82af1c-cf05-4167-a3e6-3b98a27b016c
+  account_name : 2025|Slovenia|Somat|July-Sept|Somat_ADW ADD RL25|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : aac23833-d07d-499d-ace3-99eef0ebe459
+  account_name : 2025|Slovenia|Taft|Sept_Nov|SK Taft Hair Spray Range 2024|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 9390df6a-840b-48d9-89da-dc95dad4ae3c
+  account_name : 2025|Slovenia|Taft|July_Sept|Taft_STY Aloe Boost B 25|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : cd4ba40f-684a-4c8c-bb70-86d336593dcd
+  account_name : 2025|Slovenia|Syoss_Color|November_December|Syoss_COL Root Retouch RL 25|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 1dec0612-374c-4615-bf15-7d00e5cb7a4c
+  account_name : 2025|Slovenia|Perwoll|Sept_December|Glam 2024|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : bbcb01ea-0064-4a8d-b133-f6c2174a5084
+  account_name : 2025|Slovenia|Syoss_Color|April_August|Syoss_COL Keratin RL 25|[10022353] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : ca14be94-b711-4412-b7ec-e56d513c2ecf
+  account_name : 2025|Slovenia|Weisser_Riese|June-July|Mileage RL 2023 - Dodgeball Cold Water|[10023104] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 74a61123-922d-4290-a374-9a5bb4aaf198
+  account_name : 2025|Slovenia|Gliss|June_August|Gliss_CAR Liquid Silk LX|[10022982] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 7043a4ed-bba7-46bc-8d9b-71de976366fc
+  account_name : 2025|Slovenia|Syoss_Styling|November_Dec|Syoss_STY Curls RL 25|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : ef15b2ab-c5b8-4db7-b905-43c3d8f8ca88
+  account_name : 2025|Slovenia|Gliss|August_October|Gliss_CAR FH Wonder EU B 25|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 4fca55f7-0295-42b5-89d1-c3ffb952e1c1
+  account_name : 2025|Slovenia|Gliss|October_December|Gliss Night Elixir 2024|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 2813c716-fa31-4ece-ad3e-3cf04cea3aab
+  account_name : 2025|Slovenia|Schauma|April_August|Schauma_CAR Long Hair B 25|[10022525] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : adf810ae-1a28-42e7-9566-e08af1867fcf
+  account_name : 2025_Slovenia_Bref_Campaign Name goes Here_TEST Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 965da9bd-94fd-4ecb-8a93-d901b8b26773
+  account_name : 2025|Slovenia|Syoss_Care|August_Sept|Syoss_MBR Keratin RL 25|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 16644e95-7e5c-47d5-aed9-5534918784ff
+  account_name : 2025|Slovenia|Bref|June_July|Power Active RL 24|[10023008] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 2466b186-f803-4232-b77a-21fbbd7edbe0
+  account_name : 2025|Slovenia|Syoss_Care|October_Dec|Syoss_CAR Curls RL 25|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : dd674424-537c-4bc8-a624-e90874934bb4
+  account_name : 2025|Slovenia|Taft|May_July|SK Taft Hair Spray Range 2024|[10022689] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 4fab8f7c-ca63-4cc2-8e3a-c5939db4f3bd
+  account_name : 2025|Slovenia|Taft|November_Dec|Taft x Gliss LE 2024|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 89a4f474-6a51-4267-befb-ca6534bcd42f
+  account_name : 2025|Slovenia|Somat|October-Dec|Somat Excellence Premium 5in1|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : c500d794-7545-4525-8505-1caa7e4765ce
+  account_name : 2025|Slovenia|Palette_DX|July_Sept|Palette DX INT MoJ 24|[10023289]  Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 2daa2f3e-22fe-49a3-9eb1-a37ac4e4e236
+  account_name : 2025|Slovenia|Syoss_Styling|May_July|Syoss_MBR Keratin RL 25|[10022551] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : c688a7cf-926d-4506-8633-d39b062133d0
+  account_name : 2025|Slovenia|Syoss_Color|August_October|Syoss_MBR Keratin RL 25|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : c42c25f2-b0aa-4701-8bd8-97719c915f88
+  account_name : 2025|Slovenia|Palette_ICC|October_Dec|Palette ICC MoJ 2024|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 51db03e7-2b2b-4222-8c5f-9f2585f4ff71
+  account_name : 2025|Slovenia|Syoss_Care|June_July|Syoss_MBR Keratin RL 25|[10022526] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 26ad5bbb-3cbd-4f27-84d1-e7570419200d
+  account_name : 2025|Slovenia|Bref|August_Dec|Power Active RL 24|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 79c8fc41-b4c5-438e-882b-1a3abc6f7d15
+  account_name : 2025|Slovenia|Persil|Sept_December|Persil_FCN YAGYB ANZ & EU B 25|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : a06c93a7-0c1f-42f2-907f-70b408e3e487
+  account_name : 2025|Slovenia|Syoss_Color|April_August|Syoss_MBR Keratin RL 25|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 9ec5aecf-a27f-4202-bc0a-008be60827bf
+  account_name : 2025|Slovenia|Syoss_Color|November_December|Syoss_COL Root Retouch RL 25|[DAP ID Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 67472bf9-4e38-4c23-911b-bec59b31270c
+  account_name : 2025|Slovenia|Pril|August_November|Icebreaker - Pril 48h|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 0ea81edd-7220-43d3-95a7-53da96f09f27
+  account_name : 2025|Slovenia|Silan|June_July|Bomb of Freshness|[10023006] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 17d108b7-6aea-4faf-9e56-e8f66dbe1610
+  account_name : 2025|Slovenia|Schauma|October_December|Schauma_CAR Core B 25|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : cf87ec70-9240-4067-85d3-62154193ed31
+  account_name : 2025|Slovenia|Creme.Supreme|July-Dec|SK_COL CremeSupreme B 25|[10023174 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : e8d6c9e9-0465-405f-84a2-81e666f9f75c
+  account_name : 2025|Slovenia|Got2b|May-Jul|Got2b_STY Topseller B 25|[10022946] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 325a35a4-b368-48bb-a925-feb603ce2d38
+  account_name : 2025|Slovenia|Got2b|October-Dec|Got2b_STY Topseller B 25|[DAP ID] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 225de5d4-497b-4f5a-b98b-37d57315f29e
+  account_name : 2025|Slovenia|Perwoll|Oct_December|Glam 2024|[10024016 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 7e876e40-f717-4a76-97c1-cca933c3f7a1
+  account_name : 2025|Slovenia|Syoss_Styling|October_Dec|Syoss_MBR Keratin RL 25|[10024066 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : ff330feb-329f-4117-a10f-b24ba1e48af5
+  account_name : 2025|Slovenia|Got2b|October-Dec|Got2b_STY Topseller B 25|[10024106 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : e28e7923-227f-49e8-af0b-9f986f7dafae
+  account_name : 2025|Slovenia|Silan|October-Dec|Vernel_FFI Gloria CX 25|[10024069 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 8195758b-49b6-405a-934a-75fb0bc805b8
+  account_name : Media Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : aa4501fd-3542-48d4-910c-943fd112c22a
+  account_name : 2025|Slovenia|Somat|October-Dec|Somat Excellence Premium 5in1|[10024070 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : d4b1ee54-865e-4045-aee2-cd1c52833006
+  account_name : Erste Bank Croatia - Brand building Q1 / 2026 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 2ecc625e-916c-4c66-a4a0-74d80c334a1f
+  account_name : 2025|Slovenia|Gliss|October_December|Gliss Oil Nutritive 2024|[10024015 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 02ecbedd-97ae-463d-a880-69af5095af71
+  account_name : 2025|Slovenia|Palette_ICC|October_Dec|Palette ICC MoJ 2024|[10024013 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 0dc450e9-4ea3-497d-8306-1862f88d5b31
+  account_name : 2025|Slovenia|Schauma|October_December|Schauma_CAR Core B 25|[10024014 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 944be14c-2c3c-4a83-899d-17eecb18334f
+  account_name : 2025|Slovenia|Syoss_Care|October_Dec|Syoss_MBR Keratin RL 25|[10024063 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : MAG Noventa di Piave
+  uid          : 3d5c5687-05e1-4a85-aeae-79b8b92e755e
+  account_name : MAG Noventa di Piave
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 23c9132c-2c1b-47e1-8323-5f230210e094
+  account_name : 2025|Slovenia|Silan|Nov-Dec|Vernel_FFI Serendipity RL 25|[10024206 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  account_name : WPP Growth Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 0024a0f7-8f79-4bd2-80fc-8605b6435f4e
+  account_name : 2025|Slovenia|Taft|November_Dec|Taft x Gliss LE 2024|[10024222 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : a0cab1d7-e1a4-4e8f-b364-910d194e6fb9
+  account_name : 2025|Slovenia|Syoss_Color|November_December|Syoss_COL Root Retouch RL 25|[10024207 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 5672c8bb-56de-4559-89ba-acc5e37c7f82
+  account_name : 2025|Slovenia|Silan|August_October|Bomb of Freshness|[10023458] Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 711e91ab-465b-45e3-bce5-2aad95b458fc
+  account_name : 2025|Slovenia|Pril|November-Dec|Icebreaker - Pril 48h|[10024208 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 2c50291f-9bb7-4e0b-b8cf-041a6b68146c
+  account_name : TEST Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Total
+  uid          : 169e1e34-a045-4590-aacd-0b49e2e1a1f8
+  account_name : Total
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : d98daf02-b7ee-4192-b024-6e1cc47b0296
+  account_name : 2026|HR|CREME SUPREME|SK_COL CremeSupreme B 25|012026|STANDARD|10025357 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 1925a474-56f8-4469-950f-8fa90e499b00
+  account_name : 2026|HR|PERWOLL|Glam 2024|012026|STANDARD|DAP ID Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 1ff55306-e084-4a0a-8256-d4c4a32653d1
+  account_name : 2026|HR|PERWOLL|Glam 2024|012026|STANDARD|10025369 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 41a9237b-6029-4ceb-af00-c04f8c35a1e7
+  account_name : 2026--HR--WEISSER RIESE--Mileage RL 2023 - Dodgeball Cold Water--012026--10025398 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : d355dc79-a79f-4e24-b36e-66f57e61f2e1
+  account_name : 2026|HR|PALETTE|Palette DX INT MoJ 24|012026|STANDARD|10025371 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 63c47b08-7b90-4c7e-a427-50b76ac2e9dd
+  account_name : 2026|HR|GOT2B|Got2b_STY Topseller B 25|012026|STANDARD|10025370 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 9e40abaa-cf3c-4ad9-ba61-81ed695143e0
+  account_name : 2026|HR|SCHAUMA|Schauma_CAR Core B 25|012026|STANDARD|10025397 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : e2e8b70c-0f86-4278-b0fe-0e363f669184
+  account_name : 2026|HR|SYOSS|Syoss_COL Keratin RL 25|012026|STANDARD|10025405 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 8bf1a9e7-c93b-4092-9326-ed680729c5db
+  account_name : 2026|HR|TAFT|Taft_STY Core B 25|012026|STANDARD|10025373 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 09f77fe3-7bbe-4cbf-a445-d7cf59e7745a
+  account_name : 2026|HR|PERSIL|Persil_FCN YAGYB 1 ANZ&EU B 25|012026|STANDARD|10025360 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : b742e1d9-9dad-4d7d-b2b3-3f0c08c740c0
+  account_name : 2026--HR--SOMAT--Somat Excellence Premium 5in1--012026--STANDARD--10025367 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 477550f5-9e19-490a-85e4-40c04ecd2829
+  account_name : 2026--HR--SOMAT--Somat_ADW ADD RL25--012026--STANDARD--10025368 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : f0880734-dccd-45c4-8253-85ce1c909cb7
+  account_name : 2026--HR--BREF--Power Active RL 24-012026--STANDARD--10025396 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : f8569d95-5bcc-46bf-85e0-483c22ecff6d
+  account_name : 2026|HR|GLISS|Gliss_CAR FH Wonder EU B 25|012026|STANDARD|10025359 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : b091fe20-173f-4468-9cd8-d457944e62ab
+  account_name : 2026|HR|SYOSS|Syoss_CAR Keratin RL 25|012026|STANDARD|10025358 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : WPPMedia-Croatia Local
+  uid          : 462cb830-a013-4f43-9988-9562fb1b984b
+  account_name : Henkel Organisations
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 324f9f3a-5959-49f1-a66d-0c44064c669e
+  account_name : Allianz Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Viewers
+  uid          : 474788b4-c317-4db7-8858-dec5b8dd332b
+  account_name : Croatia training Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Unified Brief Access
+  uid          : ba9a28d0-ba2f-4b80-9647-1c8f535c2f86
+  account_name : Sephona Organisations
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : a178a6e8-9168-425b-acdf-a720d687e1da
+  account_name : Kaufland Campaign 2026 (T) - CR Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 28ea89b6-639d-42af-80a0-7f400be5e8ed
+  account_name : Sephona Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : e3987c1e-103c-4600-9f24-e59b12e6890c
+  account_name : OMS DPAM Project Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Allianz WPP Open Champions
+  uid          : 1923201f-ab20-4b90-a52c-b60dfd9b6d5a
+  account_name : Allianz
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Felix Austria GesmbH
+  uid          : a94b1040-611c-417d-a03b-8dc910dd5861
+  account_name : Felix Austria GesmbH
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Huawei
+  uid          : 39de5410-73c9-4e1a-ae2e-ac5c48ef8633
+  account_name : Huawei
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : JD Sports
+  uid          : cf530850-2996-4f7d-8cdc-5dad74086999
+  account_name : JD Sports
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Bolt
+  uid          : 536bc07e-8f05-431f-bfa3-e1e6b807b010
+  account_name : Bolt
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Erste Bank
+  uid          : c9ae2790-ee73-4f89-a225-f16ebc2a40af
+  account_name : Media Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 1398a53d-f024-4780-89ce-98e88dbb0bd8
+  account_name : Nestle Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Stock Spirits
+  uid          : db76c38d-40cb-4d9e-ae2b-793ef530ca08
+  account_name : Stock Spirits
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Bolton Group
+  uid          : ccf5973d-013c-4fba-918e-952b0409526c
+  account_name : Bolton Group
+  ACTION       : KEEP
+
+================================================================================
+USER: katarina.batur@wppmedia.com
+================================================================================
+
+GROUPS TO KEEP:
+  KEEP  | OS Default Users | 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  KEEP  | OS Default Users | b70a2208-71a4-40f7-acdd-441e166fbbd6
+  KEEP  | OS Default Users | 6dde51f6-3226-4203-bcbe-6497c8e5eb92
+  KEEP  | OS Default Users | 8195758b-49b6-405a-934a-75fb0bc805b8
+  KEEP  | MAG Noventa di Piave | 3d5c5687-05e1-4a85-aeae-79b8b92e755e
+  KEEP  | OS Default Users | 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  KEEP  | Total | 169e1e34-a045-4590-aacd-0b49e2e1a1f8
+  KEEP  | OS Default Users | 324f9f3a-5959-49f1-a66d-0c44064c669e
+  KEEP  | OS Default Users | 28ea89b6-639d-42af-80a0-7f400be5e8ed
+  KEEP  | Huawei | 39de5410-73c9-4e1a-ae2e-ac5c48ef8633
+  KEEP  | JD Sports | cf530850-2996-4f7d-8cdc-5dad74086999
+  KEEP  | Bolt | 536bc07e-8f05-431f-bfa3-e1e6b807b010
+  KEEP  | Erste Bank | c9ae2790-ee73-4f89-a225-f16ebc2a40af
+  KEEP  | OS Default Users | 1398a53d-f024-4780-89ce-98e88dbb0bd8
+  KEEP  | Stock Spirits | db76c38d-40cb-4d9e-ae2b-793ef530ca08
+  KEEP  | Bolton Group | ccf5973d-013c-4fba-918e-952b0409526c
+
+GROUPS TO DELETE:
+  DELETE | Hub Viewers | e30a57b3-caa1-4e48-b687-0f665b652166
+  DELETE | Paws & Tails Demo Users | 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  DELETE | Contributors | 7d8fc89b-7da1-469d-ba08-e7553feff950
+  DELETE | WPPMedia-Slovenia Local | fa5fe899-1dc6-49af-bec1-5dd223eaa733
+  DELETE | Contributors | 593160e3-816b-4f5b-b0a8-2e88357dfed7
+  DELETE | Contributors | e0173dc9-1527-48a2-9bda-1da5e7128055
+  DELETE | Contributors | a986b224-f7da-437a-a3bb-045a3c65fe83
+  DELETE | Contributors | 6f7e136d-cdf3-4c6f-9606-2b1f9819e38d
+  DELETE | Contributors | f6d88cae-4bd4-4b86-a53a-53e4913c3fae
+  DELETE | Contributors | 2d82af1c-cf05-4167-a3e6-3b98a27b016c
+  DELETE | Contributors | aac23833-d07d-499d-ace3-99eef0ebe459
+  DELETE | Contributors | 9390df6a-840b-48d9-89da-dc95dad4ae3c
+  DELETE | Contributors | cd4ba40f-684a-4c8c-bb70-86d336593dcd
+  DELETE | Contributors | 1dec0612-374c-4615-bf15-7d00e5cb7a4c
+  DELETE | Contributors | bbcb01ea-0064-4a8d-b133-f6c2174a5084
+  DELETE | Contributors | ca14be94-b711-4412-b7ec-e56d513c2ecf
+  DELETE | Contributors | 74a61123-922d-4290-a374-9a5bb4aaf198
+  DELETE | Contributors | 7043a4ed-bba7-46bc-8d9b-71de976366fc
+  DELETE | Contributors | ef15b2ab-c5b8-4db7-b905-43c3d8f8ca88
+  DELETE | Contributors | 4fca55f7-0295-42b5-89d1-c3ffb952e1c1
+  DELETE | Contributors | 2813c716-fa31-4ece-ad3e-3cf04cea3aab
+  DELETE | Contributors | adf810ae-1a28-42e7-9566-e08af1867fcf
+  DELETE | Contributors | 965da9bd-94fd-4ecb-8a93-d901b8b26773
+  DELETE | Contributors | 16644e95-7e5c-47d5-aed9-5534918784ff
+  DELETE | Contributors | 2466b186-f803-4232-b77a-21fbbd7edbe0
+  DELETE | Contributors | dd674424-537c-4bc8-a624-e90874934bb4
+  DELETE | Contributors | 4fab8f7c-ca63-4cc2-8e3a-c5939db4f3bd
+  DELETE | Contributors | 89a4f474-6a51-4267-befb-ca6534bcd42f
+  DELETE | Contributors | c500d794-7545-4525-8505-1caa7e4765ce
+  DELETE | Contributors | 2daa2f3e-22fe-49a3-9eb1-a37ac4e4e236
+  DELETE | Contributors | c688a7cf-926d-4506-8633-d39b062133d0
+  DELETE | Contributors | c42c25f2-b0aa-4701-8bd8-97719c915f88
+  DELETE | Contributors | 51db03e7-2b2b-4222-8c5f-9f2585f4ff71
+  DELETE | Contributors | 26ad5bbb-3cbd-4f27-84d1-e7570419200d
+  DELETE | Contributors | 79c8fc41-b4c5-438e-882b-1a3abc6f7d15
+  DELETE | Contributors | a06c93a7-0c1f-42f2-907f-70b408e3e487
+  DELETE | Contributors | 9ec5aecf-a27f-4202-bc0a-008be60827bf
+  DELETE | Contributors | 67472bf9-4e38-4c23-911b-bec59b31270c
+  DELETE | Contributors | 0ea81edd-7220-43d3-95a7-53da96f09f27
+  DELETE | Contributors | 17d108b7-6aea-4faf-9e56-e8f66dbe1610
+  DELETE | Contributors | cf87ec70-9240-4067-85d3-62154193ed31
+  DELETE | Contributors | e8d6c9e9-0465-405f-84a2-81e666f9f75c
+  DELETE | Contributors | 325a35a4-b368-48bb-a925-feb603ce2d38
+  DELETE | Owners | 225de5d4-497b-4f5a-b98b-37d57315f29e
+  DELETE | Owners | 7e876e40-f717-4a76-97c1-cca933c3f7a1
+  DELETE | Owners | ff330feb-329f-4117-a10f-b24ba1e48af5
+  DELETE | Owners | e28e7923-227f-49e8-af0b-9f986f7dafae
+  DELETE | Owners | aa4501fd-3542-48d4-910c-943fd112c22a
+  DELETE | Owners | d4b1ee54-865e-4045-aee2-cd1c52833006
+  DELETE | Owners | 2ecc625e-916c-4c66-a4a0-74d80c334a1f
+  DELETE | Owners | 02ecbedd-97ae-463d-a880-69af5095af71
+  DELETE | Owners | 0dc450e9-4ea3-497d-8306-1862f88d5b31
+  DELETE | Owners | 944be14c-2c3c-4a83-899d-17eecb18334f
+  DELETE | Owners | 23c9132c-2c1b-47e1-8323-5f230210e094
+  DELETE | Owners | 0024a0f7-8f79-4bd2-80fc-8605b6435f4e
+  DELETE | Owners | a0cab1d7-e1a4-4e8f-b364-910d194e6fb9
+  DELETE | Owners | 5672c8bb-56de-4559-89ba-acc5e37c7f82
+  DELETE | Owners | 711e91ab-465b-45e3-bce5-2aad95b458fc
+  DELETE | Owners | 2c50291f-9bb7-4e0b-b8cf-041a6b68146c
+  DELETE | Owners | d98daf02-b7ee-4192-b024-6e1cc47b0296
+  DELETE | Owners | 1925a474-56f8-4469-950f-8fa90e499b00
+  DELETE | Owners | 1ff55306-e084-4a0a-8256-d4c4a32653d1
+  DELETE | Owners | 41a9237b-6029-4ceb-af00-c04f8c35a1e7
+  DELETE | Owners | d355dc79-a79f-4e24-b36e-66f57e61f2e1
+  DELETE | Owners | 63c47b08-7b90-4c7e-a427-50b76ac2e9dd
+  DELETE | Owners | 9e40abaa-cf3c-4ad9-ba61-81ed695143e0
+  DELETE | Owners | e2e8b70c-0f86-4278-b0fe-0e363f669184
+  DELETE | Owners | 8bf1a9e7-c93b-4092-9326-ed680729c5db
+  DELETE | Owners | 09f77fe3-7bbe-4cbf-a445-d7cf59e7745a
+  DELETE | Owners | b742e1d9-9dad-4d7d-b2b3-3f0c08c740c0
+  DELETE | Owners | 477550f5-9e19-490a-85e4-40c04ecd2829
+  DELETE | Owners | f0880734-dccd-45c4-8253-85ce1c909cb7
+  DELETE | Owners | f8569d95-5bcc-46bf-85e0-483c22ecff6d
+  DELETE | Owners | b091fe20-173f-4468-9cd8-d457944e62ab
+  DELETE | WPPMedia-Croatia Local | 462cb830-a013-4f43-9988-9562fb1b984b
+  DELETE | Viewers | 474788b4-c317-4db7-8858-dec5b8dd332b
+  DELETE | Unified Brief Access | ba9a28d0-ba2f-4b80-9647-1c8f535c2f86
+  DELETE | Contributors | a178a6e8-9168-425b-acdf-a720d687e1da
+  DELETE | Contributors | e3987c1e-103c-4600-9f24-e59b12e6890c
+  DELETE | Allianz WPP Open Champions | 1923201f-ab20-4b90-a52c-b60dfd9b6d5a
+  DELETE | Felix Austria GesmbH | a94b1040-611c-417d-a03b-8dc910dd5861
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Hub Viewers
+  UID   : e30a57b3-caa1-4e48-b687-0f665b652166
+DELETE URL: https://media.os.wpp.com/api/az/groups/e30a57b3-caa1-4e48-b687-0f665b652166/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/e30a57b3-caa1-4e48-b687-0f665b652166/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Paws & Tails Demo Users
+  UID   : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+DELETE URL: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 7d8fc89b-7da1-469d-ba08-e7553feff950
+DELETE URL: https://media.os.wpp.com/api/az/groups/7d8fc89b-7da1-469d-ba08-e7553feff950/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/7d8fc89b-7da1-469d-ba08-e7553feff950/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : WPPMedia-Slovenia Local
+  UID   : fa5fe899-1dc6-49af-bec1-5dd223eaa733
+DELETE URL: https://media.os.wpp.com/api/az/groups/fa5fe899-1dc6-49af-bec1-5dd223eaa733/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/fa5fe899-1dc6-49af-bec1-5dd223eaa733/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 593160e3-816b-4f5b-b0a8-2e88357dfed7
+DELETE URL: https://media.os.wpp.com/api/az/groups/593160e3-816b-4f5b-b0a8-2e88357dfed7/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/593160e3-816b-4f5b-b0a8-2e88357dfed7/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : e0173dc9-1527-48a2-9bda-1da5e7128055
+DELETE URL: https://media.os.wpp.com/api/az/groups/e0173dc9-1527-48a2-9bda-1da5e7128055/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/e0173dc9-1527-48a2-9bda-1da5e7128055/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : a986b224-f7da-437a-a3bb-045a3c65fe83
+DELETE URL: https://media.os.wpp.com/api/az/groups/a986b224-f7da-437a-a3bb-045a3c65fe83/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/a986b224-f7da-437a-a3bb-045a3c65fe83/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 6f7e136d-cdf3-4c6f-9606-2b1f9819e38d
+DELETE URL: https://media.os.wpp.com/api/az/groups/6f7e136d-cdf3-4c6f-9606-2b1f9819e38d/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/6f7e136d-cdf3-4c6f-9606-2b1f9819e38d/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : f6d88cae-4bd4-4b86-a53a-53e4913c3fae
+DELETE URL: https://media.os.wpp.com/api/az/groups/f6d88cae-4bd4-4b86-a53a-53e4913c3fae/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/f6d88cae-4bd4-4b86-a53a-53e4913c3fae/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 2d82af1c-cf05-4167-a3e6-3b98a27b016c
+DELETE URL: https://media.os.wpp.com/api/az/groups/2d82af1c-cf05-4167-a3e6-3b98a27b016c/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/2d82af1c-cf05-4167-a3e6-3b98a27b016c/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : aac23833-d07d-499d-ace3-99eef0ebe459
+DELETE URL: https://media.os.wpp.com/api/az/groups/aac23833-d07d-499d-ace3-99eef0ebe459/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/aac23833-d07d-499d-ace3-99eef0ebe459/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 9390df6a-840b-48d9-89da-dc95dad4ae3c
+DELETE URL: https://media.os.wpp.com/api/az/groups/9390df6a-840b-48d9-89da-dc95dad4ae3c/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/9390df6a-840b-48d9-89da-dc95dad4ae3c/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : cd4ba40f-684a-4c8c-bb70-86d336593dcd
+DELETE URL: https://media.os.wpp.com/api/az/groups/cd4ba40f-684a-4c8c-bb70-86d336593dcd/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/cd4ba40f-684a-4c8c-bb70-86d336593dcd/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 1dec0612-374c-4615-bf15-7d00e5cb7a4c
+DELETE URL: https://media.os.wpp.com/api/az/groups/1dec0612-374c-4615-bf15-7d00e5cb7a4c/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/1dec0612-374c-4615-bf15-7d00e5cb7a4c/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : bbcb01ea-0064-4a8d-b133-f6c2174a5084
+DELETE URL: https://media.os.wpp.com/api/az/groups/bbcb01ea-0064-4a8d-b133-f6c2174a5084/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/bbcb01ea-0064-4a8d-b133-f6c2174a5084/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : ca14be94-b711-4412-b7ec-e56d513c2ecf
+DELETE URL: https://media.os.wpp.com/api/az/groups/ca14be94-b711-4412-b7ec-e56d513c2ecf/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/ca14be94-b711-4412-b7ec-e56d513c2ecf/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 74a61123-922d-4290-a374-9a5bb4aaf198
+DELETE URL: https://media.os.wpp.com/api/az/groups/74a61123-922d-4290-a374-9a5bb4aaf198/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/74a61123-922d-4290-a374-9a5bb4aaf198/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 7043a4ed-bba7-46bc-8d9b-71de976366fc
+DELETE URL: https://media.os.wpp.com/api/az/groups/7043a4ed-bba7-46bc-8d9b-71de976366fc/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/7043a4ed-bba7-46bc-8d9b-71de976366fc/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : ef15b2ab-c5b8-4db7-b905-43c3d8f8ca88
+DELETE URL: https://media.os.wpp.com/api/az/groups/ef15b2ab-c5b8-4db7-b905-43c3d8f8ca88/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/ef15b2ab-c5b8-4db7-b905-43c3d8f8ca88/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 4fca55f7-0295-42b5-89d1-c3ffb952e1c1
+DELETE URL: https://media.os.wpp.com/api/az/groups/4fca55f7-0295-42b5-89d1-c3ffb952e1c1/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/4fca55f7-0295-42b5-89d1-c3ffb952e1c1/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 2813c716-fa31-4ece-ad3e-3cf04cea3aab
+DELETE URL: https://media.os.wpp.com/api/az/groups/2813c716-fa31-4ece-ad3e-3cf04cea3aab/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/2813c716-fa31-4ece-ad3e-3cf04cea3aab/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : adf810ae-1a28-42e7-9566-e08af1867fcf
+DELETE URL: https://media.os.wpp.com/api/az/groups/adf810ae-1a28-42e7-9566-e08af1867fcf/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/adf810ae-1a28-42e7-9566-e08af1867fcf/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 965da9bd-94fd-4ecb-8a93-d901b8b26773
+DELETE URL: https://media.os.wpp.com/api/az/groups/965da9bd-94fd-4ecb-8a93-d901b8b26773/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/965da9bd-94fd-4ecb-8a93-d901b8b26773/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 16644e95-7e5c-47d5-aed9-5534918784ff
+DELETE URL: https://media.os.wpp.com/api/az/groups/16644e95-7e5c-47d5-aed9-5534918784ff/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/16644e95-7e5c-47d5-aed9-5534918784ff/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 2466b186-f803-4232-b77a-21fbbd7edbe0
+DELETE URL: https://media.os.wpp.com/api/az/groups/2466b186-f803-4232-b77a-21fbbd7edbe0/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/2466b186-f803-4232-b77a-21fbbd7edbe0/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : dd674424-537c-4bc8-a624-e90874934bb4
+DELETE URL: https://media.os.wpp.com/api/az/groups/dd674424-537c-4bc8-a624-e90874934bb4/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/dd674424-537c-4bc8-a624-e90874934bb4/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 4fab8f7c-ca63-4cc2-8e3a-c5939db4f3bd
+DELETE URL: https://media.os.wpp.com/api/az/groups/4fab8f7c-ca63-4cc2-8e3a-c5939db4f3bd/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/4fab8f7c-ca63-4cc2-8e3a-c5939db4f3bd/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 89a4f474-6a51-4267-befb-ca6534bcd42f
+DELETE URL: https://media.os.wpp.com/api/az/groups/89a4f474-6a51-4267-befb-ca6534bcd42f/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/89a4f474-6a51-4267-befb-ca6534bcd42f/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : c500d794-7545-4525-8505-1caa7e4765ce
+DELETE URL: https://media.os.wpp.com/api/az/groups/c500d794-7545-4525-8505-1caa7e4765ce/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/c500d794-7545-4525-8505-1caa7e4765ce/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 2daa2f3e-22fe-49a3-9eb1-a37ac4e4e236
+DELETE URL: https://media.os.wpp.com/api/az/groups/2daa2f3e-22fe-49a3-9eb1-a37ac4e4e236/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/2daa2f3e-22fe-49a3-9eb1-a37ac4e4e236/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : c688a7cf-926d-4506-8633-d39b062133d0
+DELETE URL: https://media.os.wpp.com/api/az/groups/c688a7cf-926d-4506-8633-d39b062133d0/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/c688a7cf-926d-4506-8633-d39b062133d0/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : c42c25f2-b0aa-4701-8bd8-97719c915f88
+DELETE URL: https://media.os.wpp.com/api/az/groups/c42c25f2-b0aa-4701-8bd8-97719c915f88/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/c42c25f2-b0aa-4701-8bd8-97719c915f88/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 51db03e7-2b2b-4222-8c5f-9f2585f4ff71
+DELETE URL: https://media.os.wpp.com/api/az/groups/51db03e7-2b2b-4222-8c5f-9f2585f4ff71/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/51db03e7-2b2b-4222-8c5f-9f2585f4ff71/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 26ad5bbb-3cbd-4f27-84d1-e7570419200d
+DELETE URL: https://media.os.wpp.com/api/az/groups/26ad5bbb-3cbd-4f27-84d1-e7570419200d/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/26ad5bbb-3cbd-4f27-84d1-e7570419200d/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 79c8fc41-b4c5-438e-882b-1a3abc6f7d15
+DELETE URL: https://media.os.wpp.com/api/az/groups/79c8fc41-b4c5-438e-882b-1a3abc6f7d15/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/79c8fc41-b4c5-438e-882b-1a3abc6f7d15/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : a06c93a7-0c1f-42f2-907f-70b408e3e487
+DELETE URL: https://media.os.wpp.com/api/az/groups/a06c93a7-0c1f-42f2-907f-70b408e3e487/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/a06c93a7-0c1f-42f2-907f-70b408e3e487/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 9ec5aecf-a27f-4202-bc0a-008be60827bf
+DELETE URL: https://media.os.wpp.com/api/az/groups/9ec5aecf-a27f-4202-bc0a-008be60827bf/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/9ec5aecf-a27f-4202-bc0a-008be60827bf/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 67472bf9-4e38-4c23-911b-bec59b31270c
+DELETE URL: https://media.os.wpp.com/api/az/groups/67472bf9-4e38-4c23-911b-bec59b31270c/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/67472bf9-4e38-4c23-911b-bec59b31270c/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 0ea81edd-7220-43d3-95a7-53da96f09f27
+DELETE URL: https://media.os.wpp.com/api/az/groups/0ea81edd-7220-43d3-95a7-53da96f09f27/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/0ea81edd-7220-43d3-95a7-53da96f09f27/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 17d108b7-6aea-4faf-9e56-e8f66dbe1610
+DELETE URL: https://media.os.wpp.com/api/az/groups/17d108b7-6aea-4faf-9e56-e8f66dbe1610/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/17d108b7-6aea-4faf-9e56-e8f66dbe1610/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : cf87ec70-9240-4067-85d3-62154193ed31
+DELETE URL: https://media.os.wpp.com/api/az/groups/cf87ec70-9240-4067-85d3-62154193ed31/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/cf87ec70-9240-4067-85d3-62154193ed31/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : e8d6c9e9-0465-405f-84a2-81e666f9f75c
+DELETE URL: https://media.os.wpp.com/api/az/groups/e8d6c9e9-0465-405f-84a2-81e666f9f75c/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/e8d6c9e9-0465-405f-84a2-81e666f9f75c/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : 325a35a4-b368-48bb-a925-feb603ce2d38
+DELETE URL: https://media.os.wpp.com/api/az/groups/325a35a4-b368-48bb-a925-feb603ce2d38/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/325a35a4-b368-48bb-a925-feb603ce2d38/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 225de5d4-497b-4f5a-b98b-37d57315f29e
+DELETE URL: https://media.os.wpp.com/api/az/groups/225de5d4-497b-4f5a-b98b-37d57315f29e/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/225de5d4-497b-4f5a-b98b-37d57315f29e/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 7e876e40-f717-4a76-97c1-cca933c3f7a1
+DELETE URL: https://media.os.wpp.com/api/az/groups/7e876e40-f717-4a76-97c1-cca933c3f7a1/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/7e876e40-f717-4a76-97c1-cca933c3f7a1/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : ff330feb-329f-4117-a10f-b24ba1e48af5
+DELETE URL: https://media.os.wpp.com/api/az/groups/ff330feb-329f-4117-a10f-b24ba1e48af5/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/ff330feb-329f-4117-a10f-b24ba1e48af5/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : e28e7923-227f-49e8-af0b-9f986f7dafae
+DELETE URL: https://media.os.wpp.com/api/az/groups/e28e7923-227f-49e8-af0b-9f986f7dafae/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/e28e7923-227f-49e8-af0b-9f986f7dafae/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : aa4501fd-3542-48d4-910c-943fd112c22a
+DELETE URL: https://media.os.wpp.com/api/az/groups/aa4501fd-3542-48d4-910c-943fd112c22a/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/aa4501fd-3542-48d4-910c-943fd112c22a/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : d4b1ee54-865e-4045-aee2-cd1c52833006
+DELETE URL: https://media.os.wpp.com/api/az/groups/d4b1ee54-865e-4045-aee2-cd1c52833006/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/d4b1ee54-865e-4045-aee2-cd1c52833006/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 2ecc625e-916c-4c66-a4a0-74d80c334a1f
+DELETE URL: https://media.os.wpp.com/api/az/groups/2ecc625e-916c-4c66-a4a0-74d80c334a1f/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/2ecc625e-916c-4c66-a4a0-74d80c334a1f/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 02ecbedd-97ae-463d-a880-69af5095af71
+DELETE URL: https://media.os.wpp.com/api/az/groups/02ecbedd-97ae-463d-a880-69af5095af71/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/02ecbedd-97ae-463d-a880-69af5095af71/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 0dc450e9-4ea3-497d-8306-1862f88d5b31
+DELETE URL: https://media.os.wpp.com/api/az/groups/0dc450e9-4ea3-497d-8306-1862f88d5b31/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/0dc450e9-4ea3-497d-8306-1862f88d5b31/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 944be14c-2c3c-4a83-899d-17eecb18334f
+DELETE URL: https://media.os.wpp.com/api/az/groups/944be14c-2c3c-4a83-899d-17eecb18334f/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/944be14c-2c3c-4a83-899d-17eecb18334f/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 23c9132c-2c1b-47e1-8323-5f230210e094
+DELETE URL: https://media.os.wpp.com/api/az/groups/23c9132c-2c1b-47e1-8323-5f230210e094/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/23c9132c-2c1b-47e1-8323-5f230210e094/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 0024a0f7-8f79-4bd2-80fc-8605b6435f4e
+DELETE URL: https://media.os.wpp.com/api/az/groups/0024a0f7-8f79-4bd2-80fc-8605b6435f4e/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/0024a0f7-8f79-4bd2-80fc-8605b6435f4e/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : a0cab1d7-e1a4-4e8f-b364-910d194e6fb9
+DELETE URL: https://media.os.wpp.com/api/az/groups/a0cab1d7-e1a4-4e8f-b364-910d194e6fb9/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/a0cab1d7-e1a4-4e8f-b364-910d194e6fb9/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 5672c8bb-56de-4559-89ba-acc5e37c7f82
+DELETE URL: https://media.os.wpp.com/api/az/groups/5672c8bb-56de-4559-89ba-acc5e37c7f82/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/5672c8bb-56de-4559-89ba-acc5e37c7f82/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 711e91ab-465b-45e3-bce5-2aad95b458fc
+DELETE URL: https://media.os.wpp.com/api/az/groups/711e91ab-465b-45e3-bce5-2aad95b458fc/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/711e91ab-465b-45e3-bce5-2aad95b458fc/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 2c50291f-9bb7-4e0b-b8cf-041a6b68146c
+DELETE URL: https://media.os.wpp.com/api/az/groups/2c50291f-9bb7-4e0b-b8cf-041a6b68146c/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/2c50291f-9bb7-4e0b-b8cf-041a6b68146c/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : d98daf02-b7ee-4192-b024-6e1cc47b0296
+DELETE URL: https://media.os.wpp.com/api/az/groups/d98daf02-b7ee-4192-b024-6e1cc47b0296/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/d98daf02-b7ee-4192-b024-6e1cc47b0296/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 1925a474-56f8-4469-950f-8fa90e499b00
+DELETE URL: https://media.os.wpp.com/api/az/groups/1925a474-56f8-4469-950f-8fa90e499b00/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/1925a474-56f8-4469-950f-8fa90e499b00/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 1ff55306-e084-4a0a-8256-d4c4a32653d1
+DELETE URL: https://media.os.wpp.com/api/az/groups/1ff55306-e084-4a0a-8256-d4c4a32653d1/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/1ff55306-e084-4a0a-8256-d4c4a32653d1/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 41a9237b-6029-4ceb-af00-c04f8c35a1e7
+DELETE URL: https://media.os.wpp.com/api/az/groups/41a9237b-6029-4ceb-af00-c04f8c35a1e7/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/41a9237b-6029-4ceb-af00-c04f8c35a1e7/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : d355dc79-a79f-4e24-b36e-66f57e61f2e1
+DELETE URL: https://media.os.wpp.com/api/az/groups/d355dc79-a79f-4e24-b36e-66f57e61f2e1/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/d355dc79-a79f-4e24-b36e-66f57e61f2e1/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 63c47b08-7b90-4c7e-a427-50b76ac2e9dd
+DELETE URL: https://media.os.wpp.com/api/az/groups/63c47b08-7b90-4c7e-a427-50b76ac2e9dd/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/63c47b08-7b90-4c7e-a427-50b76ac2e9dd/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 9e40abaa-cf3c-4ad9-ba61-81ed695143e0
+DELETE URL: https://media.os.wpp.com/api/az/groups/9e40abaa-cf3c-4ad9-ba61-81ed695143e0/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/9e40abaa-cf3c-4ad9-ba61-81ed695143e0/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : e2e8b70c-0f86-4278-b0fe-0e363f669184
+DELETE URL: https://media.os.wpp.com/api/az/groups/e2e8b70c-0f86-4278-b0fe-0e363f669184/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/e2e8b70c-0f86-4278-b0fe-0e363f669184/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 8bf1a9e7-c93b-4092-9326-ed680729c5db
+DELETE URL: https://media.os.wpp.com/api/az/groups/8bf1a9e7-c93b-4092-9326-ed680729c5db/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/8bf1a9e7-c93b-4092-9326-ed680729c5db/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 09f77fe3-7bbe-4cbf-a445-d7cf59e7745a
+DELETE URL: https://media.os.wpp.com/api/az/groups/09f77fe3-7bbe-4cbf-a445-d7cf59e7745a/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/09f77fe3-7bbe-4cbf-a445-d7cf59e7745a/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : b742e1d9-9dad-4d7d-b2b3-3f0c08c740c0
+DELETE URL: https://media.os.wpp.com/api/az/groups/b742e1d9-9dad-4d7d-b2b3-3f0c08c740c0/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/b742e1d9-9dad-4d7d-b2b3-3f0c08c740c0/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : 477550f5-9e19-490a-85e4-40c04ecd2829
+DELETE URL: https://media.os.wpp.com/api/az/groups/477550f5-9e19-490a-85e4-40c04ecd2829/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/477550f5-9e19-490a-85e4-40c04ecd2829/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : f0880734-dccd-45c4-8253-85ce1c909cb7
+DELETE URL: https://media.os.wpp.com/api/az/groups/f0880734-dccd-45c4-8253-85ce1c909cb7/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/f0880734-dccd-45c4-8253-85ce1c909cb7/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : f8569d95-5bcc-46bf-85e0-483c22ecff6d
+DELETE URL: https://media.os.wpp.com/api/az/groups/f8569d95-5bcc-46bf-85e0-483c22ecff6d/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/f8569d95-5bcc-46bf-85e0-483c22ecff6d/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Owners
+  UID   : b091fe20-173f-4468-9cd8-d457944e62ab
+DELETE URL: https://media.os.wpp.com/api/az/groups/b091fe20-173f-4468-9cd8-d457944e62ab/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/b091fe20-173f-4468-9cd8-d457944e62ab/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : WPPMedia-Croatia Local
+  UID   : 462cb830-a013-4f43-9988-9562fb1b984b
+DELETE URL: https://media.os.wpp.com/api/az/groups/462cb830-a013-4f43-9988-9562fb1b984b/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/462cb830-a013-4f43-9988-9562fb1b984b/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Viewers
+  UID   : 474788b4-c317-4db7-8858-dec5b8dd332b
+DELETE URL: https://media.os.wpp.com/api/az/groups/474788b4-c317-4db7-8858-dec5b8dd332b/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/474788b4-c317-4db7-8858-dec5b8dd332b/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Unified Brief Access
+  UID   : ba9a28d0-ba2f-4b80-9647-1c8f535c2f86
+DELETE URL: https://media.os.wpp.com/api/az/groups/ba9a28d0-ba2f-4b80-9647-1c8f535c2f86/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/ba9a28d0-ba2f-4b80-9647-1c8f535c2f86/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : a178a6e8-9168-425b-acdf-a720d687e1da
+DELETE URL: https://media.os.wpp.com/api/az/groups/a178a6e8-9168-425b-acdf-a720d687e1da/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/a178a6e8-9168-425b-acdf-a720d687e1da/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Contributors
+  UID   : e3987c1e-103c-4600-9f24-e59b12e6890c
+DELETE URL: https://media.os.wpp.com/api/az/groups/e3987c1e-103c-4600-9f24-e59b12e6890c/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/e3987c1e-103c-4600-9f24-e59b12e6890c/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Allianz WPP Open Champions
+  UID   : 1923201f-ab20-4b90-a52c-b60dfd9b6d5a
+DELETE URL: https://media.os.wpp.com/api/az/groups/1923201f-ab20-4b90-a52c-b60dfd9b6d5a/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 204
+RESULT: DELETE SUCCESSFUL
+
+PROCESSING DELETE:
+  User  : katarina.batur@wppmedia.com
+  Group : Felix Austria GesmbH
+  UID   : a94b1040-611c-417d-a03b-8dc910dd5861
+DELETE URL: https://media.os.wpp.com/api/az/groups/a94b1040-611c-417d-a03b-8dc910dd5861/users/5cbe0aeb-5d4e-4733-8f3f-32a354b9910e
+DELETE HTTP STATUS: 204
+RESULT: DELETE SUCCESSFUL
+
+--------------------------------------------------------------------------------
+GET USER: lana.dolic@wppmedia.com
+URL: https://media.os.wpp.com/api/az/users/email/lana.dolic@wppmedia.com
+HTTP STATUS: 200
+
+USER ID: 30a52cbb-02f4-4d64-b3b7-6c392989d3fe
+ALLOWED GROUP NAMES:
+  KEEP: elanco
+  KEEP: os default users
+
+TOTAL API MEMBERSHIPS: 16
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : f12033f2-3097-4944-84b1-36a055c9cc23
+  account_name : HR I EU I Coca-Cola I ESG Consumer I Sustainability I Water I Water Replenishment Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 1f6517b0-f88d-45f7-90d0-149f8bc07982
+  account_name : HR| Powerade | Power Your Fate | Transactional | Reward Your Power Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 3191e541-087f-425d-bbe1-d7ff7461e854
+  account_name : HR | EU | 26 | SCHWEPPES | WITH TIME COMES TASTE | FOQ3 Tangerine Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Paws & Tails Demo Users
+  uid          : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  account_name : Paws & Tails Co
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  account_name : Wpp-Open Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  account_name : WPP Pitch.OS Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  account_name : WPP Growth Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Hub Viewers
+  uid          : 5376b58f-7eec-42b0-b182-ece3ecc50960
+  account_name : TCCC Workspace Hub
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Hub Viewers
+  uid          : 5bf131cb-962a-401d-8fc0-d65f27e9d5a5
+  account_name : WPP Open X Media Hub Hub
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : c0345b17-a701-40ca-b9f0-d369eb74a63f
+  account_name : VML Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : db475daf-74f5-45e5-871f-f013d8c4011c
+  account_name : HR | 26 | Sprite | It's that fresh | Global Moment | Summer | Calendar Moment 2 | GL2630007010 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 37a8a23f-bdb9-4b24-b74f-fb1ccb3e843b
+  account_name : The Coca Cola Company Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 5ea5d910-41fe-4eba-8298-2c0ca6206a70
+  account_name : HR | 26 | Fanta | Wanta Fanta | Core | Wanta | Calendar Moment 1 | GL2625116002 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 34f58aa5-799e-43af-9b49-86d452c17c9c
+  account_name : HR | 26 | Coca-Cola | Real Magic | Uplift | FIFA World Cup Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Elanco
+  uid          : 7576b467-cdf3-41b0-8ecf-45f61871242d
+  account_name : Elanco
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 8195758b-49b6-405a-934a-75fb0bc805b8
+  account_name : Media Organisations
+  ACTION       : KEEP
+
+================================================================================
+USER: lana.dolic@wppmedia.com
+================================================================================
+
+GROUPS TO KEEP:
+  KEEP  | OS Default Users | 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  KEEP  | OS Default Users | 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  KEEP  | OS Default Users | 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  KEEP  | OS Default Users | c0345b17-a701-40ca-b9f0-d369eb74a63f
+  KEEP  | OS Default Users | 37a8a23f-bdb9-4b24-b74f-fb1ccb3e843b
+  KEEP  | Elanco | 7576b467-cdf3-41b0-8ecf-45f61871242d
+  KEEP  | OS Default Users | 8195758b-49b6-405a-934a-75fb0bc805b8
+
+GROUPS TO DELETE:
+  DELETE | Owners | f12033f2-3097-4944-84b1-36a055c9cc23
+  DELETE | Owners | 1f6517b0-f88d-45f7-90d0-149f8bc07982
+  DELETE | Owners | 3191e541-087f-425d-bbe1-d7ff7461e854
+  DELETE | Paws & Tails Demo Users | 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  DELETE | Hub Viewers | 5376b58f-7eec-42b0-b182-ece3ecc50960
+  DELETE | Hub Viewers | 5bf131cb-962a-401d-8fc0-d65f27e9d5a5
+  DELETE | Owners | db475daf-74f5-45e5-871f-f013d8c4011c
+  DELETE | Owners | 5ea5d910-41fe-4eba-8298-2c0ca6206a70
+  DELETE | Owners | 34f58aa5-799e-43af-9b49-86d452c17c9c
+
+PROCESSING DELETE:
+  User  : lana.dolic@wppmedia.com
+  Group : Owners
+  UID   : f12033f2-3097-4944-84b1-36a055c9cc23
+DELETE URL: https://media.os.wpp.com/api/az/groups/f12033f2-3097-4944-84b1-36a055c9cc23/users/30a52cbb-02f4-4d64-b3b7-6c392989d3fe
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/f12033f2-3097-4944-84b1-36a055c9cc23/users/30a52cbb-02f4-4d64-b3b7-6c392989d3fe
+
+PROCESSING DELETE:
+  User  : lana.dolic@wppmedia.com
+  Group : Owners
+  UID   : 1f6517b0-f88d-45f7-90d0-149f8bc07982
+DELETE URL: https://media.os.wpp.com/api/az/groups/1f6517b0-f88d-45f7-90d0-149f8bc07982/users/30a52cbb-02f4-4d64-b3b7-6c392989d3fe
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/1f6517b0-f88d-45f7-90d0-149f8bc07982/users/30a52cbb-02f4-4d64-b3b7-6c392989d3fe
+
+PROCESSING DELETE:
+  User  : lana.dolic@wppmedia.com
+  Group : Owners
+  UID   : 3191e541-087f-425d-bbe1-d7ff7461e854
+DELETE URL: https://media.os.wpp.com/api/az/groups/3191e541-087f-425d-bbe1-d7ff7461e854/users/30a52cbb-02f4-4d64-b3b7-6c392989d3fe
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/3191e541-087f-425d-bbe1-d7ff7461e854/users/30a52cbb-02f4-4d64-b3b7-6c392989d3fe
+
+PROCESSING DELETE:
+  User  : lana.dolic@wppmedia.com
+  Group : Paws & Tails Demo Users
+  UID   : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+DELETE URL: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/30a52cbb-02f4-4d64-b3b7-6c392989d3fe
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/30a52cbb-02f4-4d64-b3b7-6c392989d3fe
+
+PROCESSING DELETE:
+  User  : lana.dolic@wppmedia.com
+  Group : Hub Viewers
+  UID   : 5376b58f-7eec-42b0-b182-ece3ecc50960
+DELETE URL: https://media.os.wpp.com/api/az/groups/5376b58f-7eec-42b0-b182-ece3ecc50960/users/30a52cbb-02f4-4d64-b3b7-6c392989d3fe
+DELETE HTTP STATUS: 204
+RESULT: DELETE SUCCESSFUL
+
+PROCESSING DELETE:
+  User  : lana.dolic@wppmedia.com
+  Group : Hub Viewers
+  UID   : 5bf131cb-962a-401d-8fc0-d65f27e9d5a5
+DELETE URL: https://media.os.wpp.com/api/az/groups/5bf131cb-962a-401d-8fc0-d65f27e9d5a5/users/30a52cbb-02f4-4d64-b3b7-6c392989d3fe
+DELETE HTTP STATUS: 204
+RESULT: DELETE SUCCESSFUL
+
+PROCESSING DELETE:
+  User  : lana.dolic@wppmedia.com
+  Group : Owners
+  UID   : db475daf-74f5-45e5-871f-f013d8c4011c
+DELETE URL: https://media.os.wpp.com/api/az/groups/db475daf-74f5-45e5-871f-f013d8c4011c/users/30a52cbb-02f4-4d64-b3b7-6c392989d3fe
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/db475daf-74f5-45e5-871f-f013d8c4011c/users/30a52cbb-02f4-4d64-b3b7-6c392989d3fe
+
+PROCESSING DELETE:
+  User  : lana.dolic@wppmedia.com
+  Group : Owners
+  UID   : 5ea5d910-41fe-4eba-8298-2c0ca6206a70
+DELETE URL: https://media.os.wpp.com/api/az/groups/5ea5d910-41fe-4eba-8298-2c0ca6206a70/users/30a52cbb-02f4-4d64-b3b7-6c392989d3fe
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/5ea5d910-41fe-4eba-8298-2c0ca6206a70/users/30a52cbb-02f4-4d64-b3b7-6c392989d3fe
+
+PROCESSING DELETE:
+  User  : lana.dolic@wppmedia.com
+  Group : Owners
+  UID   : 34f58aa5-799e-43af-9b49-86d452c17c9c
+DELETE URL: https://media.os.wpp.com/api/az/groups/34f58aa5-799e-43af-9b49-86d452c17c9c/users/30a52cbb-02f4-4d64-b3b7-6c392989d3fe
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/34f58aa5-799e-43af-9b49-86d452c17c9c/users/30a52cbb-02f4-4d64-b3b7-6c392989d3fe
+
+--------------------------------------------------------------------------------
+GET USER: mihael.devunic@wppmedia.com
+URL: https://media.os.wpp.com/api/az/users/email/mihael.devunic@wppmedia.com
+HTTP STATUS: 200
+
+USER ID: d05d352f-1166-4731-bd28-057c2295a0fe
+ALLOWED GROUP NAMES:
+  KEEP: luckia gaming group
+  KEEP: mag noventa di piave
+  KEEP: os default users
+
+TOTAL API MEMBERSHIPS: 8
+
+MEMBERSHIP:
+  name         : Paws & Tails Demo Users
+  uid          : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  account_name : Paws & Tails Co
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  account_name : Wpp-Open Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  account_name : WPP Pitch.OS Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  account_name : WPP Growth Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : c0345b17-a701-40ca-b9f0-d369eb74a63f
+  account_name : VML Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 8195758b-49b6-405a-934a-75fb0bc805b8
+  account_name : Media Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : MAG Noventa di Piave
+  uid          : 3d5c5687-05e1-4a85-aeae-79b8b92e755e
+  account_name : MAG Noventa di Piave
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Luckia Gaming Group
+  uid          : 32c6fc79-b262-45b2-becc-a6991d41049d
+  account_name : Luckia Gaming Group
+  ACTION       : KEEP
+
+================================================================================
+USER: mihael.devunic@wppmedia.com
+================================================================================
+
+GROUPS TO KEEP:
+  KEEP  | OS Default Users | 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  KEEP  | OS Default Users | 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  KEEP  | OS Default Users | 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  KEEP  | OS Default Users | c0345b17-a701-40ca-b9f0-d369eb74a63f
+  KEEP  | OS Default Users | 8195758b-49b6-405a-934a-75fb0bc805b8
+  KEEP  | MAG Noventa di Piave | 3d5c5687-05e1-4a85-aeae-79b8b92e755e
+  KEEP  | Luckia Gaming Group | 32c6fc79-b262-45b2-becc-a6991d41049d
+
+GROUPS TO DELETE:
+  DELETE | Paws & Tails Demo Users | 6cd0c60b-2893-4b14-904a-2188b35b98e5
+
+PROCESSING DELETE:
+  User  : mihael.devunic@wppmedia.com
+  Group : Paws & Tails Demo Users
+  UID   : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+DELETE URL: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/d05d352f-1166-4731-bd28-057c2295a0fe
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/d05d352f-1166-4731-bd28-057c2295a0fe
+
+--------------------------------------------------------------------------------
+GET USER: mihaela.bencetic@wppmedia.com
+URL: https://media.os.wpp.com/api/az/users/email/mihaela.bencetic@wppmedia.com
+HTTP STATUS: 200
+
+USER ID: c0a094ed-c3ff-4085-bf6e-00963363d2eb
+ALLOWED GROUP NAMES:
+  KEEP: einhell
+  KEEP: erste bank
+  KEEP: msc cruises
+  KEEP: os default users
+
+TOTAL API MEMBERSHIPS: 15
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  account_name : Wpp-Open Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  account_name : WPP Pitch.OS Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : b70a2208-71a4-40f7-acdd-441e166fbbd6
+  account_name : Wavemaker Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Paws & Tails Demo Users
+  uid          : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  account_name : Paws & Tails Co
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 8195758b-49b6-405a-934a-75fb0bc805b8
+  account_name : Media Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  account_name : WPP Growth Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Einhell
+  uid          : b5379c6b-9f83-48de-8c83-c04c7f4d0770
+  account_name : Einhell
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Erste & Steiermarkische Bank
+  uid          : 76eba89c-ddcf-4d18-96ad-6fd36f70f804
+  account_name : Erste & Steiermarkische Bank
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Honor
+  uid          : c4144716-289b-44ab-ac68-60c435c7b533
+  account_name : Honor
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : MAG Noventa di Piave
+  uid          : 3d5c5687-05e1-4a85-aeae-79b8b92e755e
+  account_name : MAG Noventa di Piave
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Stock Spirits
+  uid          : db76c38d-40cb-4d9e-ae2b-793ef530ca08
+  account_name : Stock Spirits
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Total
+  uid          : 169e1e34-a045-4590-aacd-0b49e2e1a1f8
+  account_name : Total
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Viewers
+  uid          : 474788b4-c317-4db7-8858-dec5b8dd332b
+  account_name : Croatia training Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Erste Bank
+  uid          : c9ae2790-ee73-4f89-a225-f16ebc2a40af
+  account_name : Media Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : MSC Cruises
+  uid          : 70981a77-9ac2-44f8-8246-3fe0a929b07e
+  account_name : MSC Cruises
+  ACTION       : KEEP
+
+================================================================================
+USER: mihaela.bencetic@wppmedia.com
+================================================================================
+
+GROUPS TO KEEP:
+  KEEP  | OS Default Users | 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  KEEP  | OS Default Users | 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  KEEP  | OS Default Users | b70a2208-71a4-40f7-acdd-441e166fbbd6
+  KEEP  | OS Default Users | 8195758b-49b6-405a-934a-75fb0bc805b8
+  KEEP  | OS Default Users | 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  KEEP  | Einhell | b5379c6b-9f83-48de-8c83-c04c7f4d0770
+  KEEP  | Erste Bank | c9ae2790-ee73-4f89-a225-f16ebc2a40af
+  KEEP  | MSC Cruises | 70981a77-9ac2-44f8-8246-3fe0a929b07e
+
+GROUPS TO DELETE:
+  DELETE | Paws & Tails Demo Users | 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  DELETE | Erste & Steiermarkische Bank | 76eba89c-ddcf-4d18-96ad-6fd36f70f804
+  DELETE | Honor | c4144716-289b-44ab-ac68-60c435c7b533
+  DELETE | MAG Noventa di Piave | 3d5c5687-05e1-4a85-aeae-79b8b92e755e
+  DELETE | Stock Spirits | db76c38d-40cb-4d9e-ae2b-793ef530ca08
+  DELETE | Total | 169e1e34-a045-4590-aacd-0b49e2e1a1f8
+  DELETE | Viewers | 474788b4-c317-4db7-8858-dec5b8dd332b
+
+PROCESSING DELETE:
+  User  : mihaela.bencetic@wppmedia.com
+  Group : Paws & Tails Demo Users
+  UID   : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+DELETE URL: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/c0a094ed-c3ff-4085-bf6e-00963363d2eb
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/c0a094ed-c3ff-4085-bf6e-00963363d2eb
+
+PROCESSING DELETE:
+  User  : mihaela.bencetic@wppmedia.com
+  Group : Erste & Steiermarkische Bank
+  UID   : 76eba89c-ddcf-4d18-96ad-6fd36f70f804
+DELETE URL: https://media.os.wpp.com/api/az/groups/76eba89c-ddcf-4d18-96ad-6fd36f70f804/users/c0a094ed-c3ff-4085-bf6e-00963363d2eb
+DELETE HTTP STATUS: 204
+RESULT: DELETE SUCCESSFUL
+
+PROCESSING DELETE:
+  User  : mihaela.bencetic@wppmedia.com
+  Group : Honor
+  UID   : c4144716-289b-44ab-ac68-60c435c7b533
+DELETE URL: https://media.os.wpp.com/api/az/groups/c4144716-289b-44ab-ac68-60c435c7b533/users/c0a094ed-c3ff-4085-bf6e-00963363d2eb
+DELETE HTTP STATUS: 204
+RESULT: DELETE SUCCESSFUL
+
+PROCESSING DELETE:
+  User  : mihaela.bencetic@wppmedia.com
+  Group : MAG Noventa di Piave
+  UID   : 3d5c5687-05e1-4a85-aeae-79b8b92e755e
+DELETE URL: https://media.os.wpp.com/api/az/groups/3d5c5687-05e1-4a85-aeae-79b8b92e755e/users/c0a094ed-c3ff-4085-bf6e-00963363d2eb
+DELETE HTTP STATUS: 204
+RESULT: DELETE SUCCESSFUL
+
+PROCESSING DELETE:
+  User  : mihaela.bencetic@wppmedia.com
+  Group : Stock Spirits
+  UID   : db76c38d-40cb-4d9e-ae2b-793ef530ca08
+DELETE URL: https://media.os.wpp.com/api/az/groups/db76c38d-40cb-4d9e-ae2b-793ef530ca08/users/c0a094ed-c3ff-4085-bf6e-00963363d2eb
+DELETE HTTP STATUS: 204
+RESULT: DELETE SUCCESSFUL
+
+PROCESSING DELETE:
+  User  : mihaela.bencetic@wppmedia.com
+  Group : Total
+  UID   : 169e1e34-a045-4590-aacd-0b49e2e1a1f8
+DELETE URL: https://media.os.wpp.com/api/az/groups/169e1e34-a045-4590-aacd-0b49e2e1a1f8/users/c0a094ed-c3ff-4085-bf6e-00963363d2eb
+DELETE HTTP STATUS: 204
+RESULT: DELETE SUCCESSFUL
+
+PROCESSING DELETE:
+  User  : mihaela.bencetic@wppmedia.com
+  Group : Viewers
+  UID   : 474788b4-c317-4db7-8858-dec5b8dd332b
+DELETE URL: https://media.os.wpp.com/api/az/groups/474788b4-c317-4db7-8858-dec5b8dd332b/users/c0a094ed-c3ff-4085-bf6e-00963363d2eb
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/474788b4-c317-4db7-8858-dec5b8dd332b/users/c0a094ed-c3ff-4085-bf6e-00963363d2eb
+
+--------------------------------------------------------------------------------
+GET USER: tea.stipan@wppmedia.com
+URL: https://media.os.wpp.com/api/az/users/email/tea.stipan@wppmedia.com
+HTTP STATUS: 200
+
+USER ID: ea2a5d13-f224-4a47-9026-ad9936ef8b6b
+ALLOWED GROUP NAMES:
+  KEEP: os default users
+  KEEP: xiaomi
+
+TOTAL API MEMBERSHIPS: 14
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  account_name : Wpp-Open Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 34743580-d875-4456-8713-0a88311e907f
+  account_name : LegacyGroupM Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Paws & Tails Demo Users
+  uid          : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  account_name : Paws & Tails Co
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 84886bd5-da91-4765-8fde-ef543a64f9a3
+  account_name : Confectionery-KITKAT-F1-3-4-CRO Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 120e7a38-7dad-4f36-bf60-b9ed725c3c6b
+  account_name : Petcare - Purina - Gourmet - Endless variaty - 3 - 4 - CRO Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 8195758b-49b6-405a-934a-75fb0bc805b8
+  account_name : Media Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  account_name : WPP Growth Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 1398a53d-f024-4780-89ce-98e88dbb0bd8
+  account_name : Nestle Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 882145e8-2f9a-439e-98ed-2b4beca5e649
+  account_name : Coffee-Nescafe-Mixes-Cappuccino-SayYEStoCappuccino&Tiramisu-3-4-CRO Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 0dd5938c-0caa-46bd-a86a-485fd4381f77
+  account_name : Adidas Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : adidas HUB - Europe
+  uid          : 34be7b23-0c1d-4c6c-b9a0-f1b0ab73e17e
+  account_name : Adidas Organisations
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : c0345b17-a701-40ca-b9f0-d369eb74a63f
+  account_name : VML Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 28bcc310-db5a-4319-890c-f6fb7c6c6620
+  account_name : EU WC26 Weekly Reporting Agent Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Xiaomi
+  uid          : fec8c280-b144-49fb-9272-337602e2c4e2
+  account_name : Xiaomi
+  ACTION       : KEEP
+
+================================================================================
+USER: tea.stipan@wppmedia.com
+================================================================================
+
+GROUPS TO KEEP:
+  KEEP  | OS Default Users | 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  KEEP  | OS Default Users | 34743580-d875-4456-8713-0a88311e907f
+  KEEP  | OS Default Users | 8195758b-49b6-405a-934a-75fb0bc805b8
+  KEEP  | OS Default Users | 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  KEEP  | OS Default Users | 1398a53d-f024-4780-89ce-98e88dbb0bd8
+  KEEP  | OS Default Users | 0dd5938c-0caa-46bd-a86a-485fd4381f77
+  KEEP  | OS Default Users | c0345b17-a701-40ca-b9f0-d369eb74a63f
+  KEEP  | Xiaomi | fec8c280-b144-49fb-9272-337602e2c4e2
+
+GROUPS TO DELETE:
+  DELETE | Paws & Tails Demo Users | 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  DELETE | Owners | 84886bd5-da91-4765-8fde-ef543a64f9a3
+  DELETE | Owners | 120e7a38-7dad-4f36-bf60-b9ed725c3c6b
+  DELETE | Owners | 882145e8-2f9a-439e-98ed-2b4beca5e649
+  DELETE | adidas HUB - Europe | 34be7b23-0c1d-4c6c-b9a0-f1b0ab73e17e
+  DELETE | Contributors | 28bcc310-db5a-4319-890c-f6fb7c6c6620
+
+PROCESSING DELETE:
+  User  : tea.stipan@wppmedia.com
+  Group : Paws & Tails Demo Users
+  UID   : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+DELETE URL: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/ea2a5d13-f224-4a47-9026-ad9936ef8b6b
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/ea2a5d13-f224-4a47-9026-ad9936ef8b6b
+
+PROCESSING DELETE:
+  User  : tea.stipan@wppmedia.com
+  Group : Owners
+  UID   : 84886bd5-da91-4765-8fde-ef543a64f9a3
+DELETE URL: https://media.os.wpp.com/api/az/groups/84886bd5-da91-4765-8fde-ef543a64f9a3/users/ea2a5d13-f224-4a47-9026-ad9936ef8b6b
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/84886bd5-da91-4765-8fde-ef543a64f9a3/users/ea2a5d13-f224-4a47-9026-ad9936ef8b6b
+
+PROCESSING DELETE:
+  User  : tea.stipan@wppmedia.com
+  Group : Owners
+  UID   : 120e7a38-7dad-4f36-bf60-b9ed725c3c6b
+DELETE URL: https://media.os.wpp.com/api/az/groups/120e7a38-7dad-4f36-bf60-b9ed725c3c6b/users/ea2a5d13-f224-4a47-9026-ad9936ef8b6b
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/120e7a38-7dad-4f36-bf60-b9ed725c3c6b/users/ea2a5d13-f224-4a47-9026-ad9936ef8b6b
+
+PROCESSING DELETE:
+  User  : tea.stipan@wppmedia.com
+  Group : Owners
+  UID   : 882145e8-2f9a-439e-98ed-2b4beca5e649
+DELETE URL: https://media.os.wpp.com/api/az/groups/882145e8-2f9a-439e-98ed-2b4beca5e649/users/ea2a5d13-f224-4a47-9026-ad9936ef8b6b
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/882145e8-2f9a-439e-98ed-2b4beca5e649/users/ea2a5d13-f224-4a47-9026-ad9936ef8b6b
+
+PROCESSING DELETE:
+  User  : tea.stipan@wppmedia.com
+  Group : adidas HUB - Europe
+  UID   : 34be7b23-0c1d-4c6c-b9a0-f1b0ab73e17e
+DELETE URL: https://media.os.wpp.com/api/az/groups/34be7b23-0c1d-4c6c-b9a0-f1b0ab73e17e/users/ea2a5d13-f224-4a47-9026-ad9936ef8b6b
+DELETE HTTP STATUS: 204
+RESULT: DELETE SUCCESSFUL
+
+PROCESSING DELETE:
+  User  : tea.stipan@wppmedia.com
+  Group : Contributors
+  UID   : 28bcc310-db5a-4319-890c-f6fb7c6c6620
+DELETE URL: https://media.os.wpp.com/api/az/groups/28bcc310-db5a-4319-890c-f6fb7c6c6620/users/ea2a5d13-f224-4a47-9026-ad9936ef8b6b
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/28bcc310-db5a-4319-890c-f6fb7c6c6620/users/ea2a5d13-f224-4a47-9026-ad9936ef8b6b
+
+--------------------------------------------------------------------------------
+GET USER: vanda.grcic@wppmedia.com
+URL: https://media.os.wpp.com/api/az/users/email/vanda.grcic@wppmedia.com
+HTTP STATUS: 200
+
+USER ID: ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+ALLOWED GROUP NAMES:
+  KEEP: honor
+  KEEP: os default users
+
+TOTAL API MEMBERSHIPS: 25
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 8195758b-49b6-405a-934a-75fb0bc805b8
+  account_name : Media Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 071818af-fccb-4a7f-b305-afb565f24bd8
+  account_name : HR I 26 I Coca-Cola I Real Magic I Uplift I Always On I Coke Flavours Spin on the Classic Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 8fb7d0ef-7764-4230-afbf-8be1f038d138
+  account_name : HR I 26 I Coca-Cola I Real Magic I Uplift I Icon & Intrinsic Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  account_name : Wpp-Open Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  account_name : WPP Pitch.OS Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : b70a2208-71a4-40f7-acdd-441e166fbbd6
+  account_name : Wavemaker Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Paws & Tails Demo Users
+  uid          : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  account_name : Paws & Tails Co
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  account_name : WPP Growth Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 3191e541-087f-425d-bbe1-d7ff7461e854
+  account_name : HR | EU | 26 | SCHWEPPES | WITH TIME COMES TASTE | FOQ3 Tangerine Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Honor
+  uid          : c4144716-289b-44ab-ac68-60c435c7b533
+  account_name : Honor
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 0bbc5186-282b-4b39-8be4-ffcefda1636a
+  account_name : Croatia training Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 34f58aa5-799e-43af-9b49-86d452c17c9c
+  account_name : HR | 26 | Coca-Cola | Real Magic | Uplift | FIFA World Cup Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 37a8a23f-bdb9-4b24-b74f-fb1ccb3e843b
+  account_name : The Coca Cola Company Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Hub Viewers
+  uid          : 5376b58f-7eec-42b0-b182-ece3ecc50960
+  account_name : TCCC Workspace Hub
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Hub Viewers
+  uid          : 5bf131cb-962a-401d-8fc0-d65f27e9d5a5
+  account_name : WPP Open X Media Hub Hub
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : c0345b17-a701-40ca-b9f0-d369eb74a63f
+  account_name : VML Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 5ea5d910-41fe-4eba-8298-2c0ca6206a70
+  account_name : HR | 26 | Fanta | Wanta Fanta | Core | Wanta | Calendar Moment 1 | GL2625116002 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : f9bde088-2109-4afd-9568-f4fcbabc1b5e
+  account_name : HR | 26 | Coca-Cola | Rings of Magic Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 8853584a-46e1-4583-9077-af95d33bde2e
+  account_name : HR I 26 I Coca-Cola I Real Magic I Uplift I Coke Flavours Spin on the Classic Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : e89565a8-bf7d-41f3-be83-63d46b93a62c
+  account_name : HR | 26 | SCHWEPPES | WITH TIME COMES TASTE Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 19758053-d1cc-4a1c-9307-8af25d8bcc71
+  account_name : HR I 26 I Coca-Cola I Real Magic I Meals Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 8e55f28b-0f93-41be-8ed8-7dec8341fa67
+  account_name : HR I 26 I Coca-Cola I Real Magic I Meals Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 954c1ebb-01cb-425e-b176-a36dd95393ba
+  account_name : HR I 26 I Coca-Cola I Real Magic I Zero Sugar I Zero Zero Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : d8b2edb0-0078-4253-bb54-02027ab60baf
+  account_name : EU | 26 | Coca-Cola | Real Magic | Uplift | Icon & Intrinsic Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 8437c4e1-8bd8-45f6-961c-d9e6d2e21b3b
+  account_name : HR | 26 | Coca-Cola | Real Magic | Uplift | Christmas Project
+  ACTION       : DELETE
+
+================================================================================
+USER: vanda.grcic@wppmedia.com
+================================================================================
+
+GROUPS TO KEEP:
+  KEEP  | OS Default Users | 8195758b-49b6-405a-934a-75fb0bc805b8
+  KEEP  | OS Default Users | 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  KEEP  | OS Default Users | 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  KEEP  | OS Default Users | b70a2208-71a4-40f7-acdd-441e166fbbd6
+  KEEP  | OS Default Users | 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  KEEP  | Honor | c4144716-289b-44ab-ac68-60c435c7b533
+  KEEP  | OS Default Users | 37a8a23f-bdb9-4b24-b74f-fb1ccb3e843b
+  KEEP  | OS Default Users | c0345b17-a701-40ca-b9f0-d369eb74a63f
+
+GROUPS TO DELETE:
+  DELETE | Owners | 071818af-fccb-4a7f-b305-afb565f24bd8
+  DELETE | Owners | 8fb7d0ef-7764-4230-afbf-8be1f038d138
+  DELETE | Paws & Tails Demo Users | 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  DELETE | Owners | 3191e541-087f-425d-bbe1-d7ff7461e854
+  DELETE | Contributors | 0bbc5186-282b-4b39-8be4-ffcefda1636a
+  DELETE | Owners | 34f58aa5-799e-43af-9b49-86d452c17c9c
+  DELETE | Hub Viewers | 5376b58f-7eec-42b0-b182-ece3ecc50960
+  DELETE | Hub Viewers | 5bf131cb-962a-401d-8fc0-d65f27e9d5a5
+  DELETE | Owners | 5ea5d910-41fe-4eba-8298-2c0ca6206a70
+  DELETE | Owners | f9bde088-2109-4afd-9568-f4fcbabc1b5e
+  DELETE | Owners | 8853584a-46e1-4583-9077-af95d33bde2e
+  DELETE | Owners | e89565a8-bf7d-41f3-be83-63d46b93a62c
+  DELETE | Owners | 19758053-d1cc-4a1c-9307-8af25d8bcc71
+  DELETE | Owners | 8e55f28b-0f93-41be-8ed8-7dec8341fa67
+  DELETE | Owners | 954c1ebb-01cb-425e-b176-a36dd95393ba
+  DELETE | Owners | d8b2edb0-0078-4253-bb54-02027ab60baf
+  DELETE | Owners | 8437c4e1-8bd8-45f6-961c-d9e6d2e21b3b
+
+PROCESSING DELETE:
+  User  : vanda.grcic@wppmedia.com
+  Group : Owners
+  UID   : 071818af-fccb-4a7f-b305-afb565f24bd8
+DELETE URL: https://media.os.wpp.com/api/az/groups/071818af-fccb-4a7f-b305-afb565f24bd8/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/071818af-fccb-4a7f-b305-afb565f24bd8/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+
+PROCESSING DELETE:
+  User  : vanda.grcic@wppmedia.com
+  Group : Owners
+  UID   : 8fb7d0ef-7764-4230-afbf-8be1f038d138
+DELETE URL: https://media.os.wpp.com/api/az/groups/8fb7d0ef-7764-4230-afbf-8be1f038d138/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/8fb7d0ef-7764-4230-afbf-8be1f038d138/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+
+PROCESSING DELETE:
+  User  : vanda.grcic@wppmedia.com
+  Group : Paws & Tails Demo Users
+  UID   : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+DELETE URL: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+
+PROCESSING DELETE:
+  User  : vanda.grcic@wppmedia.com
+  Group : Owners
+  UID   : 3191e541-087f-425d-bbe1-d7ff7461e854
+DELETE URL: https://media.os.wpp.com/api/az/groups/3191e541-087f-425d-bbe1-d7ff7461e854/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/3191e541-087f-425d-bbe1-d7ff7461e854/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+
+PROCESSING DELETE:
+  User  : vanda.grcic@wppmedia.com
+  Group : Contributors
+  UID   : 0bbc5186-282b-4b39-8be4-ffcefda1636a
+DELETE URL: https://media.os.wpp.com/api/az/groups/0bbc5186-282b-4b39-8be4-ffcefda1636a/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/0bbc5186-282b-4b39-8be4-ffcefda1636a/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+
+PROCESSING DELETE:
+  User  : vanda.grcic@wppmedia.com
+  Group : Owners
+  UID   : 34f58aa5-799e-43af-9b49-86d452c17c9c
+DELETE URL: https://media.os.wpp.com/api/az/groups/34f58aa5-799e-43af-9b49-86d452c17c9c/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/34f58aa5-799e-43af-9b49-86d452c17c9c/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+
+PROCESSING DELETE:
+  User  : vanda.grcic@wppmedia.com
+  Group : Hub Viewers
+  UID   : 5376b58f-7eec-42b0-b182-ece3ecc50960
+DELETE URL: https://media.os.wpp.com/api/az/groups/5376b58f-7eec-42b0-b182-ece3ecc50960/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+DELETE HTTP STATUS: 204
+RESULT: DELETE SUCCESSFUL
+
+PROCESSING DELETE:
+  User  : vanda.grcic@wppmedia.com
+  Group : Hub Viewers
+  UID   : 5bf131cb-962a-401d-8fc0-d65f27e9d5a5
+DELETE URL: https://media.os.wpp.com/api/az/groups/5bf131cb-962a-401d-8fc0-d65f27e9d5a5/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+DELETE HTTP STATUS: 204
+RESULT: DELETE SUCCESSFUL
+
+PROCESSING DELETE:
+  User  : vanda.grcic@wppmedia.com
+  Group : Owners
+  UID   : 5ea5d910-41fe-4eba-8298-2c0ca6206a70
+DELETE URL: https://media.os.wpp.com/api/az/groups/5ea5d910-41fe-4eba-8298-2c0ca6206a70/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/5ea5d910-41fe-4eba-8298-2c0ca6206a70/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+
+PROCESSING DELETE:
+  User  : vanda.grcic@wppmedia.com
+  Group : Owners
+  UID   : f9bde088-2109-4afd-9568-f4fcbabc1b5e
+DELETE URL: https://media.os.wpp.com/api/az/groups/f9bde088-2109-4afd-9568-f4fcbabc1b5e/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/f9bde088-2109-4afd-9568-f4fcbabc1b5e/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+
+PROCESSING DELETE:
+  User  : vanda.grcic@wppmedia.com
+  Group : Owners
+  UID   : 8853584a-46e1-4583-9077-af95d33bde2e
+DELETE URL: https://media.os.wpp.com/api/az/groups/8853584a-46e1-4583-9077-af95d33bde2e/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/8853584a-46e1-4583-9077-af95d33bde2e/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+
+PROCESSING DELETE:
+  User  : vanda.grcic@wppmedia.com
+  Group : Owners
+  UID   : e89565a8-bf7d-41f3-be83-63d46b93a62c
+DELETE URL: https://media.os.wpp.com/api/az/groups/e89565a8-bf7d-41f3-be83-63d46b93a62c/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/e89565a8-bf7d-41f3-be83-63d46b93a62c/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+
+PROCESSING DELETE:
+  User  : vanda.grcic@wppmedia.com
+  Group : Owners
+  UID   : 19758053-d1cc-4a1c-9307-8af25d8bcc71
+DELETE URL: https://media.os.wpp.com/api/az/groups/19758053-d1cc-4a1c-9307-8af25d8bcc71/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/19758053-d1cc-4a1c-9307-8af25d8bcc71/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+
+PROCESSING DELETE:
+  User  : vanda.grcic@wppmedia.com
+  Group : Owners
+  UID   : 8e55f28b-0f93-41be-8ed8-7dec8341fa67
+DELETE URL: https://media.os.wpp.com/api/az/groups/8e55f28b-0f93-41be-8ed8-7dec8341fa67/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/8e55f28b-0f93-41be-8ed8-7dec8341fa67/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+
+PROCESSING DELETE:
+  User  : vanda.grcic@wppmedia.com
+  Group : Owners
+  UID   : 954c1ebb-01cb-425e-b176-a36dd95393ba
+DELETE URL: https://media.os.wpp.com/api/az/groups/954c1ebb-01cb-425e-b176-a36dd95393ba/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/954c1ebb-01cb-425e-b176-a36dd95393ba/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+
+PROCESSING DELETE:
+  User  : vanda.grcic@wppmedia.com
+  Group : Owners
+  UID   : d8b2edb0-0078-4253-bb54-02027ab60baf
+DELETE URL: https://media.os.wpp.com/api/az/groups/d8b2edb0-0078-4253-bb54-02027ab60baf/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/d8b2edb0-0078-4253-bb54-02027ab60baf/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+
+PROCESSING DELETE:
+  User  : vanda.grcic@wppmedia.com
+  Group : Owners
+  UID   : 8437c4e1-8bd8-45f6-961c-d9e6d2e21b3b
+DELETE URL: https://media.os.wpp.com/api/az/groups/8437c4e1-8bd8-45f6-961c-d9e6d2e21b3b/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/8437c4e1-8bd8-45f6-961c-d9e6d2e21b3b/users/ae6b4fd3-34a8-4fe2-b2b0-6404bac518d5
+
+--------------------------------------------------------------------------------
+GET USER: viktorija.pavisic@wppmedia.com
+URL: https://media.os.wpp.com/api/az/users/email/viktorija.pavisic@wppmedia.com
+HTTP STATUS: 200
+
+USER ID: 97a45de6-6d6b-4a02-a937-2b7ae12af02e
+ALLOWED GROUP NAMES:
+  KEEP: erste bank
+  KEEP: os default users
+
+TOTAL API MEMBERSHIPS: 7
+
+MEMBERSHIP:
+  name         : Paws & Tails Demo Users
+  uid          : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  account_name : Paws & Tails Co
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  account_name : Wpp-Open Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  account_name : WPP Pitch.OS Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  account_name : WPP Growth Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : c0345b17-a701-40ca-b9f0-d369eb74a63f
+  account_name : VML Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Erste Bank
+  uid          : c9ae2790-ee73-4f89-a225-f16ebc2a40af
+  account_name : Media Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 8195758b-49b6-405a-934a-75fb0bc805b8
+  account_name : Media Organisations
+  ACTION       : KEEP
+
+================================================================================
+USER: viktorija.pavisic@wppmedia.com
+================================================================================
+
+GROUPS TO KEEP:
+  KEEP  | OS Default Users | 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  KEEP  | OS Default Users | 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  KEEP  | OS Default Users | 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  KEEP  | OS Default Users | c0345b17-a701-40ca-b9f0-d369eb74a63f
+  KEEP  | Erste Bank | c9ae2790-ee73-4f89-a225-f16ebc2a40af
+  KEEP  | OS Default Users | 8195758b-49b6-405a-934a-75fb0bc805b8
+
+GROUPS TO DELETE:
+  DELETE | Paws & Tails Demo Users | 6cd0c60b-2893-4b14-904a-2188b35b98e5
+
+PROCESSING DELETE:
+  User  : viktorija.pavisic@wppmedia.com
+  Group : Paws & Tails Demo Users
+  UID   : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+DELETE URL: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/97a45de6-6d6b-4a02-a937-2b7ae12af02e
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/97a45de6-6d6b-4a02-a937-2b7ae12af02e
+
+--------------------------------------------------------------------------------
+GET USER: vilim.kalle@wppmedia.com
+URL: https://media.os.wpp.com/api/az/users/email/vilim.kalle@wppmedia.com
+HTTP STATUS: 200
+
+USER ID: 9ec71085-2319-45a3-a564-39a8bd74e380
+ALLOWED GROUP NAMES:
+  KEEP: bolton group
+  KEEP: mastercard
+  KEEP: mutti
+  KEEP: os default users
+  KEEP: vileda
+
+TOTAL API MEMBERSHIPS: 29
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 698d8647-5d0e-4f04-aafd-3f16285b471b
+  account_name : Mindshare Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  account_name : Wpp-Open Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Paws & Tails Demo Users
+  uid          : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  account_name : Paws & Tails Co
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 3e1d8e63-53d5-45cf-820f-539af577eed2
+  account_name : Market Agents HR - Econometrics, Total Search, Brief Architect Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 32bf7d5c-b827-4bb0-893b-0fe8341e222d
+  account_name : Global Requests - HR & SI Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 39bf3a15-141f-4511-b1a3-c2500b69c1b8
+  account_name : Unilever Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  account_name : WPP Pitch.OS Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 8195758b-49b6-405a-934a-75fb0bc805b8
+  account_name : Media Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  account_name : WPP Growth Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Mutti
+  uid          : 01cf2a52-5754-469f-9b91-245724d5b75a
+  account_name : Mutti
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 53f3a497-b519-467d-bb59-fe4f6770b7e4
+  account_name : IKEA Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Hub Viewers
+  uid          : c2afdcb3-1ef0-48de-b17d-3bbff877d39a
+  account_name : IKEA Ingka Agency Hub Hub
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 5e20d40c-9a2c-4ba0-a040-c56cdddf0dbc
+  account_name : Croatia training Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Viewers
+  uid          : 474788b4-c317-4db7-8858-dec5b8dd332b
+  account_name : Croatia training Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : af46cf6a-cb79-4b55-877d-f407c0ab9842
+  account_name : CRO TEST VILIM KALLE Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : c0345b17-a701-40ca-b9f0-d369eb74a63f
+  account_name : VML Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : OS Default Users
+  uid          : 1e3d16dd-c86f-4b79-862a-7f2ab63634ac
+  account_name : MasterCard Organisations
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : EU
+  uid          : 029171a0-ca9e-431d-97e8-512d8400f7f9
+  account_name : MasterCard
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Campaign Governance Users
+  uid          : 726c5227-e60c-4c39-ac19-626a62e4de91
+  account_name : MasterCard Organisations
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 2f6c567f-496f-4e06-bff8-509f9d33e88a
+  account_name : CROATIA_Budget Sufficiency Exercise_CMO ask Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 4268f8d9-6e90-4dca-99f9-20df9070c62b
+  account_name : HR Annual Brief FY27 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 23ed299f-3c03-40f4-b521-fa977eaee157
+  account_name : SI Annual Brief FY27 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : 584eb462-4ce2-44f7-8992-5f6775ed121a
+  account_name : Vilim test M Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Owners
+  uid          : ef1498cf-c0b9-414e-a534-ecb78fb54b48
+  account_name : Test 2 Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Contributors
+  uid          : 7a835083-238a-429d-b03d-0b9f71da0281
+  account_name : Agentic Workstream Project
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : H&M
+  uid          : 59f7f055-4b54-4acd-bfbc-cd8faade7658
+  account_name : H&M
+  ACTION       : DELETE
+
+MEMBERSHIP:
+  name         : Mastercard
+  uid          : 46ce7749-face-4ff1-b50f-18815777be1d
+  account_name : MasterCard
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Vileda
+  uid          : 2ae85f24-8e1d-4a7e-aeac-007e7373bbad
+  account_name : Vileda
+  ACTION       : KEEP
+
+MEMBERSHIP:
+  name         : Bolton Group
+  uid          : ccf5973d-013c-4fba-918e-952b0409526c
+  account_name : Bolton Group
+  ACTION       : KEEP
+
+================================================================================
+USER: vilim.kalle@wppmedia.com
+================================================================================
+
+GROUPS TO KEEP:
+  KEEP  | OS Default Users | 698d8647-5d0e-4f04-aafd-3f16285b471b
+  KEEP  | OS Default Users | 05055ef5-dba7-4fc2-ab30-bf95dcbeb4c4
+  KEEP  | OS Default Users | 39bf3a15-141f-4511-b1a3-c2500b69c1b8
+  KEEP  | OS Default Users | 4bd176e9-e1f1-47a2-ad21-2969f4f16675
+  KEEP  | OS Default Users | 8195758b-49b6-405a-934a-75fb0bc805b8
+  KEEP  | OS Default Users | 18fd95dd-cf32-4bfe-b5c9-0fc1691a0fc2
+  KEEP  | Mutti | 01cf2a52-5754-469f-9b91-245724d5b75a
+  KEEP  | OS Default Users | 53f3a497-b519-467d-bb59-fe4f6770b7e4
+  KEEP  | OS Default Users | c0345b17-a701-40ca-b9f0-d369eb74a63f
+  KEEP  | OS Default Users | 1e3d16dd-c86f-4b79-862a-7f2ab63634ac
+  KEEP  | Mastercard | 46ce7749-face-4ff1-b50f-18815777be1d
+  KEEP  | Vileda | 2ae85f24-8e1d-4a7e-aeac-007e7373bbad
+  KEEP  | Bolton Group | ccf5973d-013c-4fba-918e-952b0409526c
+
+GROUPS TO DELETE:
+  DELETE | Paws & Tails Demo Users | 6cd0c60b-2893-4b14-904a-2188b35b98e5
+  DELETE | Owners | 3e1d8e63-53d5-45cf-820f-539af577eed2
+  DELETE | Contributors | 32bf7d5c-b827-4bb0-893b-0fe8341e222d
+  DELETE | Hub Viewers | c2afdcb3-1ef0-48de-b17d-3bbff877d39a
+  DELETE | Contributors | 5e20d40c-9a2c-4ba0-a040-c56cdddf0dbc
+  DELETE | Viewers | 474788b4-c317-4db7-8858-dec5b8dd332b
+  DELETE | Owners | af46cf6a-cb79-4b55-877d-f407c0ab9842
+  DELETE | EU | 029171a0-ca9e-431d-97e8-512d8400f7f9
+  DELETE | Campaign Governance Users | 726c5227-e60c-4c39-ac19-626a62e4de91
+  DELETE | Owners | 2f6c567f-496f-4e06-bff8-509f9d33e88a
+  DELETE | Contributors | 4268f8d9-6e90-4dca-99f9-20df9070c62b
+  DELETE | Contributors | 23ed299f-3c03-40f4-b521-fa977eaee157
+  DELETE | Owners | 584eb462-4ce2-44f7-8992-5f6775ed121a
+  DELETE | Owners | ef1498cf-c0b9-414e-a534-ecb78fb54b48
+  DELETE | Contributors | 7a835083-238a-429d-b03d-0b9f71da0281
+  DELETE | H&M | 59f7f055-4b54-4acd-bfbc-cd8faade7658
+
+PROCESSING DELETE:
+  User  : vilim.kalle@wppmedia.com
+  Group : Paws & Tails Demo Users
+  UID   : 6cd0c60b-2893-4b14-904a-2188b35b98e5
+DELETE URL: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/9ec71085-2319-45a3-a564-39a8bd74e380
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/6cd0c60b-2893-4b14-904a-2188b35b98e5/users/9ec71085-2319-45a3-a564-39a8bd74e380
+
+PROCESSING DELETE:
+  User  : vilim.kalle@wppmedia.com
+  Group : Owners
+  UID   : 3e1d8e63-53d5-45cf-820f-539af577eed2
+DELETE URL: https://media.os.wpp.com/api/az/groups/3e1d8e63-53d5-45cf-820f-539af577eed2/users/9ec71085-2319-45a3-a564-39a8bd74e380
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/3e1d8e63-53d5-45cf-820f-539af577eed2/users/9ec71085-2319-45a3-a564-39a8bd74e380
+
+PROCESSING DELETE:
+  User  : vilim.kalle@wppmedia.com
+  Group : Contributors
+  UID   : 32bf7d5c-b827-4bb0-893b-0fe8341e222d
+DELETE URL: https://media.os.wpp.com/api/az/groups/32bf7d5c-b827-4bb0-893b-0fe8341e222d/users/9ec71085-2319-45a3-a564-39a8bd74e380
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/32bf7d5c-b827-4bb0-893b-0fe8341e222d/users/9ec71085-2319-45a3-a564-39a8bd74e380
+
+PROCESSING DELETE:
+  User  : vilim.kalle@wppmedia.com
+  Group : Hub Viewers
+  UID   : c2afdcb3-1ef0-48de-b17d-3bbff877d39a
+DELETE URL: https://media.os.wpp.com/api/az/groups/c2afdcb3-1ef0-48de-b17d-3bbff877d39a/users/9ec71085-2319-45a3-a564-39a8bd74e380
+DELETE HTTP STATUS: 204
+RESULT: DELETE SUCCESSFUL
+
+PROCESSING DELETE:
+  User  : vilim.kalle@wppmedia.com
+  Group : Contributors
+  UID   : 5e20d40c-9a2c-4ba0-a040-c56cdddf0dbc
+DELETE URL: https://media.os.wpp.com/api/az/groups/5e20d40c-9a2c-4ba0-a040-c56cdddf0dbc/users/9ec71085-2319-45a3-a564-39a8bd74e380
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/5e20d40c-9a2c-4ba0-a040-c56cdddf0dbc/users/9ec71085-2319-45a3-a564-39a8bd74e380
+
+PROCESSING DELETE:
+  User  : vilim.kalle@wppmedia.com
+  Group : Viewers
+  UID   : 474788b4-c317-4db7-8858-dec5b8dd332b
+DELETE URL: https://media.os.wpp.com/api/az/groups/474788b4-c317-4db7-8858-dec5b8dd332b/users/9ec71085-2319-45a3-a564-39a8bd74e380
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/474788b4-c317-4db7-8858-dec5b8dd332b/users/9ec71085-2319-45a3-a564-39a8bd74e380
+
+PROCESSING DELETE:
+  User  : vilim.kalle@wppmedia.com
+  Group : Owners
+  UID   : af46cf6a-cb79-4b55-877d-f407c0ab9842
+DELETE URL: https://media.os.wpp.com/api/az/groups/af46cf6a-cb79-4b55-877d-f407c0ab9842/users/9ec71085-2319-45a3-a564-39a8bd74e380
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/af46cf6a-cb79-4b55-877d-f407c0ab9842/users/9ec71085-2319-45a3-a564-39a8bd74e380
+
+PROCESSING DELETE:
+  User  : vilim.kalle@wppmedia.com
+  Group : EU
+  UID   : 029171a0-ca9e-431d-97e8-512d8400f7f9
+DELETE URL: https://media.os.wpp.com/api/az/groups/029171a0-ca9e-431d-97e8-512d8400f7f9/users/9ec71085-2319-45a3-a564-39a8bd74e380
+DELETE HTTP STATUS: 204
+RESULT: DELETE SUCCESSFUL
+
+PROCESSING DELETE:
+  User  : vilim.kalle@wppmedia.com
+  Group : Campaign Governance Users
+  UID   : 726c5227-e60c-4c39-ac19-626a62e4de91
+DELETE URL: https://media.os.wpp.com/api/az/groups/726c5227-e60c-4c39-ac19-626a62e4de91/users/9ec71085-2319-45a3-a564-39a8bd74e380
+DELETE HTTP STATUS: 204
+RESULT: DELETE SUCCESSFUL
+
+PROCESSING DELETE:
+  User  : vilim.kalle@wppmedia.com
+  Group : Owners
+  UID   : 2f6c567f-496f-4e06-bff8-509f9d33e88a
+DELETE URL: https://media.os.wpp.com/api/az/groups/2f6c567f-496f-4e06-bff8-509f9d33e88a/users/9ec71085-2319-45a3-a564-39a8bd74e380
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/2f6c567f-496f-4e06-bff8-509f9d33e88a/users/9ec71085-2319-45a3-a564-39a8bd74e380
+
+PROCESSING DELETE:
+  User  : vilim.kalle@wppmedia.com
+  Group : Contributors
+  UID   : 4268f8d9-6e90-4dca-99f9-20df9070c62b
+DELETE URL: https://media.os.wpp.com/api/az/groups/4268f8d9-6e90-4dca-99f9-20df9070c62b/users/9ec71085-2319-45a3-a564-39a8bd74e380
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/4268f8d9-6e90-4dca-99f9-20df9070c62b/users/9ec71085-2319-45a3-a564-39a8bd74e380
+
+PROCESSING DELETE:
+  User  : vilim.kalle@wppmedia.com
+  Group : Contributors
+  UID   : 23ed299f-3c03-40f4-b521-fa977eaee157
+DELETE URL: https://media.os.wpp.com/api/az/groups/23ed299f-3c03-40f4-b521-fa977eaee157/users/9ec71085-2319-45a3-a564-39a8bd74e380
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/23ed299f-3c03-40f4-b521-fa977eaee157/users/9ec71085-2319-45a3-a564-39a8bd74e380
+
+PROCESSING DELETE:
+  User  : vilim.kalle@wppmedia.com
+  Group : Owners
+  UID   : 584eb462-4ce2-44f7-8992-5f6775ed121a
+DELETE URL: https://media.os.wpp.com/api/az/groups/584eb462-4ce2-44f7-8992-5f6775ed121a/users/9ec71085-2319-45a3-a564-39a8bd74e380
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/584eb462-4ce2-44f7-8992-5f6775ed121a/users/9ec71085-2319-45a3-a564-39a8bd74e380
+
+PROCESSING DELETE:
+  User  : vilim.kalle@wppmedia.com
+  Group : Owners
+  UID   : ef1498cf-c0b9-414e-a534-ecb78fb54b48
+DELETE URL: https://media.os.wpp.com/api/az/groups/ef1498cf-c0b9-414e-a534-ecb78fb54b48/users/9ec71085-2319-45a3-a564-39a8bd74e380
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/ef1498cf-c0b9-414e-a534-ecb78fb54b48/users/9ec71085-2319-45a3-a564-39a8bd74e380
+
+PROCESSING DELETE:
+  User  : vilim.kalle@wppmedia.com
+  Group : Contributors
+  UID   : 7a835083-238a-429d-b03d-0b9f71da0281
+DELETE URL: https://media.os.wpp.com/api/az/groups/7a835083-238a-429d-b03d-0b9f71da0281/users/9ec71085-2319-45a3-a564-39a8bd74e380
+DELETE HTTP STATUS: 403
+DELETE RESPONSE:
+{"code":403,"error_code":"MISSING_PERMISSION","message":"The user does not have some of the following permissions: (AZ_MANAGE_ENTITIES_AND_ASSIGNMENTS)"}
+RESULT: DELETE FAILED: 403 Client Error: Forbidden for url: https://media.os.wpp.com/api/az/groups/7a835083-238a-429d-b03d-0b9f71da0281/users/9ec71085-2319-45a3-a564-39a8bd74e380
+
+PROCESSING DELETE:
+  User  : vilim.kalle@wppmedia.com
+  Group : H&M
+  UID   : 59f7f055-4b54-4acd-bfbc-cd8faade7658
+DELETE URL: https://media.os.wpp.com/api/az/groups/59f7f055-4b54-4acd-bfbc-cd8faade7658/users/9ec71085-2319-45a3-a564-39a8bd74e380
+DELETE HTTP STATUS: 204
+RESULT: DELETE SUCCESSFUL
+
+================================================================================
+FINAL SUMMARY
+================================================================================
+Unique emails processed : 12
+GET failures            : 0
+Groups kept              : 98
+Groups actually deleted: 16
+
+================================================================================

@@ -1,0 +1,37 @@
+2026-01-27 17:29:05  Fetched hierarchy mapping.
+2026-01-27 17:29:05  Loaded 20 rows from C:\Users\Azath.A\os\alltemp\clients.csv
+2026-01-27 17:29:05  ⚠️ Client not found: clientname
+2026-01-27 17:29:05  Unique client assignment IDs: 14
+2026-01-27 17:29:05  Unique market assignment IDs: 14
+2026-01-27 17:29:05  Applying template to clients concurrently...
+2026-01-27 17:29:18  Client Skatteforvaltningen (3b6732ce-4178-4d07-8518-bcd83bb57da4) -> 400 ✅
+2026-01-27 17:29:18  Client Lannebo Kapitalförvaltning (28b0e27b-11cf-495c-8726-65ea52745a3c) -> 400 ✅
+2026-01-27 17:29:18  Client Dreame (a67ae2f6-625f-47c3-b7c6-d84a002c9e67) -> 400 ✅
+2026-01-27 17:29:18  Client Maj Invest (a0341dde-30f6-463e-9c39-fe8fbb010618) -> 400 ✅
+2026-01-27 17:29:18  Client Culinar (38faf676-d72b-4da4-91a8-fbb3b56a21f7) -> 400 ✅
+2026-01-27 17:29:18  Client TCM Group (5e7260bb-08f1-46a8-9df9-3c1aec88eac4) -> 400 ✅
+2026-01-27 17:29:18  Client Tempur-Pedic International (21caf12f-6ec9-4f42-bbc9-c1c143dedd69) -> 400 ✅
+2026-01-27 17:29:18  Client Danske Spil (22cbe30b-447d-462a-a0bb-1aba6086efa0) -> 400 ✅
+2026-01-27 17:29:18  Client Käserei Champignon (4c0cdf5c-969d-480a-9581-9b3cf992dc1c) -> 400 ✅
+2026-01-27 17:29:18  Client Capri-Sun (32ea4679-e7ba-46d8-90b0-8e07c11c0b2a) -> 400 ✅
+2026-01-27 17:29:18  Client Navamedic asa (418fd114-10e0-46ef-84ad-d55dc25c9c18) -> 400 ✅
+2026-01-27 17:29:18  Client Norse Atlantic Airways (7c057796-3c52-4feb-b16a-a0cdca23d703) -> 400 ✅
+2026-01-27 17:29:18  Client Hans Just (d8896cf6-9139-494a-a18e-c1db186ed7a9) -> 400 ✅
+2026-01-27 17:29:18  Client Fortum (61fb357f-f377-4cbd-874c-448bbb0e5d26) -> 400 ✅
+2026-01-27 17:29:18  Applying template to markets concurrently...
+2026-01-27 17:29:33  Market Denmark (718b4bb4-0079-4284-bc30-c9723ca8b1bf) for client(s): Hans Just -> 400 ✅
+2026-01-27 17:29:33  Market Denmark (ebc1fc6c-d68e-4f9b-8e43-691d73ac1492) for client(s): Capri-Sun -> 200 ✅
+2026-01-27 17:29:33  Market Denmark (402d9c11-6098-4d10-98bd-702d7c34907d) for client(s): TCM Group -> 400 ✅
+2026-01-27 17:29:33  Market Denmark (cd1242b0-0e01-4f97-a3ca-da23e222ef05) for client(s): Norse Atlantic Airways -> 200 ✅
+2026-01-27 17:29:33  Market Sweden (bb10ad67-4714-4b60-b0cc-b6ff83ba884c) for client(s): Dreame -> 200 ✅
+2026-01-27 17:29:33  Market Denmark (71246b10-79a2-44c8-b59c-d3bccb094de7) for client(s): Maj Invest -> 200 ✅
+2026-01-27 17:29:33  Market Sweden (e4ce3704-2ec1-4eda-9c0f-10a88cdf4a97) for client(s): Käserei Champignon -> 200 ✅
+2026-01-27 17:29:33  Market Denmark (1ded2341-b6fc-466d-b551-e1d2fb00c168) for client(s): Tempur-Pedic International -> 200 ✅
+2026-01-27 17:29:33  Market Sweden (85962305-203f-4f81-a441-3d7231684c62) for client(s): Culinar -> 200 ✅
+2026-01-27 17:29:33  Market Denmark (70a64c3d-3ac8-465c-a56a-ac36c876dbf8) for client(s): Danske Spil -> 200 ✅
+2026-01-27 17:29:33  Market Denmark (a04b3a19-e386-4241-9fe4-f54030f6f4ca) for client(s): Skatteforvaltningen -> 400 ✅
+2026-01-27 17:29:33  Market Norway (b26a492b-e412-41e8-ad7d-f66aa58c0f6d) for client(s): Fortum -> 400 ✅
+2026-01-27 17:29:33  Market Sweden (c6911729-8e61-4523-9315-29e8002e7299) for client(s): Navamedic asa -> 200 ✅
+2026-01-27 17:29:33  Market Sweden (a4ef8f42-5571-4a03-a354-79d0d60031b5) for client(s): Lannebo Kapitalförvaltning -> 200 ✅
+2026-01-27 17:29:33  
+📊 Summary: success: 28, failures: 0, total attempts: 28

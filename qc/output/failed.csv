@@ -1,0 +1,34 @@
+market,client,brand,category,error_message
+Denmark,Atlantic Airways,Atlantic Airways,Travel,Client not found: Atlantic Airways
+Sweden,Bausch + Lomb,Bausch + Lomb,Healthcare,Client not found: Bausch + Lomb
+Norway,Bergen Line,Bergen Line 2.N/A,Travel,Client not found: Bergen Line
+Norway,Blivakker,Blivakker,Retail,Brand 'Blivakker' not found under market 'Norway' (client 'Blivakker')
+Denmark,Boligportal,Boligportal,Travel,Client not found: Boligportal
+Denmark,Capri Sun,Capri Sun,Gambling & Lotteries,Client not found: Capri Sun
+Denmark,Centerparcs,Centerparcs,Gambling & Lotteries,Client not found: Centerparcs
+Denmark,Dansk Autohjælp,SOS Dansk Autohjælp,Education,Client not found: Dansk Autohjælp
+Denmark,Danske Spil A/S,Corporate,Consumer Electronics,Client not found: Danske Spil A/S
+Denmark,Danske Spil A/S,DLI,Charities,Client not found: Danske Spil A/S
+Denmark,Danske Spil A/S,DLO,General Services,Client not found: Danske Spil A/S
+Sweden,Dina Forsakringar,Dina Forsakringar,Finance,Client not found: Dina Forsakringar
+Denmark,DyrenesBeskyttelse,DyrenesBeskyttelse,Home Appliances,Client not found: DyrenesBeskyttelse
+Norway,Forsvaret (MP),Forsvaret (MP),Education,Brand 'Forsvaret (MP)' not found under market 'Norway' (client 'Forsvaret (MP)')
+Sweden,Hills Pet Nutrition,Hills Pet Nutrition,Pet Care,Client not found: Hills Pet Nutrition
+Denmark,Husqvarna,Husqvarna,Home Appliances,Client not found: Husqvarna
+Denmark,Husqvarna,Husqvarna PRO,Home Appliances,Client not found: Husqvarna
+Finland,Husqvarna,Husqvarna,Home Appliances,Client not found: Husqvarna
+Norway,Husqvarna,Husqvarna,Home Appliances,Client not found: Husqvarna
+Sweden,Husqvarna,Husqvarna,Home Appliances,Client not found: Husqvarna
+Sweden,Kaserei Champigon,Kaserei Champigon,Food,Client not found: Kaserei Champigon
+Denmark,Kompan_fra_2N/A24,Kompan,Home Appliances,Client not found: Kompan_fra_2N/A24
+Sweden,Lannebo Kapitalforvaltning,Lannebo Kapitalforvaltning,Finance,Client not found: Lannebo Kapitalforvaltning
+Denmark,Maj Invests,Maj Invest,Finance,Client not found: Maj Invests
+Norway,Mobelringen,Mobelringen,Real Estate,Client not found: Mobelringen
+Norway,Norges sjomatrad,Norges sjomatrad,Real Estate,Client not found: Norges sjomatrad
+Finland,Pagen,Pagen,Food,Client not found: Pagen
+Norway,Scandinavian Airlines,SAS,Healthcare,Client not found: Scandinavian Airlines
+Sweden,Scandinavian Airlines,SAS,Travel,Client not found: Scandinavian Airlines
+Norway,Stiftelsen Kirkens Bymisjon,Stiftelsen Kirkens Bymisjon,Travel,Brand 'Stiftelsen Kirkens Bymisjon' not found under market 'Norway' (client 'Stiftelsen Kirkens Bymisjon')
+Finland,Supercell,Supercell,Home Entertainment,Brand 'Supercell' not found under market 'Finland' (client 'Supercell')
+Denmark,Tempur,Tempur,Household Items,Client not found: Tempur
+Finland,Tempur,Tempur,Household Items,Client not found: Tempur

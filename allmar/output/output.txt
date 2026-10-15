@@ -1,0 +1,81 @@
+============================================================
+🚀 Starting processing of 10 rows with 10 workers
+🔁 Max attempts per request: 3
+⏱️ Retry delay: 30 seconds
+============================================================
+============================================================
+🔍 Processing client: DEBRA | market: Austria
+============================================================
+🔍 Processing client: Der Pragmaticus | market: Austria
+============================================================
+🔍 Processing client: Energie Steiermark Kunden | market: Austria
+============================================================
+============================================================
+🔍 Processing client: ProSiebenSat.1 PULS 4 | market: Austria
+============================================================
+🔍 Processing client: yfood Labs | market: Austria
+🔍 Processing client: pro medico Handels | market: Austria
+============================================================
+🔍 Processing client: Air Up | market: Austria
+🚀 Attempt 1/3: Der Pragmaticus -> Austria
+============================================================
+============================================================
+🚀 Attempt 1/3: DEBRA -> Austria
+🚀 Attempt 1/3: Energie Steiermark Kunden -> Austria
+============================================================
+🔍 Processing client: Wiener Tierschutzverein | market: Austria
+🚀 Attempt 1/3: yfood Labs -> Austria
+🔍 Processing client: Ecolab | market: Austria
+🔍 Processing client: Mavie | market: Austria
+⚠️ Not found in hierarchy (CLIENT type): Mavie
+🚀 Attempt 1/3: Air Up -> Austria
+🚀 Attempt 1/3: ProSiebenSat.1 PULS 4 -> Austria
+🚀 Attempt 1/3: Wiener Tierschutzverein -> Austria
+🚀 Attempt 1/3: pro medico Handels -> Austria
+🚀 Attempt 1/3: Ecolab -> Austria
+⚠️ Network error on attempt 1/3 for DEBRA -> Austria: HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=30)
+⏳ Retrying in 30 seconds...
+⚠️ Network error on attempt 1/3 for Ecolab -> Austria: HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=30)
+⚠️ Network error on attempt 1/3 for Energie Steiermark Kunden -> Austria: HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=30)
+⏳ Retrying in 30 seconds...
+⏳ Retrying in 30 seconds...
+⚠️ Network error on attempt 1/3 for ProSiebenSat.1 PULS 4 -> Austria: HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=30)
+⏳ Retrying in 30 seconds...
+⚠️ Network error on attempt 1/3 for yfood Labs -> Austria: HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=30)
+⏳ Retrying in 30 seconds...
+⚠️ Network error on attempt 1/3 for Wiener Tierschutzverein -> Austria: HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=30)
+⏳ Retrying in 30 seconds...
+⚠️ Network error on attempt 1/3 for pro medico Handels -> Austria: HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=30)
+⏳ Retrying in 30 seconds...
+⚠️ Network error on attempt 1/3 for Air Up -> Austria: HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=30)
+⏳ Retrying in 30 seconds...
+⚠️ Network error on attempt 1/3 for Der Pragmaticus -> Austria: HTTPSConnectionPool(host='media.os.wpp.com', port=443): Read timed out. (read timeout=30)
+⏳ Retrying in 30 seconds...
+🚀 Attempt 2/3: DEBRA -> Austria
+🚀 Attempt 2/3: Ecolab -> Austria
+🚀 Attempt 2/3: Energie Steiermark Kunden -> Austria
+🚀 Attempt 2/3: yfood Labs -> Austria
+🚀 Attempt 2/3: ProSiebenSat.1 PULS 4 -> Austria
+🚀 Attempt 2/3: Wiener Tierschutzverein -> Austria
+🚀 Attempt 2/3: pro medico Handels -> Austria
+🚀 Attempt 2/3: Air Up -> Austria
+🚀 Attempt 2/3: Der Pragmaticus -> Austria
+✅ Successfully created org-unit for pro medico Handels -> Austria
+✅ Successfully created org-unit for Ecolab -> Austria
+✅ Successfully created org-unit for Der Pragmaticus -> Austria
+✅ Successfully created org-unit for ProSiebenSat.1 PULS 4 -> Austria
+✅ Successfully created org-unit for Energie Steiermark Kunden -> Austria
+✅ Successfully created org-unit for yfood Labs -> Austria
+✅ Successfully created org-unit for DEBRA -> Austria
+✅ Successfully created org-unit for Wiener Tierschutzverein -> Austria
+ℹ️ Org-unit already exists for Air Up -> Austria
+{'status': 'Workspace with (tenant_id, parent_id, type, name)=(4c039217-7d17-4207-8314-98348983718a, 3a29f517-b93a-4b99-894c-91b2b64151c9, 3, Austria) already exists', 'title': 'Workspace with (tenant_id, parent_id, type, name)=(4c039217-7d17-4207-8314-98348983718a, 3a29f517-b93a-4b99-894c-91b2b64151c9, 3, Austria) already exists', 'detail': 'Workspace with (tenant_id, parent_id, type, name)=(4c039217-7d17-4207-8314-98348983718a, 3a29f517-b93a-4b99-894c-91b2b64151c9, 3, Austria) already exists', 'object_id': None}
+============================================================
+🏁 Processing completed
+📊 Total rows : 10
+✅ Successful : 9
+❌ Failed     : 1
+============================================================
+
+❌ Failed items:
+   - Mavie -> Austria | HTTP=None | ⚠️ Not found in hierarchy (CLIENT type): Mavie

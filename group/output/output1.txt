@@ -1,0 +1,13 @@
+🚀 Starting processing of 1 brands using up to 10 workers...
+
+🔎 Processing brand: Käserei Champignon
+📂 Found existing group → uid: 7132510e-d06c-4b63-a3ff-d3e942de18ca | name: Käserei Champignon
+🔑 Roles patched for existing group 7132510e-d06c-4b63-a3ff-d3e942de18ca. Response: [{'uid': '716964fd-5fc1-4e20-9904-9cf9d2fbb41c', 'group_uid': '7132510e-d06c-4b63-a3ff-d3e942de18ca', 'role_uid': '1544916c-0ce0-4042-a8e5-6e18042c73b7', 'account_uid': '4c0cdf5c-969d-480a-9581-9b3cf992dc1c'}]
+📊 Progress: 1/1 completed.
+
+✅ All done.
+Total brands: 1
+Created & roles assigned: 0
+Existing groups updated (roles assigned): 1
+Skipped (no azId): 0
+Failed: 0
