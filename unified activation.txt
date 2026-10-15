@@ -1,0 +1,170 @@
+part of the implementation team here based out of Netherlands. And I'm basically involved with the choreograph, the activate products, mainly creative optimizations and creative analytics, and mainly involved with documentation and support. And right now I'm also involved with user onboarding for the alpha phase of unified activation, so which is the product.
+Priya Shankar 0 minutes 26 seconds
+for which we'll be seeing a demo today. So let me just share my screen.
+Priya Shankar 0 minutes 37 seconds
+And please feel free to interrupt me whenever you have any questions. So we can just take it from there. So you might have already gone through the documents and the story lane demo, which we shared with you, but just to give you a brief overview. So unified activation is actually a product suite.
+Priya Shankar 0 minutes 57 seconds
+which brings key activation tasks in one place, and the entire end-to-end workflow is fully automated. So conventionally, we have different teams like the media teams, the production agencies, the activation team. So they're all using different tools and platforms to execute the different stages of activation.
+Priya Shankar 1 minute 17 seconds
+So unified activation is aiming to solve that problem and it provides a single place to perform all these things and also in an automated way.
+Priya Shankar 1 minute 27 seconds
+So, um...
+Priya Shankar 1 minute 30 seconds
+On October 6th, we plan to launch unified activation and when it goes live on October 6th, so we'll have 4 core components going live as part of UA. So we'll have creative analytics, creative trackers, creative library, and creative activation, which is now also being renamed as traffic and activate. So these are the four main components which will go out as part of UA.
+Priya Shankar 1 minute 55 seconds
+Now, it's also being incrementally expanded, so it's not going to be restricted to these four, and it's still being expanded, and it'll be rolled out in the subsequent releases. Unified activation is by nature modular, meaning that...
+Priya Shankar 2 minutes 14 seconds
+Even though these components are interconnected, so they can also function independently. So it's not like the user needs to start from the first step and then he needs to go sequentially towards the last step of the user journey. So you can use creative analytics separately and you can use creative activation separately.
+Priya Shankar 2 minutes 34 seconds
+They are capable of being used independently based on what suits your requirements. So.
+SM
+Siva Sankar Mandadi
+30 minutes 55 seconds30:55
+Siva Sankar Mandadi 30 minutes 55 seconds
+So here is in this UA and creative analytics and the mentioned products, right? So do we have onboarding thing that came over the ticket itself or how it going to be? So your team will going to onboard from your end or?
+PS
+Priya Shankar
+31 minutes 3 seconds31:03
+Priya Shankar 31 minutes 3 seconds
+Yeah.
+SM
+Siva Sankar Mandadi
+31 minutes 15 seconds31:15
+Siva Sankar Mandadi 31 minutes 15 seconds
+Somebody will come and ask for access.
+PS
+Priya Shankar
+31 minutes 16 seconds31:16
+Priya Shankar 31 minutes 16 seconds
+Yes.
+Priya Shankar 31 minutes 18 seconds
+So, yeah, so right now I think we have already been taking the help of support to help onboard people to a particular client workspace. But as I was saying, yeah, we'll get more clarity by the beginning of next week on all this so that we can give you a clear-cut picture of the portions that support is expected to.
+Priya Shankar 31 minutes 39 seconds
+take care of. So, but I think for now, I think whatever is present in the runbook is, it's finalized, but there are other bits of it which you need clarity on. Yeah, please get back to us. And I think, yeah, we'll also get a clearer picture by the beginning of next week.
+SM
+Siva Sankar Mandadi
+31 minutes 40 seconds31:40
+Siva Sankar Mandadi 31 minutes 40 seconds
+Okay.
+Siva Sankar Mandadi 31 minutes 47 seconds
+Sufficient, okay.
+Siva Sankar Mandadi 31 minutes 58 seconds
+Okay.
+Siva Sankar Mandadi 32 minutes
+Okay, right now it's totally fine. Guys, anybody have anything?
+Siva Sankar Mandadi 32 minutes 5 seconds
+So, Priya, once it goes live, so, like, you will provide a support button from the UI itself, right? In application UAR, so they're supposed to raise the ticket that integrated to GenDesk and the ticket will come to our GenDesk ticket queue.
+PS
+Priya Shankar
+32 minutes 15 seconds32:15
+Priya Shankar 32 minutes 15 seconds
+Yes, yes, that will be there, yes.
+Priya Shankar 32 minutes 21 seconds
+Yes, yes.
+SM
+Siva Sankar Mandadi
+32 minutes 22 seconds32:22
+Siva Sankar Mandadi 32 minutes 22 seconds
+So, can you provide access to my team?
+Siva Sankar Mandadi 32 minutes 27 seconds
+So like how they supposed to take like a...
+Siva Sankar Mandadi 32 minutes 31 seconds
+to respond back to the users when they need something. And yes, initially we need some help from your team or from you how to handle those tickets.
+PS
+Priya Shankar
+32 minutes 34 seconds32:34
+Priya Shankar 32 minutes 34 seconds
+Okay.
+Priya Shankar 32 minutes 35 seconds
+Okay.
+Priya Shankar 32 minutes 39 seconds
+Yes.
+Priya Shankar 32 minutes 41 seconds
+Sure.
+SM
+Siva Sankar Mandadi
+32 minutes 42 seconds32:42
+Siva Sankar Mandadi 32 minutes 42 seconds
+Yeah, so once it goes live, please let us know and I will share you the details in the e-mail to grant access for now. At least half of the team at least for now.
+PS
+Priya Shankar
+32 minutes 43 seconds32:43
+Priya Shankar 32 minutes 43 seconds
+Yeah.
+Priya Shankar 32 minutes 51 seconds
+Yes.
+Priya Shankar 32 minutes 54 seconds
+Okay.
+SM
+Siva Sankar Mandadi
+32 minutes 55 seconds32:55
+Siva Sankar Mandadi 32 minutes 55 seconds
+And may I know like you are giving admin access, so then our team can internally grant access to remaining people as well.
+PS
+Priya Shankar
+33 minutes 4 seconds33:04
+Priya Shankar 33 minutes 4 seconds
+We actually reached out to the product team for admin related access things. So it's not in our remit, so we need to reach out to our product team. So if you could just let us know a list of users who would need this, so then maybe we can just pass it over to them.
+SM
+Siva Sankar Mandadi
+33 minutes 20 seconds33:20
+Siva Sankar Mandadi 33 minutes 20 seconds
+Sure, sure. I'll check it out and I'll come back to you.
+PS
+Priya Shankar
+33 minutes 24 seconds33:24
+Priya Shankar 33 minutes 24 seconds
+Yeah, and if you gather more questions by then, so please just collate everything and then just send it over to us so that we can discuss everything internally and we could provide you answers for them.
+SM
+Siva Sankar Mandadi
+33 minutes 31 seconds33:31
+Siva Sankar Mandadi 33 minutes 31 seconds
+Yeah.
+Siva Sankar Mandadi 33 minutes 34 seconds
+Yes, yes, initially it's a simple ORU, right? Once the ticket gets started, like what type of issues the users side and we do get to see, like, so yeah, so initially it's fine for now, and the team is reviewing the docs, whatever you shared, and once you're done with L2 metrics as well, just please share it with us.
+PS
+Priya Shankar
+33 minutes 39 seconds33:39
+Priya Shankar 33 minutes 39 seconds
+Yes.
+Priya Shankar 33 minutes 42 seconds
+Yeah.
+Priya Shankar 33 minutes 46 seconds
+Yeah.
+Priya Shankar 33 minutes 53 seconds
+Yes, yes.
+SM
+Siva Sankar Mandadi
+33 minutes 53 seconds33:53
+Siva Sankar Mandadi 33 minutes 53 seconds
+And please mention like L3 metrics as well, like and what scenarios L2 team supposed to come back, reach back to L3. So the team will raise a 0 ticket. Right now there is a metrics that the team is following like after analyzing. So they're reaching back to dev team for production changes or database changes, whatever required.
+PS
+Priya Shankar
+34 minutes 2 seconds34:02
+Priya Shankar 34 minutes 2 seconds
+Okay.
+Priya Shankar 34 minutes 8 seconds
+Mhm.
+Priya Shankar 34 minutes 13 seconds
+Yeah.
+SM
+Siva Sankar Mandadi
+34 minutes 13 seconds34:13
+Siva Sankar Mandadi 34 minutes 13 seconds
+So this is the metrics for the other products. So I hope I am feeling the same for this product as well.
+PS
+Priya Shankar
+34 minutes 19 seconds34:19
+Priya Shankar 34 minutes 19 seconds
+Yeah, I think the Jira board, it's still under works. So yeah, I think same. Yeah, we have a similar workflow set up for this one as well, but it's still under works. So yeah, I think, yes, it should be the same workflow.
+SM
+Siva Sankar Mandadi
+34 minutes 23 seconds34:23
+Siva Sankar Mandadi 34 minutes 23 seconds
+Yes.
+Siva Sankar Mandadi 34 minutes 28 seconds
+Thanks.
+Siva Sankar Mandadi 34 minutes 31 seconds
+Yes, yes, great, great then, so it's almost same, so yeah.
+Siva Sankar Mandadi 34 minutes 36 seconds
+For now, it's totally good, and thank you so much for your efforts.

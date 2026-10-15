@@ -1,0 +1,823 @@
+Absolutely. Here is the end-to-end explanation of what you have built, in a way you can give to another developer/AI and they will understand the project architecture, flow, and purpose.
+
+Campaign AI — End-to-End Architecture
+1. What is this project?
+
+This project is a Campaign Management knowledge assistant built using a local RAG (Retrieval-Augmented Generation) architecture.
+
+Its purpose is to allow a user to ask questions such as:
+
+"How do I update a budget when a media plan is in Reconciliation?"
+"What should I do if the media plan is Reconciled and locked?"
+"Why is MSC not reflecting in SAP?"
+"What is Monthly Spend Confirmation?"
+"How do I get access to ED 2.0?"
+"What should I do when a campaign has ended?"
+"How do I troubleshoot a Campaign Management issue?"
+
+Instead of expecting the LLM to know the answers, the system searches the organization's Campaign Management knowledge base, retrieves relevant documents/chunks, and gives those documents to the LLM as context.
+
+The overall architecture is:
+
+                    ┌──────────────────────┐
+                    │   Campaign KB        │
+                    │ Confluence / Docs    │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │     Indexer           │
+                    │                      │
+                    │ Documents → Chunks   │
+                    │ Chunks → SQLite      │
+                    │ FTS Index             │
+                    │ Embeddings            │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                 campaign_knowledge.db
+                               │
+                ┌──────────────┴──────────────┐
+                │                             │
+                ▼                             ▼
+       ┌─────────────────┐           ┌─────────────────┐
+       │ Semantic Search │           │ FTS / Keyword   │
+       │ Embeddings      │           │ Search          │
+       └────────┬────────┘           └────────┬────────┘
+                │                             │
+                └──────────────┬──────────────┘
+                               ▼
+                     ┌──────────────────┐
+                     │ Hybrid Retriever │
+                     │                  │
+                     │ Semantic + FTS   │
+                     │ Keyword + Intent │
+                     └────────┬─────────┘
+                              │
+                              ▼
+                      Top relevant chunks
+                              │
+                              ▼
+                    ┌──────────────────┐
+                    │ Context Builder  │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │ Deterministic    │
+                    │ Workflow Rules   │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │ Ollama           │
+                    │ Qwen3:8B         │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                       Final Answer
+
+2. Knowledge ingestion
+
+Your source knowledge comes from the Campaign Management documentation.
+
+You have been indexing documents such as:
+
+Campaign Management 101 Campaign Management Fundamentals
+Campaign Management 301 Key Financial Tasks
+Media Plan Push Back Requests
+Monthly Spend Confirmation
+Reconciliation Process
+ED 2.0 Portal UI Access
+ODP Adverity Access
+ED 2.0 Monitoring Dashboard
+EDP Questions
+Status Page
+Big Query Access
+...
+
+
+You also have Confluence-derived Markdown files such as:
+
+8884546729656_Big Query Access.md
+8884606727883_ED 2.0 Support Decision Tree.md
+8884610168528_Setting up with GCS Collector.md
+...
+
+
+The indexing process converts these documents into searchable chunks.
+
+Your final indexing output showed:
+
+Documents : 522
+Chunks    : 2312
+Database  : C:\Users\Azath.A\campaign-ai\data\campaign_knowledge.db
+
+
+So the system currently has approximately:
+
+522 documents
+2312 searchable chunks
+
+
+stored in SQLite.
+
+3. SQLite knowledge database
+
+The main knowledge database is:
+
+data/campaign_knowledge.db
+
+
+The database contains information such as:
+
+documents
+chunks
+chunks_fts
+
+
+Conceptually:
+
+documents
+   │
+   └── document metadata
+       ├── title
+       ├── source_type
+       ├── source_file
+       ├── page_id
+       ├── Confluence URL
+       └── modified time
+
+chunks
+   │
+   └── actual searchable content
+       ├── chunk_id
+       ├── document_id
+       ├── chunk_index
+       ├── heading
+       └── content
+
+chunks_fts
+   │
+   └── SQLite Full Text Search index
+
+
+This makes the knowledge base fast to search locally.
+
+4. FTS search
+
+You built a traditional keyword search layer using SQLite FTS.
+
+For example, a question:
+
+Why is MSC not reflecting in SAP?
+
+
+gets tokenized into meaningful words.
+
+The system then searches the FTS index for relevant chunks.
+
+This is useful because exact terminology matters a lot in Campaign Management.
+
+For example:
+
+MSC
+SAP
+Reconciliation
+Published
+Reconciled
+Client Finance
+confirmed spend
+plan line
+
+
+are important domain-specific terms.
+
+5. Semantic search
+
+You also have:
+
+semantic_search.py
+
+
+This provides semantic retrieval.
+
+The advantage is that the user doesn't have to use the exact wording from the documentation.
+
+For example, the user might ask:
+
+The campaign is finished and the actual amount is different from
+what we originally planned. How can I fix the media plan?
+
+
+The documentation might say:
+
+update budgets after the plan has moved into Reconciliation
+
+
+Keyword search alone may not consider these very similar.
+
+Semantic search understands the conceptual similarity.
+
+So you have:
+
+User question
+      │
+      ▼
+Embedding
+      │
+      ▼
+Semantic similarity
+      │
+      ▼
+Relevant knowledge chunks
+
+6. Hybrid retrieval
+
+This is one of the important parts of the project.
+
+You created:
+
+retriever.py
+
+
+which combines multiple retrieval signals.
+
+It doesn't depend only on semantic search.
+
+It combines:
+
+FTS score
++
+Keyword score
++
+Intent score
++
+Semantic score
+
+
+The general flow is:
+
+                 User question
+                       │
+          ┌────────────┴────────────┐
+          ▼                         ▼
+      FTS search              Semantic search
+          │                         │
+          ▼                         ▼
+    Keyword score            Semantic score
+          │
+          ▼
+     Intent score
+          │
+          └────────────┬────────────┘
+                       ▼
+                Normalize scores
+                       │
+                       ▼
+                Hybrid ranking
+                       │
+                       ▼
+                Top N results
+
+
+Your hybrid score currently uses approximately:
+
+45% FTS
+55% semantic
+
+
+with keyword/intent information contributing to the FTS-side score.
+
+This is better than relying on a single retrieval method.
+
+7. Intent scoring
+
+You added domain-aware intent scoring.
+
+For example, the system recognizes concepts around:
+
+Reconciliation
+Reconciled
+budget
+planned budget
+actual spend
+monthly spend
+MSC
+access
+permissions
+support
+issues
+errors
+
+
+This helps distinguish documents that are merely semantically similar from documents that actually address the user's operational intent.
+
+For example:
+
+User:
+"I need to change the budget after the campaign ended."
+
+
+
+The intent layer recognizes:
+
+campaign ended
++
+budget
++
+Reconciliation workflow
+
+
+and therefore boosts relevant Campaign Management financial workflow documents.
+
+8. Deduplication
+
+The retriever also deduplicates results.
+
+This is important because the same knowledge can appear in:
+
+Campaign Management 101
+Campaign Management 301
+Media Plan Push Back Requests
+
+
+or multiple chunks of the same document.
+
+You don't want the LLM receiving eight nearly identical chunks.
+
+So the retriever:
+
+search
+  ↓
+rank
+  ↓
+deduplicate
+  ↓
+limit
+
+
+before constructing the final context.
+
+9. Context builder
+
+The retrieved results are then converted into a structured context.
+
+Conceptually:
+
+[SOURCE 1]
+Source type: confluence
+Title: Campaign Management 301 Key Financial Tasks
+Heading: Reconciliation stage
+
+<knowledge content>
+
+[SOURCE 2]
+Source type: confluence
+Title: Campaign Management 101 Campaign Management Fundamentals
+
+<knowledge content>
+
+
+This context is then passed to the answer-generation layer.
+
+You also limit the context size so that you don't send thousands of characters unnecessarily to Qwen.
+
+10. Deterministic workflow logic
+
+This is another important improvement you made.
+
+Originally, you relied almost entirely on the LLM to interpret the retrieved documents.
+
+That created problems like:
+
+Reconciliation
+
+
+being confused with:
+
+Reconciled + locked
+
+
+The documentation actually distinguishes these states, and the workflow order matters.
+
+So you introduced deterministic rules for important workflows.
+
+For example:
+
+Reconciliation
+
+The system knows the documented flow is:
+
+Update confirmed monthly spends
+        ↓
+Client Finance approval
+        ↓
+Campaign Management Support
+        ↓
+Push media plan to Published
+        ↓
+Update budget
+        ↓
+Re-approval
+
+Reconciled + locked
+
+The system knows:
+
+Client Finance unlock / un-reconcile
+        ↓
+Update confirmed spends
+        ↓
+Client Finance approval
+        ↓
+Campaign Management Support
+        ↓
+Push to Published
+        ↓
+Update budget
+        ↓
+Re-approval
+
+
+This prevents Qwen from rearranging the workflow.
+
+11. Answering rules
+
+You also added strict answering rules.
+
+The LLM is instructed to:
+
+Answer the exact question.
+
+Use only information from the knowledge base.
+
+Do not invent procedures.
+
+Do not invent permissions.
+
+Do not invent URLs.
+
+Do not invent approval requirements.
+
+Do not invent system behavior.
+
+Preserve documented workflow order.
+
+Distinguish Reconciliation vs Reconciled.
+
+If Reconciled + locked:
+Client Finance must unlock/un-reconcile first.
+
+Do not claim re-approval happens before Support push-back
+in the Reconciled + locked workflow.
+
+Do not fabricate links.
+
+Do not discuss the AI/prompt.
+
+
+This is essentially your grounding and hallucination-control layer.
+
+12. Ollama + Qwen3
+
+The generation model is running locally through Ollama.
+
+Your current setup is:
+
+Model: qwen3:8b
+Backend: Ollama
+
+
+So the architecture does not require an external LLM API for answer generation.
+
+The local model receives:
+
+System instructions
++
+Answering rules
++
+User question
++
+Retrieved Campaign Management context
+
+
+and generates the final response.
+
+13. rag.py is the application/orchestrator
+
+The main entry point is:
+
+rag.py
+
+
+When you run:
+
+python rag.py
+
+
+you get:
+
+CAMPAIGN AI
+
+Model: qwen3:8b
+Backend: Ollama
+
+Ask a Campaign Management question.
+Type 'exit' to quit.
+
+
+The application then enters a loop.
+
+14. Runtime flow
+
+When the user asks:
+
+Why is MSC not reflecting in SAP?
+
+
+the flow is approximately:
+
+User question
+      │
+      ▼
+rag.py
+      │
+      ▼
+retrieve()
+      │
+      ├───────────────┐
+      ▼               ▼
+FTS search       Semantic search
+      │               │
+      └───────┬───────┘
+              ▼
+       Hybrid ranking
+              │
+              ▼
+       Deduplication
+              │
+              ▼
+       Top 5/8 sources
+              │
+              ▼
+      Build context
+              │
+              ▼
+ Deterministic workflow check
+              │
+              ▼
+   Qwen3:8B through Ollama
+              │
+              ▼
+        Final answer
+
+15. Example: Reconciliation question
+
+For:
+
+I need to update a media plan budget after the campaign has ended
+and the media plan is in Reconciliation.
+The actual spend is different from the planned budget.
+What is the correct process?
+
+
+retrieval finds documents such as:
+
+Campaign Management 301 Key Financial Tasks
+Campaign Management 101 Campaign Management Fundamentals
+Media Plan Push Back Requests
+Reconciliation Process
+
+
+The deterministic workflow then ensures the answer follows the documented sequence.
+
+The final answer is essentially:
+
+1. Update confirmed monthly spends.
+2. Obtain Client Finance approval.
+3. Ask Campaign Management Support to push the plan to Published.
+4. Update the plan-line budgets.
+5. Send the plan for re-approvals.
+
+16. Example: Reconciled + locked
+
+For:
+
+The media plan is already Reconciled and locked.
+I need to correct the budget and confirmed spend.
+
+
+the system distinguishes the state.
+
+It doesn't treat this as ordinary Reconciliation.
+
+It knows:
+
+Reconciled + locked
+        ↓
+Client Finance unlock/un-reconcile
+        ↓
+Update confirmed spend
+        ↓
+Client Finance approval
+        ↓
+Support push-back to Published
+        ↓
+Update budget
+        ↓
+Re-approval
+
+
+This distinction was one of the important fixes you made during development.
+
+17. Error handling
+
+You also encountered:
+
+ERROR: Ollama request timed out.
+
+
+This is a generation/backend issue, not a retrieval failure.
+
+Your system had already successfully done:
+
+Searching Campaign Management knowledge...
+Retrieved 8 relevant sources.
+
+
+So:
+
+Retrieval = working
+LLM generation = timed out
+
+
+That distinction is useful for debugging.
+
+18. Current project structure
+
+Conceptually your project looks like:
+
+campaign-ai/
+│
+├── app/
+│   ├── rag.py
+│   ├── retriever.py
+│   ├── semantic_search.py
+│   └── ...
+│
+├── data/
+│   └── campaign_knowledge.db
+│
+├── confluence/
+│   └── SUP_notebooklm_v3/
+│       └── pages/
+│           ├── *.md
+│           └── ...
+│
+└── .venv/
+
+
+The important runtime files are:
+
+rag.py
+retriever.py
+semantic_search.py
+campaign_knowledge.db
+
+19. What the project is NOT
+
+This is important when explaining it to someone else.
+
+It is not:
+
+a Campaign Management API
+
+
+It does not directly modify Campaign Management.
+
+It is:
+
+a knowledge assistant
+
+
+that explains documented Campaign Management procedures.
+
+For example, it can tell a user:
+
+"Ask Client Finance to unlock the Reconciled plan."
+
+But it does not actually unlock the plan.
+
+Likewise:
+
+"Submit a ticket to Campaign Management Support."
+
+The application doesn't submit the ticket.
+
+It provides the documented procedure.
+
+20. What happens when documentation doesn't contain the answer?
+
+The intended behavior is:
+
+No sufficient knowledge
+        ↓
+Do NOT hallucinate
+        ↓
+Say:
+"The available Campaign Management documentation
+does not specify that step."
+
+
+This is important because your goal is a grounded internal knowledge assistant, not a general-purpose chatbot.
+
+21. The complete architecture in one diagram
+
+You can explain the whole thing to another developer like this:
+
+                  CAMPAIGN MANAGEMENT DOCUMENTATION
+                               │
+                               ▼
+                    ┌────────────────────┐
+                    │ Document Ingestion │
+                    └─────────┬──────────┘
+                              │
+                              ▼
+                       Chunk documents
+                              │
+                    ┌─────────┴─────────┐
+                    ▼                   ▼
+               SQLite DB            Embeddings
+                    │                   │
+                    ▼                   ▼
+                SQLite FTS        Semantic index
+                    │                   │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                         User Question
+                              │
+                              ▼
+                         `rag.py`
+                              │
+                              ▼
+                       `retriever.py`
+                              │
+                 ┌────────────┼────────────┐
+                 ▼            ▼            ▼
+                FTS       Semantic       Intent
+                 │         Search        Scoring
+                 └────────────┼────────────┘
+                              ▼
+                       Hybrid Ranking
+                              │
+                              ▼
+                         Deduplication
+                              │
+                              ▼
+                         Top Results
+                              │
+                              ▼
+                       Context Builder
+                              │
+                              ▼
+                  Deterministic Workflows
+                              │
+                              ▼
+                     Answering Rules
+                              │
+                              ▼
+                     Ollama / Qwen3:8B
+                              │
+                              ▼
+                         Final Answer
+
+22. One-paragraph explanation for another AI/developer
+
+You can literally give this to another AI:
+
+Campaign AI is a local RAG-based Campaign Management knowledge assistant. Campaign Management documentation is ingested from Confluence/Markdown files, chunked, and stored in a SQLite knowledge database with an FTS index and semantic embeddings. At runtime, rag.py accepts a user's Campaign Management question and calls the hybrid retrieval layer in retriever.py, which combines SQLite FTS, keyword scoring, intent scoring, and semantic similarity to retrieve and rank relevant knowledge chunks. Results are deduplicated and converted into a context passed to a local Qwen3:8B model running through Ollama. The system also contains deterministic workflow logic for critical Campaign Management processes, particularly Reconciliation versus Reconciled/locked media-plan workflows, so the LLM cannot arbitrarily reorder documented steps or invent permissions/approvals. Strict answering rules require the model to use only the retrieved knowledge base, preserve documented workflow order, distinguish workflow states, and explicitly say when the documentation does not specify something. The application is an advisory knowledge assistant; it does not directly modify Campaign Management systems or execute the procedures it describes.
+
+Bottom line
+
+You have built a working end-to-end RAG knowledge assistant, not just a semantic search script.
+
+The major pieces are now:
+
+Knowledge ingestion → Confluence/Markdown → chunks
+Persistent knowledge store → SQLite
+Full-text retrieval → FTS
+Semantic retrieval → embeddings
+Hybrid retrieval → FTS + semantic + keyword + intent
+Result deduplication
+Context construction
+Deterministic workflow handling
+Grounded answering rules
+Local LLM generation → Ollama + Qwen3:8B
+Interactive CLI → rag.py
+Hallucination control → answer only from Campaign Management documentation
+
+So if someone asks, "What did we build?", the simplest answer is:
+
+We built a local, grounded Campaign Management RAG assistant that searches 500+ internal documents using hybrid semantic/keyword retrieval and uses Qwen3 locally through Ollama to answer operational Campaign Management questions, with deterministic rules protecting critical workflows from LLM hallucination or incorrect step ordering.

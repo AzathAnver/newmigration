@@ -1,0 +1,966 @@
+{
+    "rootId": "14edca3c-3cdc-4d98-96e6-bfb769c719cc",
+    "mapping": {
+        "14edca3c-3cdc-4d98-96e6-bfb769c719cc": {
+            "azId": "14edca3c-3cdc-4d98-96e6-bfb769c719cc",
+            "mdId": null,
+            "name": "Dell Organisations",
+            "type": "TENANT",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [],
+            "children": [
+                "hierarchy-container-node"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "859e197c-a42e-42d4-a066-862440d98408": {
+            "azId": "859e197c-a42e-42d4-a066-862440d98408",
+            "mdId": "a795a2cb-ce34-48da-b9e7-52faf81307ca",
+            "name": "United States of America",
+            "type": "MARKET",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "f0254765-b1d1-41f7-8bb7-c7c65f687c72-United States.svg",
+                "name": "United States.svg",
+                "size": 5087
+            },
+            "logoThumbnail": {
+                "key": "cf38a025-4080-4b65-a21d-ec3255dd1e11-United States.svg",
+                "name": "United States.svg",
+                "size": 5087
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "9ff1c84b-33a7-4287-91bc-bd0876b715ea"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "891c3357-5ed3-4c9a-a644-ef31763e8f41": {
+            "azId": "891c3357-5ed3-4c9a-a644-ef31763e8f41",
+            "mdId": "97ebc08f-1dba-488c-a19c-1dca08ecc4f7",
+            "name": "Dell",
+            "type": "CLIENT",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "49d49637-edea-41f5-8afb-a0d3b0ee7ad2-Dell.png",
+                "name": "Dell.png",
+                "size": 37907
+            },
+            "logoThumbnail": {
+                "key": "80c55fea-fef3-4c7c-917e-35dfb4d5f87d-avatar_1732823394839.png",
+                "name": "avatar_1732823394839.png",
+                "size": 48514
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "859e197c-a42e-42d4-a066-862440d98408",
+                "cc90daac-46e4-4c48-9f36-3421fe263030",
+                "ae94089e-c56c-4a03-9528-80ee1cb4943b",
+                "e0cd4286-5e6f-4964-b005-42703631d834",
+                "ba29dd0a-55f7-4b50-9bd4-bceeb7d2c295",
+                "2029adef-2297-40dd-b8e5-459b9c234a1e",
+                "ce5e88b8-d6fd-450c-adaf-daea458c9fa9",
+                "88ab3484-9af0-4c9b-a620-a36e691be2c9",
+                "e280f2e7-9267-44d9-b7e8-4ba52595688b",
+                "46141699-96aa-489c-a202-2fd3b03d008d",
+                "4e459314-6d34-426c-b86f-3dabe9a03350",
+                "6b118660-0269-4151-89c1-dc2a905eb54f",
+                "94fd5159-39e8-41cf-8613-b51e058f0e3f",
+                "f2ffd87c-fa9f-4a60-b70c-1ff4e083ec3c",
+                "1a32fa23-8709-4618-b312-6bdf3f27dafd",
+                "0b4a0b5c-4462-408f-bef3-3fc130133c84",
+                "8deeed6a-a3f0-415d-843e-f16930cd6e0a",
+                "251332b5-7ce9-4db9-841d-928b1149c6b2"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "cc90daac-46e4-4c48-9f36-3421fe263030": {
+            "azId": "cc90daac-46e4-4c48-9f36-3421fe263030",
+            "mdId": "c0dc40fb-4ccf-4b09-9852-49b3f39090c0",
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "type": "MARKET",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "a71316e8-035e-43a2-87a3-a4fb1b0496ad-United Kingdom.svg",
+                "name": "United Kingdom.svg",
+                "size": 2840
+            },
+            "logoThumbnail": {
+                "key": "172bc20f-89f5-4cac-8e65-7f737576a6f9-United Kingdom.svg",
+                "name": "United Kingdom.svg",
+                "size": 2840
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "0a6c36c2-8231-4f8c-8295-1b27325aa618"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "ae94089e-c56c-4a03-9528-80ee1cb4943b": {
+            "azId": "ae94089e-c56c-4a03-9528-80ee1cb4943b",
+            "mdId": "bcec3dbc-7d0b-486c-9dd8-eff1b2e64e03",
+            "name": "India",
+            "type": "MARKET",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "fe33f70d-8217-4ac2-95ab-017f4bb3011e-India.svg",
+                "name": "India.svg",
+                "size": 2058
+            },
+            "logoThumbnail": {
+                "key": "b53de284-b425-4bf2-9069-0570e814f35c-India.svg",
+                "name": "India.svg",
+                "size": 2058
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "1ff27157-b7b9-49d5-9949-dcf1917b8149"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "6695ce37-3fa3-4c17-b6b8-55ac21005f8e": {
+            "azId": "6695ce37-3fa3-4c17-b6b8-55ac21005f8e",
+            "mdId": "afd14974-606d-4ef8-b10c-c69ddf1abcd9",
+            "name": "Dell",
+            "type": "BRAND",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [
+                {
+                    "id": "f68f253e-0337-4078-a602-f81e96cf9561",
+                    "name": "Consumer Electronics"
+                }
+            ],
+            "children": [],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "e0cd4286-5e6f-4964-b005-42703631d834": {
+            "azId": "e0cd4286-5e6f-4964-b005-42703631d834",
+            "mdId": "9a201dd4-fb11-4bd6-bca3-ef170652ce2b",
+            "name": "Japan",
+            "type": "MARKET",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "1a9669ed-16ab-457f-81f5-0215c9f0b95a-Japan.svg",
+                "name": "Japan.svg",
+                "size": 1025
+            },
+            "logoThumbnail": {
+                "key": "7f3aa255-04e6-458b-856f-65bf0f76bcca-Japan.svg",
+                "name": "Japan.svg",
+                "size": 1025
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "a591a60e-9b49-4a84-89bc-f4b952ae9073"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "86f5d856-0f15-4163-a513-11758e076c7d": {
+            "azId": "86f5d856-0f15-4163-a513-11758e076c7d",
+            "mdId": "afd14974-606d-4ef8-b10c-c69ddf1abcd9",
+            "name": "Dell",
+            "type": "BRAND",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [
+                {
+                    "id": "f68f253e-0337-4078-a602-f81e96cf9561",
+                    "name": "Consumer Electronics"
+                }
+            ],
+            "children": [],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "ba29dd0a-55f7-4b50-9bd4-bceeb7d2c295": {
+            "azId": "ba29dd0a-55f7-4b50-9bd4-bceeb7d2c295",
+            "mdId": "c4a22815-f54d-4b8d-9b81-b3ad73add8e6",
+            "name": "Germany",
+            "type": "MARKET",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "a9fb7e78-90c2-45a9-bd17-f234ee11731a-Germany.svg",
+                "name": "Germany.svg",
+                "size": 737
+            },
+            "logoThumbnail": {
+                "key": "4ed14ff4-fa6c-4e79-b5a8-a398c5014fbb-Germany.svg",
+                "name": "Germany.svg",
+                "size": 737
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "86f5d856-0f15-4163-a513-11758e076c7d"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "2029adef-2297-40dd-b8e5-459b9c234a1e": {
+            "azId": "2029adef-2297-40dd-b8e5-459b9c234a1e",
+            "mdId": "36bb1614-80d5-44ea-8db2-808768825626",
+            "name": "Brazil",
+            "type": "MARKET",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "7c8193e9-6bcf-4a96-b155-d8fdd16300db-Brazil.svg",
+                "name": "Brazil.svg",
+                "size": 4816
+            },
+            "logoThumbnail": {
+                "key": "6ffb1ab2-472c-4127-b657-a96bfb35b5b0-Brazil.svg",
+                "name": "Brazil.svg",
+                "size": 4816
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "eb0a312e-d835-4b5c-9a14-2432fbee3f31"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "ce5e88b8-d6fd-450c-adaf-daea458c9fa9": {
+            "azId": "ce5e88b8-d6fd-450c-adaf-daea458c9fa9",
+            "mdId": "3e899810-f418-4d73-aae8-5952bef52ee8",
+            "name": "France",
+            "type": "MARKET",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "f665d708-d26b-40eb-b22d-06d730826da2-France.svg",
+                "name": "France.svg",
+                "size": 731
+            },
+            "logoThumbnail": {
+                "key": "14941317-fec4-47da-962d-2dc7b2febe43-France.svg",
+                "name": "France.svg",
+                "size": 731
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "61a178e3-f5dc-4243-b17d-8224019e7e22"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "88ab3484-9af0-4c9b-a620-a36e691be2c9": {
+            "azId": "88ab3484-9af0-4c9b-a620-a36e691be2c9",
+            "mdId": "ee8d1aca-3101-4084-a30f-c09716bf6561",
+            "name": "Australia",
+            "type": "MARKET",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "34e78df3-22f4-49b6-9d6c-7ce3710d34cd-Australia.svg",
+                "name": "Australia.svg",
+                "size": 4427
+            },
+            "logoThumbnail": {
+                "key": "8a5728f4-42d6-4d6c-9deb-553d4090558f-Australia.svg",
+                "name": "Australia.svg",
+                "size": 4427
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "6695ce37-3fa3-4c17-b6b8-55ac21005f8e"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "e280f2e7-9267-44d9-b7e8-4ba52595688b": {
+            "azId": "e280f2e7-9267-44d9-b7e8-4ba52595688b",
+            "mdId": "0e03a67e-792f-44c4-93f8-2788763bbf22",
+            "name": "Canada",
+            "type": "MARKET",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "6f27ee1e-b6e3-4726-89a7-0741e03c280d-Canada.svg",
+                "name": "Canada.svg",
+                "size": 1483
+            },
+            "logoThumbnail": {
+                "key": "76274254-af4e-4dea-bd69-b68c2fc31fb3-Canada.svg",
+                "name": "Canada.svg",
+                "size": 1483
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "0a213c5c-8234-4d83-b238-b5ba9a87781e"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "eb0a312e-d835-4b5c-9a14-2432fbee3f31": {
+            "azId": "eb0a312e-d835-4b5c-9a14-2432fbee3f31",
+            "mdId": "afd14974-606d-4ef8-b10c-c69ddf1abcd9",
+            "name": "Dell",
+            "type": "BRAND",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [
+                {
+                    "id": "f68f253e-0337-4078-a602-f81e96cf9561",
+                    "name": "Consumer Electronics"
+                }
+            ],
+            "children": [],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "0a213c5c-8234-4d83-b238-b5ba9a87781e": {
+            "azId": "0a213c5c-8234-4d83-b238-b5ba9a87781e",
+            "mdId": "afd14974-606d-4ef8-b10c-c69ddf1abcd9",
+            "name": "Dell",
+            "type": "BRAND",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [
+                {
+                    "id": "f68f253e-0337-4078-a602-f81e96cf9561",
+                    "name": "Consumer Electronics"
+                }
+            ],
+            "children": [],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "61a178e3-f5dc-4243-b17d-8224019e7e22": {
+            "azId": "61a178e3-f5dc-4243-b17d-8224019e7e22",
+            "mdId": "afd14974-606d-4ef8-b10c-c69ddf1abcd9",
+            "name": "Dell",
+            "type": "BRAND",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [
+                {
+                    "id": "f68f253e-0337-4078-a602-f81e96cf9561",
+                    "name": "Consumer Electronics"
+                }
+            ],
+            "children": [],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "1ff27157-b7b9-49d5-9949-dcf1917b8149": {
+            "azId": "1ff27157-b7b9-49d5-9949-dcf1917b8149",
+            "mdId": "afd14974-606d-4ef8-b10c-c69ddf1abcd9",
+            "name": "Dell",
+            "type": "BRAND",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [
+                {
+                    "id": "f68f253e-0337-4078-a602-f81e96cf9561",
+                    "name": "Consumer Electronics"
+                }
+            ],
+            "children": [],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "a591a60e-9b49-4a84-89bc-f4b952ae9073": {
+            "azId": "a591a60e-9b49-4a84-89bc-f4b952ae9073",
+            "mdId": "afd14974-606d-4ef8-b10c-c69ddf1abcd9",
+            "name": "Dell",
+            "type": "BRAND",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [
+                {
+                    "id": "f68f253e-0337-4078-a602-f81e96cf9561",
+                    "name": "Consumer Electronics"
+                }
+            ],
+            "children": [],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "0a6c36c2-8231-4f8c-8295-1b27325aa618": {
+            "azId": "0a6c36c2-8231-4f8c-8295-1b27325aa618",
+            "mdId": "afd14974-606d-4ef8-b10c-c69ddf1abcd9",
+            "name": "Dell",
+            "type": "BRAND",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [
+                {
+                    "id": "f68f253e-0337-4078-a602-f81e96cf9561",
+                    "name": "Consumer Electronics"
+                }
+            ],
+            "children": [],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "9ff1c84b-33a7-4287-91bc-bd0876b715ea": {
+            "azId": "9ff1c84b-33a7-4287-91bc-bd0876b715ea",
+            "mdId": "afd14974-606d-4ef8-b10c-c69ddf1abcd9",
+            "name": "Dell",
+            "type": "BRAND",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [
+                {
+                    "id": "f68f253e-0337-4078-a602-f81e96cf9561",
+                    "name": "Consumer Electronics"
+                }
+            ],
+            "children": [],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "46141699-96aa-489c-a202-2fd3b03d008d": {
+            "azId": "46141699-96aa-489c-a202-2fd3b03d008d",
+            "mdId": "82cd3dd4-d93b-4721-8799-b1ab3be5eeee",
+            "name": "Greece",
+            "type": "MARKET",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "4c99c8c1-3250-42e5-85bb-efc4a453abae-Greece.svg",
+                "name": "Greece.svg",
+                "size": 1054
+            },
+            "logoThumbnail": {
+                "key": "786c93f5-7a6f-4ef2-8c92-b9046d74e3c2-Greece.svg",
+                "name": "Greece.svg",
+                "size": 1054
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "1852324d-7563-4ebe-9860-7854defcf4c9"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "22a827f3-1d32-4863-b2b5-614ef8cbf77a": {
+            "azId": "22a827f3-1d32-4863-b2b5-614ef8cbf77a",
+            "mdId": "afd14974-606d-4ef8-b10c-c69ddf1abcd9",
+            "name": "Dell",
+            "type": "BRAND",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [
+                {
+                    "id": "fabd4b14-a28a-4b8a-843a-5b3dbea99408",
+                    "name": "Technology"
+                }
+            ],
+            "children": [],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "4e459314-6d34-426c-b86f-3dabe9a03350": {
+            "azId": "4e459314-6d34-426c-b86f-3dabe9a03350",
+            "mdId": "98b1ff81-7b53-4cc8-a829-19ed93285f29",
+            "name": "Serbia",
+            "type": "MARKET",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "b171e98a-06fd-4903-91ec-8a38a06bfd40-Serbia.svg",
+                "name": "Serbia.svg",
+                "size": 48872
+            },
+            "logoThumbnail": {
+                "key": "a6804287-7986-4bd5-b53d-9d32de1b7bbe-Serbia.svg",
+                "name": "Serbia.svg",
+                "size": 48872
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "851b26dc-e69c-4416-9812-f2458bea96bd"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "1d8877d1-af50-4cfb-a217-768b90e2d1cc": {
+            "azId": "1d8877d1-af50-4cfb-a217-768b90e2d1cc",
+            "mdId": "afd14974-606d-4ef8-b10c-c69ddf1abcd9",
+            "name": "Dell",
+            "type": "BRAND",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [
+                {
+                    "id": "fabd4b14-a28a-4b8a-843a-5b3dbea99408",
+                    "name": "Technology"
+                }
+            ],
+            "children": [],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "6b118660-0269-4151-89c1-dc2a905eb54f": {
+            "azId": "6b118660-0269-4151-89c1-dc2a905eb54f",
+            "mdId": "4132d006-e445-4194-87ab-beb414fac7fa",
+            "name": "China",
+            "type": "MARKET",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "f853c8d9-a120-4d9f-9cdc-4cc964025895-China.svg",
+                "name": "China.svg",
+                "size": 1732
+            },
+            "logoThumbnail": {
+                "key": "7f7b00d5-9b2d-4ed4-bb6f-b0fb8dd88a33-China.svg",
+                "name": "China.svg",
+                "size": 1732
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "82c80878-bda6-4f4c-b50f-726f6dfba701"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "851b26dc-e69c-4416-9812-f2458bea96bd": {
+            "azId": "851b26dc-e69c-4416-9812-f2458bea96bd",
+            "mdId": "afd14974-606d-4ef8-b10c-c69ddf1abcd9",
+            "name": "Dell",
+            "type": "BRAND",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [
+                {
+                    "id": "fabd4b14-a28a-4b8a-843a-5b3dbea99408",
+                    "name": "Technology"
+                }
+            ],
+            "children": [],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "1852324d-7563-4ebe-9860-7854defcf4c9": {
+            "azId": "1852324d-7563-4ebe-9860-7854defcf4c9",
+            "mdId": "afd14974-606d-4ef8-b10c-c69ddf1abcd9",
+            "name": "Dell",
+            "type": "BRAND",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [
+                {
+                    "id": "fabd4b14-a28a-4b8a-843a-5b3dbea99408",
+                    "name": "Technology"
+                }
+            ],
+            "children": [],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "94fd5159-39e8-41cf-8613-b51e058f0e3f": {
+            "azId": "94fd5159-39e8-41cf-8613-b51e058f0e3f",
+            "mdId": "b4f3a170-9a22-49e6-a8a6-4a550a0d7e86",
+            "name": "South Africa",
+            "type": "MARKET",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "6ddf1ce1-dc4b-47d4-a516-1cbce6417918-South Africa.svg",
+                "name": "South Africa.svg",
+                "size": 1788
+            },
+            "logoThumbnail": {
+                "key": "aef6b57e-6c7f-4c5a-8c82-25675e59d617-South Africa.svg",
+                "name": "South Africa.svg",
+                "size": 1788
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "5cd70436-3e3e-4b75-8152-1fef0fa8a1eb"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "f2ffd87c-fa9f-4a60-b70c-1ff4e083ec3c": {
+            "azId": "f2ffd87c-fa9f-4a60-b70c-1ff4e083ec3c",
+            "mdId": "9f628d12-88e1-442b-95c8-d97bb00e1471",
+            "name": "Mexico",
+            "type": "MARKET",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "e19d2c28-d201-4c78-bfb8-fa00b326c16b-Mexico.svg",
+                "name": "Mexico.svg",
+                "size": 5364
+            },
+            "logoThumbnail": {
+                "key": "63954096-e7ae-44c2-87d4-40ea837de548-Mexico.svg",
+                "name": "Mexico.svg",
+                "size": 5364
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "4304dd51-9064-40ea-962e-0453277eb73f"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "82c80878-bda6-4f4c-b50f-726f6dfba701": {
+            "azId": "82c80878-bda6-4f4c-b50f-726f6dfba701",
+            "mdId": "afd14974-606d-4ef8-b10c-c69ddf1abcd9",
+            "name": "Dell",
+            "type": "BRAND",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [
+                {
+                    "id": "fabd4b14-a28a-4b8a-843a-5b3dbea99408",
+                    "name": "Technology"
+                }
+            ],
+            "children": [],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "4304dd51-9064-40ea-962e-0453277eb73f": {
+            "azId": "4304dd51-9064-40ea-962e-0453277eb73f",
+            "mdId": "afd14974-606d-4ef8-b10c-c69ddf1abcd9",
+            "name": "Dell",
+            "type": "BRAND",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [
+                {
+                    "id": "fabd4b14-a28a-4b8a-843a-5b3dbea99408",
+                    "name": "Technology"
+                }
+            ],
+            "children": [],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "1a32fa23-8709-4618-b312-6bdf3f27dafd": {
+            "azId": "1a32fa23-8709-4618-b312-6bdf3f27dafd",
+            "mdId": "ebb65c1c-92d7-4107-b301-87b453c80332",
+            "name": "Colombia",
+            "type": "MARKET",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "0b8ad6a6-36f2-482a-bfcb-448c57860556-Colombia.svg",
+                "name": "Colombia.svg",
+                "size": 990
+            },
+            "logoThumbnail": {
+                "key": "d7f7b42b-4063-4ff6-aee5-7d4fdbd3718c-Colombia.svg",
+                "name": "Colombia.svg",
+                "size": 990
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "22a827f3-1d32-4863-b2b5-614ef8cbf77a"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "0b4a0b5c-4462-408f-bef3-3fc130133c84": {
+            "azId": "0b4a0b5c-4462-408f-bef3-3fc130133c84",
+            "mdId": "d84093ff-3974-4daa-82c4-9fceba38084f",
+            "name": "Spain",
+            "type": "MARKET",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "d2a25dd4-da4d-443e-b215-fb5998f21555-Spain.svg",
+                "name": "Spain.svg",
+                "size": 27427
+            },
+            "logoThumbnail": {
+                "key": "a19d8691-e260-41cf-9984-744c6df24d8d-Spain.svg",
+                "name": "Spain.svg",
+                "size": 27427
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "3d28357e-d86f-45f6-b1eb-46b918574e3f"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "8deeed6a-a3f0-415d-843e-f16930cd6e0a": {
+            "azId": "8deeed6a-a3f0-415d-843e-f16930cd6e0a",
+            "mdId": "d99ad4a7-5178-473c-a9ec-035300a9856a",
+            "name": "Singapore",
+            "type": "MARKET",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "935b9478-7974-4431-9b8b-dc4552bc3d13-Singapore.svg",
+                "name": "Singapore.svg",
+                "size": 1998
+            },
+            "logoThumbnail": {
+                "key": "254fc8ca-83e1-465c-8e16-61bd7163881b-Singapore.svg",
+                "name": "Singapore.svg",
+                "size": 1998
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "1d8877d1-af50-4cfb-a217-768b90e2d1cc"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "5cd70436-3e3e-4b75-8152-1fef0fa8a1eb": {
+            "azId": "5cd70436-3e3e-4b75-8152-1fef0fa8a1eb",
+            "mdId": "afd14974-606d-4ef8-b10c-c69ddf1abcd9",
+            "name": "Dell",
+            "type": "BRAND",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [
+                {
+                    "id": "fabd4b14-a28a-4b8a-843a-5b3dbea99408",
+                    "name": "Technology"
+                }
+            ],
+            "children": [],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "3d28357e-d86f-45f6-b1eb-46b918574e3f": {
+            "azId": "3d28357e-d86f-45f6-b1eb-46b918574e3f",
+            "mdId": "afd14974-606d-4ef8-b10c-c69ddf1abcd9",
+            "name": "Dell",
+            "type": "BRAND",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [
+                {
+                    "id": "fabd4b14-a28a-4b8a-843a-5b3dbea99408",
+                    "name": "Technology"
+                }
+            ],
+            "children": [],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "251332b5-7ce9-4db9-841d-928b1149c6b2": {
+            "azId": "251332b5-7ce9-4db9-841d-928b1149c6b2",
+            "mdId": "5c1821b8-da6a-4a97-9a30-8c27eeb0e108",
+            "name": "Malaysia",
+            "type": "MARKET",
+            "customTypeName": null,
+            "logoOriginal": {
+                "key": "53e413fa-094a-440d-aed4-110d9ecc8727-Malaysia.svg",
+                "name": "Malaysia.svg",
+                "size": 1859
+            },
+            "logoThumbnail": {
+                "key": "47e8c292-8edc-4877-9266-2de57405d6d0-Malaysia.svg",
+                "name": "Malaysia.svg",
+                "size": 1859
+            },
+            "alias": null,
+            "categories": [],
+            "children": [
+                "2f5af992-fdb6-414e-b0f4-9c37cb894ada"
+            ],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "2f5af992-fdb6-414e-b0f4-9c37cb894ada": {
+            "azId": "2f5af992-fdb6-414e-b0f4-9c37cb894ada",
+            "mdId": "afd14974-606d-4ef8-b10c-c69ddf1abcd9",
+            "name": "Dell",
+            "type": "BRAND",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": [
+                {
+                    "id": "fabd4b14-a28a-4b8a-843a-5b3dbea99408",
+                    "name": "Technology"
+                }
+            ],
+            "children": [],
+            "apps": [],
+            "flags": {
+                "visible": false,
+                "accessRequestable": false
+            }
+        },
+        "hierarchy-container-node": {
+            "azId": null,
+            "mdId": null,
+            "name": "hierarchy-container-node",
+            "type": "CONTAINER",
+            "customTypeName": null,
+            "logoOriginal": null,
+            "logoThumbnail": null,
+            "alias": null,
+            "categories": null,
+            "children": [
+                "891c3357-5ed3-4c9a-a644-ef31763e8f41"
+            ],
+            "apps": [],
+            "flags": null
+        }
+    }
+}

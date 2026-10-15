@@ -1,0 +1,13 @@
+🔁 Loaded brand cache with 2 entries.
+📡 Fetching hierarchy-tree from API (one-time)...
+   ✅ Hierarchy cached to C:\Users\Azath.A\os\brand\cache\hierarchy_cache.json (entries: 30197)
+
+🚀 Processing row 1: Market=Market, Client=Client, Brand=Brand, Category=Category
+   🔍 Cache hit for 'Brand' -> mdId=50be9df8-f922-40a7-af3e-810e2ca906b7
+⚠️ Error for row 1: 'NoneType' object has no attribute 'strip'
+
+🚀 Processing row 2: Market=Spain, Client=Turismo de Andalucia, Brand=Turismo de Andalucia, Category=Travel
+   🔍 Cache hit for 'Turismo de Andalucia' -> mdId=66407c09-4591-4218-810e-06795c118ee9
+⚠️ Error for row 2: 'NoneType' object has no attribute 'strip'
+
+🎉 Done.

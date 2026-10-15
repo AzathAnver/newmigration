@@ -1,0 +1,15 @@
+
+https://lvmh-apac.os.wpp.com/api/app-instances/templates/39b4ced1-5699-496a-af27-7df29ea9ff83
+
+
+https://lvmh-apac.os.wpp.com/api/app-instances/templates?itemsPerPage=1000
+
+search for appliedOnHierarchies 
+values are in assignmentId"
+
+ "appliedOnHierarchies": [
+                {
+                    "assignmentId": "58cb4309-5799-437d-869f-0a6a87875c9b",
+                    "assignmentType": "WORKSPACE"
+                }
+            ]
